@@ -1,0 +1,2 @@
+# rust-study
+Study rust.
