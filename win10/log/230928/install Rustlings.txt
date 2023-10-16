@@ -1,0 +1,196 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+                                                                                                                        Try the new cross-platform PowerShell https://aka.ms/pscore6                                                                                                                                                                                    PS C:\Users\AnQi1> Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser                                 PS C:\Users\AnQi1> Start-BitsTransfer -Source https://raw.githubusercontent.com/rust-lang/rustlings/main/install.ps1 -Destination $env:TMP/install_rustlings.ps1; Unblock-File $env:TMP/install_rustlings.ps1; Invoke-Expression $env:TMP/install_rustlings.ps1                                                                                                         Let's get you set up with Rustlings!                                                            Checking requirements...
+SUCCESS: Git is installed
+SUCCESS:  Rust is installed
+SUCCESS: Cargo is installed
+SUCCESS: Rust is up to date
+Cloning Rustlings at C:\Users\AnQi1/rustlings
+fatal: unable to acStart-BitsTransfer -Source https://raw.githubusercontent.com/rust-lang/rustlings/main/install.ps1 -Destination $env:TMP/install_rustlings.ps1; Unblock-File $env:TMP/install_rustlings.ps1; Invoke-Expression $env:TMP/install_rustlings.ps1
+Let's get you set up with Rustlings!
+Checking requirements...
+SUCCESS: Git is installed
+SUCCESS:  Rust is installed
+SUCCESS: Cargo is installed
+SUCCESS: Rust is up to date
+Cloning Rustlings at C:\Users\AnQi1/rustlings
+fatal: unable to access 'https://hub.fastgit.org/rust-lang/rustlings/': The requested URL returned error: 403
+
+
+Open the url by the chrome browser:
+https://hub.fastgit.org/rust-lang/rustlings/
+{
+  "message": "Not Found",
+  "documentation_url": "https://docs.github.com/rest"
+}
+
+Git bash: P:\anqi\Desktop\tech\rust\projects
+git clone git+ssh://git@github.com/anqisoft/rustlings
+cd rustlings
+cargo install --force --path .
+Installing rustlings v5.6.1 (P:\anqi\Desktop\tech\rust\projects\rustlings)
+    Updating crates.io index
+  Downloaded itoa v1.0.9
+  Downloaded lazy_static v1.4.0
+  Downloaded cfg-if v1.0.0
+  Downloaded filetime v0.2.22
+  Downloaded heck v0.4.1
+  Downloaded same-file v1.0.6
+  Downloaded toml_datetime v0.6.3
+  Downloaded strsim v0.10.0
+  Downloaded anstyle-query v1.0.0
+  Downloaded anstyle-parse v0.2.1
+  Downloaded anstream v0.5.0
+  Downloaded equivalent v1.0.1
+  Downloaded winapi-util v0.1.6
+  Downloaded anstyle v1.0.3
+  Downloaded home v0.5.5
+  Downloaded walkdir v2.4.0
+  Downloaded quote v1.0.33
+  Downloaded toml_edit v0.19.15
+  Downloaded winnow v0.5.15
+  Downloaded regex-syntax v0.7.5
+  Downloaded regex v1.9.5
+  Downloaded windows_x86_64_msvc v0.42.2
+  Downloaded windows_x86_64_msvc v0.48.5
+  Downloaded winapi v0.3.9
+  Downloaded regex-automata v0.3.8
+  Downloaded libc v0.2.148
+  Downloaded windows-sys v0.45.0
+  Downloaded windows-sys v0.48.0
+  Downloaded aho-corasick v1.1.1
+  Downloaded syn v2.0.37
+  Downloaded portable-atomic v1.4.3
+  Downloaded clap_builder v4.4.5
+  Downloaded serde_json v1.0.107
+  Downloaded memchr v2.6.3
+  Downloaded indexmap v2.0.1
+  Downloaded unicode-ident v1.0.12
+  Downloaded indicatif v0.17.7
+  Downloaded serde v1.0.188
+  Downloaded hashbrown v0.14.0
+  Downloaded glob v0.3.1
+  Downloaded bitflags v1.3.2
+  Downloaded unicode-width v0.1.11
+  Downloaded clap_derive v4.4.2
+  Downloaded toml v0.7.8
+  Downloaded notify v4.0.17
+  Downloaded clap v4.4.5
+  Downloaded windows-targets v0.42.2
+  Downloaded serde_spanned v0.6.3
+  Downloaded windows-targets v0.48.5
+  Downloaded number_prefix v0.4.0
+  Downloaded colorchoice v1.0.0
+  Downloaded serde_derive v1.0.188
+  Downloaded encode_unicode v0.3.6
+  Downloaded console v0.15.7
+  Downloaded proc-macro2 v1.0.67
+  Downloaded ryu v1.0.15
+  Downloaded clap_lex v0.5.1
+  Downloaded utf8parse v0.2.1
+  Downloaded anstyle-wincon v2.1.0
+  Downloaded 59 crates (12.1 MB) in 16.01s (largest was `windows-sys` at 2.6 MB)
+   Compiling proc-macro2 v1.0.67
+   Compiling unicode-ident v1.0.12
+   Compiling windows_x86_64_msvc v0.48.5
+   Compiling serde v1.0.188
+   Compiling windows_x86_64_msvc v0.42.2
+   Compiling winapi v0.3.9
+   Compiling libc v0.2.148
+   Compiling utf8parse v0.2.1
+   Compiling anstyle v1.0.3
+   Compiling anstyle-parse v0.2.1
+   Compiling memchr v2.6.3
+   Compiling equivalent v1.0.1
+   Compiling hashbrown v0.14.0
+   Compiling portable-atomic v1.4.3
+   Compiling colorchoice v1.0.0
+   Compiling indexmap v2.0.1
+   Compiling aho-corasick v1.1.1
+   Compiling lazy_static v1.4.0
+   Compiling windows-targets v0.48.5
+   Compiling windows-targets v0.42.2
+   Compiling windows-sys v0.48.0
+   Compiling windows-sys v0.45.0
+   Compiling encode_unicode v0.3.6
+   Compiling unicode-width v0.1.11
+   Compiling serde_json v1.0.107
+   Compiling quote v1.0.33
+   Compiling clap_lex v0.5.1
+   Compiling winnow v0.5.15
+   Compiling syn v2.0.37
+   Compiling regex-syntax v0.7.5
+   Compiling cfg-if v1.0.0
+   Compiling heck v0.4.1
+   Compiling strsim v0.10.0
+   Compiling anstyle-wincon v2.1.0
+   Compiling winapi-util v0.1.6
+   Compiling anstyle-query v1.0.0
+   Compiling filetime v0.2.22
+   Compiling anstream v0.5.0
+   Compiling same-file v1.0.6
+   Compiling console v0.15.7
+   Compiling walkdir v2.4.0
+   Compiling clap_builder v4.4.5
+   Compiling regex-automata v0.3.8
+   Compiling number_prefix v0.4.0
+   Compiling bitflags v1.3.2
+   Compiling ryu v1.0.15
+   Compiling itoa v1.0.9
+   Compiling notify v4.0.17
+   Compiling indicatif v0.17.7
+   Compiling home v0.5.5
+   Compiling glob v0.3.1
+   Compiling serde_derive v1.0.188
+   Compiling clap_derive v4.4.2
+   Compiling regex v1.9.5
+   Compiling clap v4.4.5
+   Compiling toml_datetime v0.6.3
+   Compiling serde_spanned v0.6.3
+   Compiling toml_edit v0.19.15
+   Compiling toml v0.7.8
+   Compiling rustlings v5.6.1 (P:\anqi\Desktop\tech\rust\projects\rustlings)
+    Finished release [optimized] target(s) in 1m 41s
+  Installing C:\Users\AnQi1\.cargo\bin\rustlings.exe
+   Installed package `rustlings v5.6.1 (P:\anqi\Desktop\tech\rust\projects\rustlings)` (executable `rustlings.exe`)
+
+rustlings.exe -help >rustlings.help.txt
+
+
+rustlings
+
+       welcome to...
+                 _   _ _
+  _ __ _   _ ___| |_| (_)_ __   __ _ ___
+ | '__| | | / __| __| | | '_ \ / _` / __|
+ | |  | |_| \__ \ |_| | | | | | (_| \__ \
+ |_|   \__,_|___/\__|_|_|_| |_|\__, |___/
+                               |___/
+
+Thanks for installing Rustlings!
+
+Is this your first time? Don't worry, Rustlings was made for beginners! We are
+going to teach you a lot of things about Rust, but before we can get
+started, here's a couple of notes about how Rustlings operates:
+
+1. The central concept behind Rustlings is that you solve exercises. These
+   exercises usually have some sort of syntax error in them, which will cause
+   them to fail compilation or testing. Sometimes there's a logic error instead
+   of a syntax error. No matter what error, it's your job to find it and fix it!
+   You'll know when you fixed it because then, the exercise will compile and
+   Rustlings will be able to move on to the next exercise.
+2. If you run Rustlings in watch mode (which we recommend), it'll automatically
+   start with the first exercise. Don't get confused by an error message popping
+   up as soon as you run Rustlings! This is part of the exercise that you're
+   supposed to solve, so open the exercise file in an editor and start your
+   detective work!
+3. If you're stuck on an exercise, there is a helpful hint you can view by typing
+   'hint' (in watch mode), or running `rustlings hint exercise_name`.
+4. If an exercise doesn't make sense to you, feel free to open an issue on GitHub!
+   (https://github.com/rust-lang/rustlings/issues/new). We look at every issue,
+   and sometimes, other learners do too so you can help each other out!
+5. If you want to use `rust-analyzer` with exercises, which provides features like
+   autocompletion, run the command `rustlings lsp`.
+
+Got all that? Great! To get started, run `rustlings watch` in order to get the first
+exercise. Make sure to have your editor open!

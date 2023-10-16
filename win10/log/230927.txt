@@ -1,0 +1,77 @@
+https://www.rust-lang.org/
+
+Youtube Videos: https://www.youtube.com/channel/UCaYhcUwRBNscFNUKTjgPFiA
+Libraies: https://crates.io/
+
+The Rust Programming Language: https://doc.rust-lang.org/book/#the-rust-programming-language
+Source: https://github.com/rust-lang/book
+Print this book by the right top "print" button. I get a pdf book.
+
+
+Download the rustup-init.exe and install it: https://static.rust-lang.org/rustup/dist/x86_64-pc-windows-msvc/rustup-init.exe
+Upgrade the Visual Studio C++ Build tools by vs_BuildTools.exe. https://visualstudio.microsoft.com/visual-cpp-build-tools/
+Source: https://static.rust-lang.org/dist/rustc-1.72.1-src.tar.gz
+Others: https://forge.rust-lang.org/infra/other-installation-methods.html
+
+https://github.com/anqisoft/rustlings
+https://rustlings.cool/
+https://doc.rust-lang.org/book/index.html
+https://doc.rust-lang.org/rust-by-example/index.html
+https://rustup.rs/
+https://gitpod.io/#https://github.com/rust-lang/rustlings
+https://github.com/codespaces/new/?repo=rust-lang%2Frustlings&ref=main
+
+
+230928
+https://doc.rust-lang.org/rust-by-example/index.html
+https://doc.rust-lang.org/rust-by-example/print.html
+
+Command Line Applications in Rust
+https://rust-cli.github.io/book/index.html
+https://rust-cli.github.io/book/print.html
+
+Rust 中的命令行应用 P44
+https://suibianxiedianer.github.io/rust-cli-book-zh_CN/README_zh.html
+https://suibianxiedianer.github.io/rust-cli-book-zh_CN/print.html
+
+Rust 🦀 and WebAssembly P69
+https://rustwasm.github.io/docs/book/introduction.html
+https://rustwasm.github.io/docs/book/print.html
+
+The Embedded Rust Book P143
+https://doc.rust-lang.org/stable/embedded-book/
+https://doc.rust-lang.org/stable/embedded-book/print.html
+
+Rust Compiler Development Guide P621
+https://rustc-dev-guide.rust-lang.org/getting-started.html
+https://rustc-dev-guide.rust-lang.org/print.html
+
+Rust Forge P267
+https://forge.rust-lang.org/
+https://forge.rust-lang.org/print.html
+https://github.com/rust-lang/rust/issues?q=is%3Aopen+is%3Aissue+label%3AE-help-wanted+no%3Aassignee
+https://github.com/rust-lang/cargo/issues?q=is%3Aopen+is%3Aissue+label%3AS-accepted+no%3Aassignee
+https://github.com/rust-lang/crates.io
+https://github.com/rust-lang/www.rust-lang.org
+
+The Rust Programming Language P603
+https://doc.rust-lang.org/book/#the-rust-programming-language
+https://doc.rust-lang.org/book/print.html
+
+https://rust-lang.github.io/rustfmt/?version=v1.6.0&search=
+
+After September 2024, RustRover needs to pay some money.https://www.jetbrains.com/rust/download/
+
+cargo test
+cargo build
+https://github.com/rust-lang/rust-analyzer
+
+https://github.com/rust-lang/rustfmt
+https://github.com/rust-lang/rust-clippy
+https://docs.rs/
+
+rustup component add clippy
+info: component 'clippy' for target 'x86_64-pc-windows-msvc' is up to date
+cargo clippy
+    Checking rust-study v0.1.0 (P:\anqi\Desktop\tech\rust\projects\rust-study)
+    Finished dev [unoptimized + debuginfo] target(s) in 5.50s
