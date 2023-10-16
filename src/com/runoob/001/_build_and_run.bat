@@ -1,0 +1,1 @@
+rustc runoob.rs && runoob
