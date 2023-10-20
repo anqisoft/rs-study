@@ -1,0 +1,10 @@
+@ECHO OFF
+CD ..\..\
+
+setlocal enabledelayedexpansion
+
+FOR /L %%A IN (2, 1, 8) DO (
+  copy /y 003_error1.rs 003_error%%A.rs 
+)
+
+::PAUSE

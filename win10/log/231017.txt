@@ -1,0 +1,14 @@
+
+https://code.visualstudio.com/docs/languages/rust
+https://doc.rust-lang.org/cargo/reference/manifest.html
+
+--------------------------------------- For Debug ---------------------------------------
+refs: https://blog.csdn.net/uddiqpl/article/details/108558712
+
+Windows:
+Open https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools and install it.
+Then, ok.
+See "DEBUG CONSOLE" tab panel.
+
+Mac:
+https://marketplace.visualstudio.com/items?itemName=vadimcn.vscode-lldb

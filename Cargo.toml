@@ -2,7 +2,9 @@
 name = "rust-study"
 version = "0.1.0"
 edition = "2021"
+include = ["/src", "/src/com/runoob"]
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+# See more keys and their definitions at https://code.visualstudio.com/docs/languages/rust
+# include = ["/src", "COPYRIGHT", "/examples", "!/examples/big_example"]
 
 [dependencies]
