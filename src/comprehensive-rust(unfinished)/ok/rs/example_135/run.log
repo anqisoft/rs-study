@@ -1,0 +1,56 @@
+P:\anqi\Desktop\tech\rust\projects\rust-study\src\comprehensive-rust\ok\rs>cd example_135   && cargo add futures
+    Updating crates.io index
+      Adding futures v0.3.29 to dependencies.
+             Features:
+             + alloc
+             + async-await
+             + executor
+             + std
+             - bilock
+             - cfg-target-has-atomic
+             - compat
+             - futures-executor
+             - io-compat
+             - thread-pool
+             - unstable
+             - write-all-vectored
+    Updating crates.io index
+
+P:\anqi\Desktop\tech\rust\projects\rust-study\src\comprehensive-rust\ok\rs\example_135>cargo run   1>debug.log  && start "" notepad debug.log   && pause
+  Downloaded futures-core v0.3.29
+  Downloaded futures-macro v0.3.29
+  Downloaded futures-io v0.3.29
+  Downloaded futures v0.3.29
+  Downloaded futures-util v0.3.29
+  Downloaded futures-sink v0.3.29
+  Downloaded futures-task v0.3.29
+  Downloaded futures-executor v0.3.29
+  Downloaded futures-channel v0.3.29
+  Downloaded 9 crates (318.7 KB) in 10.95s
+   Compiling proc-macro2 v1.0.69
+   Compiling unicode-ident v1.0.12
+   Compiling autocfg v1.1.0
+   Compiling futures-core v0.3.29
+   Compiling futures-channel v0.3.29
+   Compiling futures-task v0.3.29
+   Compiling futures-sink v0.3.29
+   Compiling futures-util v0.3.29
+   Compiling memchr v2.6.4
+   Compiling pin-utils v0.1.0
+   Compiling futures-io v0.3.29
+   Compiling pin-project-lite v0.2.13
+   Compiling slab v0.4.9
+   Compiling quote v1.0.33
+   Compiling syn v2.0.39
+   Compiling futures-macro v0.3.29
+   Compiling futures-executor v0.3.29
+   Compiling futures v0.3.29
+   Compiling example_135 v0.1.0 (P:\anqi\Desktop\tech\rust\projects\rust-study\src\comprehensive-rust\ok\rs\example_135)
+    Finished dev [unoptimized + debuginfo] target(s) in 1m 28s
+     Running `target\debug\example_135.exe`
+Press any key to continue . . .
+
+
+
+
+

@@ -1,0 +1,128 @@
+ 1:06:43.53  
+ 1:06:43.99  
+start: Instant { t: 843098.3751773s }
+Chapter 10
+
+In p207a(), eg10-1
+The largest number is 100
+
+In p208a(), eg10-2
+The largest number is 100
+The largest number is 6000
+
+In p208b(), eg10-3
+The largest number is 100
+The largest number is 6000
+
+In p210a()
+The largest number is 100
+The largest char is y
+
+In p211a(), eg10-5
+The largest number is 100
+The largest char is y
+
+In p212a(), eg10-6
+integer is Point { x: 5, y: 10 }, and its type is chapter10::p212a::Point<i32>
+float is Point { x: 1.0, y: 4.0 }, and its type is chapter10::p212a::Point<f64>
+
+In p212b(), eg10-7
+
+In p213a(), eg10-8
+both_integer is Point { x: 5, y: 10 }, and its type is chapter10::p213a::Point<i32, i32>
+both_float is Point { x: 1.0, y: 4.0 }, and its type is chapter10::p213a::Point<f64, f64>
+integer_and_float is Point { x: 5, y: 4.0 }, and its type is chapter10::p213a::Point<i32, f64>
+
+In p214a(), eg10-9
+p.x = 5
+
+In p214b(), eg10-10
+p.x = 5
+distance is 5
+
+In p215a(), eg10-11
+p3.x = 5, p3.y = c
+
+In p216a()
+
+In p218a(), eg10-12
+
+In p218a(), eg10-13
+article.summarize():
+Announcing Rust 1.74.0, by The Rust Release Team (https://blog.rust-lang.org/2023/11/16/Rust-1.74.0.html)
+tweet.summarize():
+@rustlang: Rust 1.74.0 is now available! 🦀✨
+
+This release comes with a new [lints] section in Cargo.toml, allows Self in `async fn` and `-> impl Trait` return types, adds the `Saturating` wrapper type to std, and more!
+
+Check out the announcement and release notes:
+
+In p218b()
+1 new tweet: horse_ebooks: of course, as you probably already know, people
+
+In p219a(), eg10-14
+New article available! (Read more...)
+
+In p220a()
+1 new tweet: (Read more from @horse_ebooks...)
+
+In p221a()
+Breaking news! Announcing Rust 1.74.0, by The Rust Release Team (https://blog.rust-lang.org/2023/11/16/Rust-1.74.0.html)
+Breaking news! @rustlang: Rust 1.74.0 is now available! 🦀✨
+    
+    This release comes with a new [lints] section in Cargo.toml, allows Self in `async fn` and `-> impl Trait` return types, adds the `Saturating` wrapper type to std, and more!
+    
+    Check out the announcement and release notes:
+
+In p224a()
+
+In p224b()
+The type of summary1 is alloc::boxed::Box<dyn chapter10::aggregator::Summary>
+The type of summary2 is alloc::boxed::Box<dyn chapter10::aggregator::Summary>
+
+In p225a(), eg10-15
+The largest member is x = 5
+The largest member is y = 5
+The largest member is y = b
+The largest member is x = b
+
+In p227a(), eg10-16
+
+In p228a(), eg10-17
+
+In p228b(), eg10-18
+r: 5
+
+In p229a(), eg10-19
+
+In p229b(), eg10-20
+The longest string is abcd
+
+In p230a(), eg10-21
+The longest string is 'long string is long'
+
+In p231a(), eg10-22
+The first string is abcd
+
+In p232a(), eg10-23
+
+In p233a()
+
+In p233b()
+
+In p234a(), eg10-24
+The result is ImportantExcerpt { part: "Call me Ishmael" }
+
+In p236a(), eg10-25
+The first word is 'hello'
+
+In p237a()
+
+In p238a()
+Announcement! Today is someone's birthday!
+The longest string is abcd
+Calling chapter10_main tooks 16 milliseconds.
+
+  end: Instant { t: 843098.3917177s }
+Calling chapter10_main tooks 16 milliseconds.
+ 1:06:44.16 

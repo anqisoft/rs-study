@@ -1,0 +1,537 @@
+ 9:25:28.91  
+ 9:25:31.36  
+start: Instant { t: 181505.5164426s }
+Chapter 05
+
+In p114a()
+The type of user1 is chapter05::User, and its value is User {
+    active: true,
+    username: "someusername123",
+    email: "someone@example.com",
+    sign_in_count: 1,
+}.
+
+In p114b()
+The user1.email is 'anotheremail@example.com', and its type of alloc::string::String.
+
+In p115a()
+user1: User {
+    active: true,
+    username: "someusername123",
+    email: "someone@example.com",
+    sign_in_count: 1,
+}.
+
+In p115b()
+user1: User {
+    active: true,
+    username: "someusername123",
+    email: "someone@example.com",
+    sign_in_count: 1,
+}.
+
+In p116a()
+user1: User {
+    active: true,
+    username: "someusername123",
+    email: "someone@example.com",
+    sign_in_count: 1,
+}.
+user2: User {
+    active: true,
+    username: "someusername123",
+    email: "another@example.com",
+    sign_in_count: 1,
+}.
+user3: User {
+    active: true,
+    username: "someusername123",
+    email: "another@example.com",
+    sign_in_count: 1,
+}.
+
+In p117a()
+Type: chapter05::p117a::Color, the black is 'Color(0, 0, 0)'.
+Type: chapter05::p117a::Point, the origin is 'Point(0, 0, 0)'.
+The origin is 'Point(0, 0, 0)' or Point(
+    0,
+    0,
+    0,
+)
+
+In p118a()
+Is a same to b? yes.
+a is AlwaysEqual, and its type is chapter05::p118a::AlwaysEqual.
+b is AlwaysEqual, and its type is chapter05::p118a::AlwaysEqual.
+
+In p118b()
+
+In p120a()
+The area of the rectangle is 1500 square pixels.
+
+In p121a()
+The area of the rectangle is 1500 square pixels.
+
+In p121b()
+The area of the rectangle is 1500 square pixels.
+
+In p122a()
+
+In p123a()
+rect1 is Rectangle { width: 30, height: 50 }
+rect1 is Rectangle {
+    width: 30,
+    height: 50,
+}
+
+In p124a()
+
+In p125a()
+The area of the rectangle is 1500 square pixels.
+
+In p126a()
+The rectangle has a nonzero width; it is 30.
+
+In p126b()
+Width: 30, height: 50, area is 1500.
+Width: 30, height: 50, area is 1500.
+After changing width and height:
+Width: 40, height: 55, area is 2200.
+Width: 40, height: 55, area is 2200.
+
+In p126c()
+Width: 30, height: 50, area is 1500.
+After changing width and height:
+Width: 40, height: 55, area is 2200.
+
+In p127a()
+p1.distance(&p2) is 8.200609733428363
+(&p1).distance(&p2) is 8.200609733428363
+
+In p128a()
+rect1: Rectangle { width: 30, height: 50 }
+rect2: Rectangle { width: 10, height: 40 }
+rect2: Rectangle { width: 60, height: 45 }
+Can rect1 hold rect2? true
+Can rect1 hold rect3? false
+
+In p129a()
+sq is Rectangle { width: 3, height: 3 }
+
+In p129b()
+Can rect1 hold rect2? true
+Can rect1 hold rect3? false
+The areas of rect1, rect2 and rect3 are 1500, 400 are 2700.
+Calling chapter06_main tooks 4 milliseconds.
+Chapter 05
+
+In p114a()
+The type of user1 is chapter05::User, and its value is User {
+    active: true,
+    username: "someusername123",
+    email: "someone@example.com",
+    sign_in_count: 1,
+}.
+
+In p114b()
+The user1.email is 'anotheremail@example.com', and its type of alloc::string::String.
+
+In p115a()
+user1: User {
+    active: true,
+    username: "someusername123",
+    email: "someone@example.com",
+    sign_in_count: 1,
+}.
+
+In p115b()
+user1: User {
+    active: true,
+    username: "someusername123",
+    email: "someone@example.com",
+    sign_in_count: 1,
+}.
+
+In p116a()
+user1: User {
+    active: true,
+    username: "someusername123",
+    email: "someone@example.com",
+    sign_in_count: 1,
+}.
+user2: User {
+    active: true,
+    username: "someusername123",
+    email: "another@example.com",
+    sign_in_count: 1,
+}.
+user3: User {
+    active: true,
+    username: "someusername123",
+    email: "another@example.com",
+    sign_in_count: 1,
+}.
+
+In p117a()
+Type: chapter05::p117a::Color, the black is 'Color(0, 0, 0)'.
+Type: chapter05::p117a::Point, the origin is 'Point(0, 0, 0)'.
+The origin is 'Point(0, 0, 0)' or Point(
+    0,
+    0,
+    0,
+)
+
+In p118a()
+Is a same to b? yes.
+a is AlwaysEqual, and its type is chapter05::p118a::AlwaysEqual.
+b is AlwaysEqual, and its type is chapter05::p118a::AlwaysEqual.
+
+In p118b()
+
+In p120a()
+The area of the rectangle is 1500 square pixels.
+
+In p121a()
+The area of the rectangle is 1500 square pixels.
+
+In p121b()
+The area of the rectangle is 1500 square pixels.
+
+In p122a()
+
+In p123a()
+rect1 is Rectangle { width: 30, height: 50 }
+rect1 is Rectangle {
+    width: 30,
+    height: 50,
+}
+
+In p124a()
+
+In p125a()
+The area of the rectangle is 1500 square pixels.
+
+In p126a()
+The rectangle has a nonzero width; it is 30.
+
+In p126b()
+Width: 30, height: 50, area is 1500.
+Width: 30, height: 50, area is 1500.
+After changing width and height:
+Width: 40, height: 55, area is 2200.
+Width: 40, height: 55, area is 2200.
+
+In p126c()
+Width: 30, height: 50, area is 1500.
+After changing width and height:
+Width: 40, height: 55, area is 2200.
+
+In p127a()
+p1.distance(&p2) is 8.200609733428363
+(&p1).distance(&p2) is 8.200609733428363
+
+In p128a()
+rect1: Rectangle { width: 30, height: 50 }
+rect2: Rectangle { width: 10, height: 40 }
+rect2: Rectangle { width: 60, height: 45 }
+Can rect1 hold rect2? true
+Can rect1 hold rect3? false
+
+In p129a()
+sq is Rectangle { width: 3, height: 3 }
+
+In p129b()
+Can rect1 hold rect2? true
+Can rect1 hold rect3? false
+The areas of rect1, rect2 and rect3 are 1500, 400 are 2700.
+Calling chapter06_main tooks 0 seconds.
+
+In p114a()
+The type of user1 is chapter05::User, and its value is User {
+    active: true,
+    username: "someusername123",
+    email: "someone@example.com",
+    sign_in_count: 1,
+}.
+Calling p114a tooks 0 milliseconds.
+
+In p114b()
+The user1.email is 'anotheremail@example.com', and its type of alloc::string::String.
+Calling p114b tooks 0 milliseconds.
+
+In p115a()
+user1: User {
+    active: true,
+    username: "someusername123",
+    email: "someone@example.com",
+    sign_in_count: 1,
+}.
+Calling p115a tooks 0 milliseconds.
+
+In p115b()
+user1: User {
+    active: true,
+    username: "someusername123",
+    email: "someone@example.com",
+    sign_in_count: 1,
+}.
+Calling p115b tooks 0 milliseconds.
+
+In p116a()
+user1: User {
+    active: true,
+    username: "someusername123",
+    email: "someone@example.com",
+    sign_in_count: 1,
+}.
+user2: User {
+    active: true,
+    username: "someusername123",
+    email: "another@example.com",
+    sign_in_count: 1,
+}.
+user3: User {
+    active: true,
+    username: "someusername123",
+    email: "another@example.com",
+    sign_in_count: 1,
+}.
+Calling p116a tooks 0 milliseconds.
+
+In p117a()
+Type: chapter05::p117a::Color, the black is 'Color(0, 0, 0)'.
+Type: chapter05::p117a::Point, the origin is 'Point(0, 0, 0)'.
+The origin is 'Point(0, 0, 0)' or Point(
+    0,
+    0,
+    0,
+)
+Calling p117a tooks 0 milliseconds.
+
+In p118a()
+Is a same to b? yes.
+a is AlwaysEqual, and its type is chapter05::p118a::AlwaysEqual.
+b is AlwaysEqual, and its type is chapter05::p118a::AlwaysEqual.
+Calling p118a tooks 0 milliseconds.
+
+In p118b()
+Calling p118b tooks 0 milliseconds.
+
+In p120a()
+The area of the rectangle is 1500 square pixels.
+Calling p120a tooks 0 milliseconds.
+
+In p121a()
+The area of the rectangle is 1500 square pixels.
+Calling p121a tooks 0 milliseconds.
+
+In p121b()
+The area of the rectangle is 1500 square pixels.
+Calling p121b tooks 0 milliseconds.
+
+In p122a()
+Calling p122a tooks 0 milliseconds.
+
+In p123a()
+rect1 is Rectangle { width: 30, height: 50 }
+rect1 is Rectangle {
+    width: 30,
+    height: 50,
+}
+Calling p123a tooks 0 milliseconds.
+
+In p124a()
+Calling p124a tooks 0 milliseconds.
+
+In p125a()
+The area of the rectangle is 1500 square pixels.
+Calling p125a tooks 0 milliseconds.
+
+In p126a()
+The rectangle has a nonzero width; it is 30.
+Calling p126a tooks 0 milliseconds.
+
+In p126b()
+Width: 30, height: 50, area is 1500.
+Width: 30, height: 50, area is 1500.
+After changing width and height:
+Width: 40, height: 55, area is 2200.
+Width: 40, height: 55, area is 2200.
+Calling p126b tooks 0 milliseconds.
+
+In p126c()
+Width: 30, height: 50, area is 1500.
+After changing width and height:
+Width: 40, height: 55, area is 2200.
+Calling p126c tooks 0 milliseconds.
+
+In p127a()
+p1.distance(&p2) is 8.200609733428363
+(&p1).distance(&p2) is 8.200609733428363
+Calling p127a tooks 0 milliseconds.
+
+In p128a()
+rect1: Rectangle { width: 30, height: 50 }
+rect2: Rectangle { width: 10, height: 40 }
+rect2: Rectangle { width: 60, height: 45 }
+Can rect1 hold rect2? true
+Can rect1 hold rect3? false
+Calling p128a tooks 0 milliseconds.
+
+In p129a()
+sq is Rectangle { width: 3, height: 3 }
+Calling p129a tooks 0 milliseconds.
+
+In p129b()
+Can rect1 hold rect2? true
+Can rect1 hold rect3? false
+The areas of rect1, rect2 and rect3 are 1500, 400 are 2700.
+Calling p129b tooks 0 milliseconds.
+Total used 2 milliseconds.
+
+In p114a()
+The type of user1 is chapter05::User, and its value is User {
+    active: true,
+    username: "someusername123",
+    email: "someone@example.com",
+    sign_in_count: 1,
+}.
+Calling p114a tooks 0 seconds.
+
+In p114b()
+The user1.email is 'anotheremail@example.com', and its type of alloc::string::String.
+Calling p114b tooks 0 seconds.
+
+In p115a()
+user1: User {
+    active: true,
+    username: "someusername123",
+    email: "someone@example.com",
+    sign_in_count: 1,
+}.
+Calling p115a tooks 0 seconds.
+
+In p115b()
+user1: User {
+    active: true,
+    username: "someusername123",
+    email: "someone@example.com",
+    sign_in_count: 1,
+}.
+Calling p115b tooks 0 seconds.
+
+In p116a()
+user1: User {
+    active: true,
+    username: "someusername123",
+    email: "someone@example.com",
+    sign_in_count: 1,
+}.
+user2: User {
+    active: true,
+    username: "someusername123",
+    email: "another@example.com",
+    sign_in_count: 1,
+}.
+user3: User {
+    active: true,
+    username: "someusername123",
+    email: "another@example.com",
+    sign_in_count: 1,
+}.
+Calling p116a tooks 0 seconds.
+
+In p117a()
+Type: chapter05::p117a::Color, the black is 'Color(0, 0, 0)'.
+Type: chapter05::p117a::Point, the origin is 'Point(0, 0, 0)'.
+The origin is 'Point(0, 0, 0)' or Point(
+    0,
+    0,
+    0,
+)
+Calling p117a tooks 0 seconds.
+
+In p118a()
+Is a same to b? yes.
+a is AlwaysEqual, and its type is chapter05::p118a::AlwaysEqual.
+b is AlwaysEqual, and its type is chapter05::p118a::AlwaysEqual.
+Calling p118a tooks 0 seconds.
+
+In p118b()
+Calling p118b tooks 0 seconds.
+
+In p120a()
+The area of the rectangle is 1500 square pixels.
+Calling p120a tooks 0 seconds.
+
+In p121a()
+The area of the rectangle is 1500 square pixels.
+Calling p121a tooks 0 seconds.
+
+In p121b()
+The area of the rectangle is 1500 square pixels.
+Calling p121b tooks 0 seconds.
+
+In p122a()
+Calling p122a tooks 0 seconds.
+
+In p123a()
+rect1 is Rectangle { width: 30, height: 50 }
+rect1 is Rectangle {
+    width: 30,
+    height: 50,
+}
+Calling p123a tooks 0 seconds.
+
+In p124a()
+Calling p124a tooks 0 seconds.
+
+In p125a()
+The area of the rectangle is 1500 square pixels.
+Calling p125a tooks 0 seconds.
+
+In p126a()
+The rectangle has a nonzero width; it is 30.
+Calling p126a tooks 0 seconds.
+
+In p126b()
+Width: 30, height: 50, area is 1500.
+Width: 30, height: 50, area is 1500.
+After changing width and height:
+Width: 40, height: 55, area is 2200.
+Width: 40, height: 55, area is 2200.
+Calling p126b tooks 0 seconds.
+
+In p126c()
+Width: 30, height: 50, area is 1500.
+After changing width and height:
+Width: 40, height: 55, area is 2200.
+Calling p126c tooks 0 seconds.
+
+In p127a()
+p1.distance(&p2) is 8.200609733428363
+(&p1).distance(&p2) is 8.200609733428363
+Calling p127a tooks 0 seconds.
+
+In p128a()
+rect1: Rectangle { width: 30, height: 50 }
+rect2: Rectangle { width: 10, height: 40 }
+rect2: Rectangle { width: 60, height: 45 }
+Can rect1 hold rect2? true
+Can rect1 hold rect3? false
+Calling p128a tooks 0 seconds.
+
+In p129a()
+sq is Rectangle { width: 3, height: 3 }
+Calling p129a tooks 0 seconds.
+
+In p129b()
+Can rect1 hold rect2? true
+Can rect1 hold rect3? false
+The areas of rect1, rect2 and rect3 are 1500, 400 are 2700.
+Calling p129b tooks 0 seconds.
+Total used 0 seconds.
+
+  end: Instant { t: 181505.5298138s }
+Calling chapter06_main tooks 13 milliseconds.
+ 9:25:31.55 

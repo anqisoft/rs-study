@@ -1,0 +1,21 @@
+// 133.rs
+// https://google.github.io/comprehensive-rust/zh-CN/concurrency/shared_state/mutex.html
+
+use std::sync::Mutex;
+
+fn main() {
+    let v = Mutex::new(vec![10, 20, 30]);
+    println!("v: {:?}", v.lock().unwrap());
+
+    {
+        let mut guard = v.lock().unwrap();
+        guard.push(40);
+    }
+
+    println!("v: {:?}", v.lock().unwrap());
+}
+
+/* result:
+v: [10, 20, 30]
+v: [10, 20, 30, 40]
+*/

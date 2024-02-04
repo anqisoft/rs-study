@@ -1,0 +1,30 @@
+The type of 0 is i8.
+The type of 0 is i16.
+The type of 0 is i32.
+The type of 0 is i64.
+The type of 0 is i128.
+The type of 0 is isize.
+
+The type of 0 is u8.
+The type of 0 is u16.
+The type of 0 is u32.
+The type of 0 is u64.
+The type of 0 is u128.
+The type of 0 is usize.
+
+The type of 0.0 is f32.
+The type of 0.0 is f64.
+The type of true is bool.
+The type of false is bool.
+
+The type of 'A' is char.
+
+The type of String::from("hello") is alloc::string::String.
+The type of "hello" is &str.
+
+The type of [1, 2] is alloc::vec::Vec<i32>.
+The type of [1, 2] is [i32; 2].
+The type of (1, "test") is (i32, &str).
+
+The type of action is type_of::main::{{closure}}.
+

@@ -1,0 +1,133 @@
+   Compiling windows_x86_64_msvc v0.48.5
+   Compiling proc-macro2 v1.0.69
+   Compiling autocfg v1.1.0
+   Compiling unicode-ident v1.0.12
+   Compiling parking_lot_core v0.9.9
+   Compiling cfg-if v1.0.0
+   Compiling smallvec v1.11.2
+   Compiling scopeguard v1.2.0
+   Compiling num_cpus v1.16.0
+   Compiling bytes v1.5.0
+   Compiling lock_api v0.4.11
+   Compiling windows-targets v0.48.5
+   Compiling windows-sys v0.48.0
+   Compiling quote v1.0.33
+   Compiling parking_lot v0.12.1
+   Compiling syn v2.0.39
+   Compiling mio v0.8.9
+   Compiling socket2 v0.5.5
+   Compiling tokio-macros v2.2.0
+   Compiling tokio v1.34.0
+   Compiling example_143 v0.1.0 (P:\anqi\Desktop\tech\rust\projects\rust-study\src\comprehensive-rust\ok\rs\example_143)
+warning: variable `iterations` is assigned to, but never used
+  --> src\main.rs:21:13
+   |
+21 |     let mut iterations = 0;
+   |             ^^^^^^^^^^
+   |
+   = note: consider using `_iterations` instead
+   = note: `#[warn(unused_variables)]` on by default
+
+warning: `example_143` (bin "example_143") generated 1 warning
+    Finished dev [unoptimized + debuginfo] target(s) in 20.19s
+     Running `target\debug\example_143.exe`
+work result for iteration 0: 0
+work result for iteration 1: 1000
+work result for iteration 2: 2000
+work result for iteration 3: 3000
+work result for iteration 4: 4000
+work result for iteration 5: 5000
+work result for iteration 6: 6000
+work result for iteration 7: 7000
+work result for iteration 8: 8000
+work result for iteration 9: 9000
+work result for iteration 10: 10000
+work result for iteration 11: 11000
+work result for iteration 12: 12000
+work result for iteration 13: 13000
+work result for iteration 14: 14000
+work result for iteration 15: 15000
+work result for iteration 16: 16000
+work result for iteration 17: 17000
+work result for iteration 18: 18000
+work result for iteration 19: 19000
+work result for iteration 20: 20000
+work result for iteration 21: 21000
+work result for iteration 22: 22000
+work result for iteration 23: 23000
+work result for iteration 24: 24000
+work result for iteration 25: 25000
+work result for iteration 26: 26000
+work result for iteration 27: 27000
+work result for iteration 28: 28000
+work result for iteration 29: 29000
+work result for iteration 30: 30000
+work result for iteration 31: 31000
+work result for iteration 32: 32000
+work result for iteration 33: 33000
+work result for iteration 34: 34000
+work result for iteration 35: 35000
+work result for iteration 36: 36000
+work result for iteration 37: 37000
+work result for iteration 38: 38000
+work result for iteration 39: 39000
+work result for iteration 40: 40000
+work result for iteration 41: 41000
+work result for iteration 42: 42000
+work result for iteration 43: 43000
+work result for iteration 44: 44000
+work result for iteration 45: 45000
+work result for iteration 46: 46000
+work result for iteration 47: 47000
+work result for iteration 48: 48000
+work result for iteration 49: 49000
+work result for iteration 50: 50000
+work result for iteration 51: 51000
+work result for iteration 52: 52000
+work result for iteration 53: 53000
+work result for iteration 54: 54000
+work result for iteration 55: 55000
+work result for iteration 56: 56000
+work result for iteration 57: 57000
+work result for iteration 58: 58000
+work result for iteration 59: 59000
+work result for iteration 60: 60000
+work result for iteration 61: 61000
+work result for iteration 62: 62000
+work result for iteration 63: 63000
+work result for iteration 64: 64000
+work result for iteration 65: 65000
+work result for iteration 66: 66000
+work result for iteration 67: 67000
+work result for iteration 68: 68000
+work result for iteration 69: 69000
+work result for iteration 70: 70000
+work result for iteration 71: 71000
+work result for iteration 72: 72000
+work result for iteration 73: 73000
+work result for iteration 74: 74000
+work result for iteration 75: 75000
+work result for iteration 76: 76000
+work result for iteration 77: 77000
+work result for iteration 78: 78000
+work result for iteration 79: 79000
+work result for iteration 80: 80000
+work result for iteration 81: 81000
+work result for iteration 82: 82000
+work result for iteration 83: 83000
+work result for iteration 84: 84000
+work result for iteration 85: 85000
+work result for iteration 86: 86000
+work result for iteration 87: 87000
+work result for iteration 88: 88000
+work result for iteration 89: 89000
+work result for iteration 90: 90000
+work result for iteration 91: 91000
+work result for iteration 92: 92000
+work result for iteration 93: 93000
+work result for iteration 94: 94000
+work result for iteration 95: 95000
+work result for iteration 96: 96000
+work result for iteration 97: 97000
+work result for iteration 98: 98000
+work result for iteration 99: 99000

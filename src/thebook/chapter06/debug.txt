@@ -1,0 +1,685 @@
+17:46:15.10  
+17:46:15.41  
+start: Instant { t: 211571.9292987s }
+Chapter 06
+
+In p133a()
+The ip kind is V4.
+The ip kind is V6.
+The ip kind is V4.
+The ip kind is V6.
+The ip kind is V4.
+The ip kind is V6.
+The ip kind is V4.
+The ip kind is V6.
+The type of four is chapter06::p133a::IpAddrKind
+The type of six is chapter06::p133a::IpAddrKind
+
+In p133b()
+The ip kind is V4, and its address is '127.0.0.1'.
+The ip kind is V6, and its address is '::1'.
+The ip kind is V4, and its address is '127.0.0.1'.
+The ip kind is V6, and its address is '::1'.
+
+In p135a()
+home: IpAddr { kind: V4, address: "127.0.0.1" }.
+loopback: IpAddr { kind: V6, address: "::1" }.
+home: IpAddr {
+    kind: V4,
+    address: "127.0.0.1",
+}.
+loopback: IpAddr {
+    kind: V6,
+    address: "::1",
+}.
+The type of home is chapter06::p135a::IpAddr
+The type of loopback is chapter06::p135a::IpAddr
+
+In p135b()
+home: V4("127.0.0.1").
+loopback: V6("::1").
+
+In p136a()
+home: V4(127, 0, 0, 1).
+loopback: V6("::1").
+
+In p136b()
+kind: chapter06::p136b::Message, value: Quit
+kind: chapter06::p136b::Message, value: Move { x: 10, y: 40 }
+kind: chapter06::p136b::Message, value: Write("A write message")
+kind: chapter06::p136b::Message, value: ChangeColor(85, 85, 85)
+
+In p137a()
+kind: chapter06::p137a::QuitMessage, value: QuitMessage
+kind: chapter06::p137a::MoveMessage, value: MoveMessage { x: 10, y: 40 }
+kind: chapter06::p137a::WriteMessage, value: WriteMessage("A write message")
+kind: chapter06::p137a::ChangeColorMessage, value: ChangeColorMessage(85, 85, 85)
+
+In p137b()
+kind: &chapter06::p137b::Message, value: Quit
+kind: &chapter06::p137b::Message, value: Move { x: 10, y: 40 }
+kind: &chapter06::p137b::Message, value: Write("A write message")
+kind: &chapter06::p137b::Message, value: ChangeColor(85, 85, 85)
+
+In p138a()
+kind: core::option::Option<i32>, value: Some(5).
+kind: core::option::Option<char>, value: Some('e').
+kind: core::option::Option<i32>, value: None.
+
+In p138b()
+x: 5, its type is i8
+y: Some(5), its type is core::option::Option<i8>
+sum: 10, its type is i8
+
+In p140a()
+coin is 1 cents, and its type is chapter06::p140a::Coin.
+coin is 5 cents, and its type is chapter06::p140a::Coin.
+coin is 10 cents, and its type is chapter06::p140a::Coin.
+coin is 25 cents, and its type is chapter06::p140a::Coin.
+
+In p141a()
+Lucky penny!
+coin is 1 cents, and its type is chapter06::p141a::Coin.
+coin is 5 cents, and its type is chapter06::p141a::Coin.
+coin is 10 cents, and its type is chapter06::p141a::Coin.
+coin is 25 cents, and its type is chapter06::p141a::Coin.
+
+In p142a()
+Lucky penny!
+coin is 1 cents, and its type is chapter06::p142a::Coin.
+coin is 5 cents, and its type is chapter06::p142a::Coin.
+coin is 10 cents, and its type is chapter06::p142a::Coin.
+State quarter from Alabama!
+coin is 25 cents, and its type is chapter06::p142a::Coin.
+State quarter from Alaska!
+coin is 25 cents, and its type is chapter06::p142a::Coin.
+
+In p142b()
+It's 99.
+five is Some(5), six is Some(6), ninty_nine is Some(99), hundread is Some(100), and none is None.
+The type of five is core::option::Option<i32>
+The type of six is core::option::Option<i32>
+The type of none is core::option::Option<i32>
+
+In p144a()
+
+In p145a()
+match dice_roll
+move_player(9)
+
+loop from 1 to 10.
+move_player(1)
+move_player(2)
+add_fancy_hat()
+move_player(4)
+move_player(5)
+move_player(6)
+remove_fancy_hat()
+move_player(8)
+move_player(9)
+
+The value is assigned in a loop from 1 to 10 and the roll_dice method is called.
+move_player(1)
+move_player(2)
+add_fancy_hat()
+move_player(4)
+move_player(5)
+move_player(6)
+remove_fancy_hat()
+move_player(8)
+move_player(9)
+
+In p145b()
+reroll()
+reroll()
+add_fancy_hat()
+reroll()
+reroll()
+reroll()
+remove_fancy_hat()
+reroll()
+reroll()
+
+In p145c()
+add_fancy_hat()
+remove_fancy_hat()
+
+In p147a()
+The maximum is configured to be 3
+
+In p147b()
+The maximum is configured to be 3
+
+In p147c()
+State quarter from Alabama
+State quarter from Alaska
+The count of coin which isn't quarter is 3
+
+In p148a()
+State quarter from Alabama
+State quarter from Alaska
+The count of coin which isn't quarter is 3
+Calling chapter06_main tooks 7 milliseconds.
+Chapter 06
+
+In p133a()
+The ip kind is V4.
+The ip kind is V6.
+The ip kind is V4.
+The ip kind is V6.
+The ip kind is V4.
+The ip kind is V6.
+The ip kind is V4.
+The ip kind is V6.
+The type of four is chapter06::p133a::IpAddrKind
+The type of six is chapter06::p133a::IpAddrKind
+
+In p133b()
+The ip kind is V4, and its address is '127.0.0.1'.
+The ip kind is V6, and its address is '::1'.
+The ip kind is V4, and its address is '127.0.0.1'.
+The ip kind is V6, and its address is '::1'.
+
+In p135a()
+home: IpAddr { kind: V4, address: "127.0.0.1" }.
+loopback: IpAddr { kind: V6, address: "::1" }.
+home: IpAddr {
+    kind: V4,
+    address: "127.0.0.1",
+}.
+loopback: IpAddr {
+    kind: V6,
+    address: "::1",
+}.
+The type of home is chapter06::p135a::IpAddr
+The type of loopback is chapter06::p135a::IpAddr
+
+In p135b()
+home: V4("127.0.0.1").
+loopback: V6("::1").
+
+In p136a()
+home: V4(127, 0, 0, 1).
+loopback: V6("::1").
+
+In p136b()
+kind: chapter06::p136b::Message, value: Quit
+kind: chapter06::p136b::Message, value: Move { x: 10, y: 40 }
+kind: chapter06::p136b::Message, value: Write("A write message")
+kind: chapter06::p136b::Message, value: ChangeColor(85, 85, 85)
+
+In p137a()
+kind: chapter06::p137a::QuitMessage, value: QuitMessage
+kind: chapter06::p137a::MoveMessage, value: MoveMessage { x: 10, y: 40 }
+kind: chapter06::p137a::WriteMessage, value: WriteMessage("A write message")
+kind: chapter06::p137a::ChangeColorMessage, value: ChangeColorMessage(85, 85, 85)
+
+In p137b()
+kind: &chapter06::p137b::Message, value: Quit
+kind: &chapter06::p137b::Message, value: Move { x: 10, y: 40 }
+kind: &chapter06::p137b::Message, value: Write("A write message")
+kind: &chapter06::p137b::Message, value: ChangeColor(85, 85, 85)
+
+In p138a()
+kind: core::option::Option<i32>, value: Some(5).
+kind: core::option::Option<char>, value: Some('e').
+kind: core::option::Option<i32>, value: None.
+
+In p138b()
+x: 5, its type is i8
+y: Some(5), its type is core::option::Option<i8>
+sum: 10, its type is i8
+
+In p140a()
+coin is 1 cents, and its type is chapter06::p140a::Coin.
+coin is 5 cents, and its type is chapter06::p140a::Coin.
+coin is 10 cents, and its type is chapter06::p140a::Coin.
+coin is 25 cents, and its type is chapter06::p140a::Coin.
+
+In p141a()
+Lucky penny!
+coin is 1 cents, and its type is chapter06::p141a::Coin.
+coin is 5 cents, and its type is chapter06::p141a::Coin.
+coin is 10 cents, and its type is chapter06::p141a::Coin.
+coin is 25 cents, and its type is chapter06::p141a::Coin.
+
+In p142a()
+Lucky penny!
+coin is 1 cents, and its type is chapter06::p142a::Coin.
+coin is 5 cents, and its type is chapter06::p142a::Coin.
+coin is 10 cents, and its type is chapter06::p142a::Coin.
+State quarter from Alabama!
+coin is 25 cents, and its type is chapter06::p142a::Coin.
+State quarter from Alaska!
+coin is 25 cents, and its type is chapter06::p142a::Coin.
+
+In p142b()
+It's 99.
+five is Some(5), six is Some(6), ninty_nine is Some(99), hundread is Some(100), and none is None.
+The type of five is core::option::Option<i32>
+The type of six is core::option::Option<i32>
+The type of none is core::option::Option<i32>
+
+In p144a()
+
+In p145a()
+match dice_roll
+move_player(9)
+
+loop from 1 to 10.
+move_player(1)
+move_player(2)
+add_fancy_hat()
+move_player(4)
+move_player(5)
+move_player(6)
+remove_fancy_hat()
+move_player(8)
+move_player(9)
+
+The value is assigned in a loop from 1 to 10 and the roll_dice method is called.
+move_player(1)
+move_player(2)
+add_fancy_hat()
+move_player(4)
+move_player(5)
+move_player(6)
+remove_fancy_hat()
+move_player(8)
+move_player(9)
+
+In p145b()
+reroll()
+reroll()
+add_fancy_hat()
+reroll()
+reroll()
+reroll()
+remove_fancy_hat()
+reroll()
+reroll()
+
+In p145c()
+add_fancy_hat()
+remove_fancy_hat()
+
+In p147a()
+The maximum is configured to be 3
+
+In p147b()
+The maximum is configured to be 3
+
+In p147c()
+State quarter from Alabama
+State quarter from Alaska
+The count of coin which isn't quarter is 3
+
+In p148a()
+State quarter from Alabama
+State quarter from Alaska
+The count of coin which isn't quarter is 3
+Calling chapter06_main tooks 0 seconds.
+
+In p133a()
+The ip kind is V4.
+The ip kind is V6.
+The ip kind is V4.
+The ip kind is V6.
+The ip kind is V4.
+The ip kind is V6.
+The ip kind is V4.
+The ip kind is V6.
+The type of four is chapter06::p133a::IpAddrKind
+The type of six is chapter06::p133a::IpAddrKind
+Calling p133a tooks 0 milliseconds.
+
+In p133b()
+The ip kind is V4, and its address is '127.0.0.1'.
+The ip kind is V6, and its address is '::1'.
+The ip kind is V4, and its address is '127.0.0.1'.
+The ip kind is V6, and its address is '::1'.
+Calling p133b tooks 0 milliseconds.
+
+In p135a()
+home: IpAddr { kind: V4, address: "127.0.0.1" }.
+loopback: IpAddr { kind: V6, address: "::1" }.
+home: IpAddr {
+    kind: V4,
+    address: "127.0.0.1",
+}.
+loopback: IpAddr {
+    kind: V6,
+    address: "::1",
+}.
+The type of home is chapter06::p135a::IpAddr
+The type of loopback is chapter06::p135a::IpAddr
+Calling p135a tooks 3 milliseconds.
+
+In p135b()
+home: V4("127.0.0.1").
+loopback: V6("::1").
+Calling p135b tooks 0 milliseconds.
+
+In p136a()
+home: V4(127, 0, 0, 1).
+loopback: V6("::1").
+Calling p136a tooks 0 milliseconds.
+
+In p136b()
+kind: chapter06::p136b::Message, value: Quit
+kind: chapter06::p136b::Message, value: Move { x: 10, y: 40 }
+kind: chapter06::p136b::Message, value: Write("A write message")
+kind: chapter06::p136b::Message, value: ChangeColor(85, 85, 85)
+Calling p136b tooks 0 milliseconds.
+
+In p137a()
+kind: chapter06::p137a::QuitMessage, value: QuitMessage
+kind: chapter06::p137a::MoveMessage, value: MoveMessage { x: 10, y: 40 }
+kind: chapter06::p137a::WriteMessage, value: WriteMessage("A write message")
+kind: chapter06::p137a::ChangeColorMessage, value: ChangeColorMessage(85, 85, 85)
+Calling p137a tooks 0 milliseconds.
+
+In p137b()
+kind: &chapter06::p137b::Message, value: Quit
+kind: &chapter06::p137b::Message, value: Move { x: 10, y: 40 }
+kind: &chapter06::p137b::Message, value: Write("A write message")
+kind: &chapter06::p137b::Message, value: ChangeColor(85, 85, 85)
+Calling p137b tooks 0 milliseconds.
+
+In p138a()
+kind: core::option::Option<i32>, value: Some(5).
+kind: core::option::Option<char>, value: Some('e').
+kind: core::option::Option<i32>, value: None.
+Calling p138a tooks 0 milliseconds.
+
+In p138b()
+x: 5, its type is i8
+y: Some(5), its type is core::option::Option<i8>
+sum: 10, its type is i8
+Calling p138b tooks 0 milliseconds.
+
+In p140a()
+coin is 1 cents, and its type is chapter06::p140a::Coin.
+coin is 5 cents, and its type is chapter06::p140a::Coin.
+coin is 10 cents, and its type is chapter06::p140a::Coin.
+coin is 25 cents, and its type is chapter06::p140a::Coin.
+Calling p140a tooks 0 milliseconds.
+
+In p141a()
+Lucky penny!
+coin is 1 cents, and its type is chapter06::p141a::Coin.
+coin is 5 cents, and its type is chapter06::p141a::Coin.
+coin is 10 cents, and its type is chapter06::p141a::Coin.
+coin is 25 cents, and its type is chapter06::p141a::Coin.
+Calling p141a tooks 0 milliseconds.
+
+In p142a()
+Lucky penny!
+coin is 1 cents, and its type is chapter06::p142a::Coin.
+coin is 5 cents, and its type is chapter06::p142a::Coin.
+coin is 10 cents, and its type is chapter06::p142a::Coin.
+State quarter from Alabama!
+coin is 25 cents, and its type is chapter06::p142a::Coin.
+State quarter from Alaska!
+coin is 25 cents, and its type is chapter06::p142a::Coin.
+Calling p142a tooks 0 milliseconds.
+
+In p142b()
+It's 99.
+five is Some(5), six is Some(6), ninty_nine is Some(99), hundread is Some(100), and none is None.
+The type of five is core::option::Option<i32>
+The type of six is core::option::Option<i32>
+The type of none is core::option::Option<i32>
+Calling p142b tooks 0 milliseconds.
+
+In p144a()
+Calling p144a tooks 0 milliseconds.
+
+In p145a()
+match dice_roll
+move_player(9)
+
+loop from 1 to 10.
+move_player(1)
+move_player(2)
+add_fancy_hat()
+move_player(4)
+move_player(5)
+move_player(6)
+remove_fancy_hat()
+move_player(8)
+move_player(9)
+
+The value is assigned in a loop from 1 to 10 and the roll_dice method is called.
+move_player(1)
+move_player(2)
+add_fancy_hat()
+move_player(4)
+move_player(5)
+move_player(6)
+remove_fancy_hat()
+move_player(8)
+move_player(9)
+Calling p145a tooks 0 milliseconds.
+
+In p145b()
+reroll()
+reroll()
+add_fancy_hat()
+reroll()
+reroll()
+reroll()
+remove_fancy_hat()
+reroll()
+reroll()
+Calling p145b tooks 0 milliseconds.
+
+In p145c()
+add_fancy_hat()
+remove_fancy_hat()
+Calling p145c tooks 0 milliseconds.
+
+In p147a()
+The maximum is configured to be 3
+Calling p147a tooks 0 milliseconds.
+
+In p147b()
+The maximum is configured to be 3
+Calling p147b tooks 0 milliseconds.
+
+In p147c()
+State quarter from Alabama
+State quarter from Alaska
+The count of coin which isn't quarter is 3
+Calling p147c tooks 0 milliseconds.
+
+In p148a()
+State quarter from Alabama
+State quarter from Alaska
+The count of coin which isn't quarter is 3
+Calling p148a tooks 0 milliseconds.
+Total used 5 milliseconds.
+
+In p133a()
+The ip kind is V4.
+The ip kind is V6.
+The ip kind is V4.
+The ip kind is V6.
+The ip kind is V4.
+The ip kind is V6.
+The ip kind is V4.
+The ip kind is V6.
+The type of four is chapter06::p133a::IpAddrKind
+The type of six is chapter06::p133a::IpAddrKind
+Calling p133a tooks 0 seconds.
+
+In p133b()
+The ip kind is V4, and its address is '127.0.0.1'.
+The ip kind is V6, and its address is '::1'.
+The ip kind is V4, and its address is '127.0.0.1'.
+The ip kind is V6, and its address is '::1'.
+Calling p133b tooks 0 seconds.
+
+In p135a()
+home: IpAddr { kind: V4, address: "127.0.0.1" }.
+loopback: IpAddr { kind: V6, address: "::1" }.
+home: IpAddr {
+    kind: V4,
+    address: "127.0.0.1",
+}.
+loopback: IpAddr {
+    kind: V6,
+    address: "::1",
+}.
+The type of home is chapter06::p135a::IpAddr
+The type of loopback is chapter06::p135a::IpAddr
+Calling p135a tooks 0 seconds.
+
+In p135b()
+home: V4("127.0.0.1").
+loopback: V6("::1").
+Calling p135b tooks 0 seconds.
+
+In p136a()
+home: V4(127, 0, 0, 1).
+loopback: V6("::1").
+Calling p136a tooks 0 seconds.
+
+In p136b()
+kind: chapter06::p136b::Message, value: Quit
+kind: chapter06::p136b::Message, value: Move { x: 10, y: 40 }
+kind: chapter06::p136b::Message, value: Write("A write message")
+kind: chapter06::p136b::Message, value: ChangeColor(85, 85, 85)
+Calling p136b tooks 0 seconds.
+
+In p137a()
+kind: chapter06::p137a::QuitMessage, value: QuitMessage
+kind: chapter06::p137a::MoveMessage, value: MoveMessage { x: 10, y: 40 }
+kind: chapter06::p137a::WriteMessage, value: WriteMessage("A write message")
+kind: chapter06::p137a::ChangeColorMessage, value: ChangeColorMessage(85, 85, 85)
+Calling p137a tooks 0 seconds.
+
+In p137b()
+kind: &chapter06::p137b::Message, value: Quit
+kind: &chapter06::p137b::Message, value: Move { x: 10, y: 40 }
+kind: &chapter06::p137b::Message, value: Write("A write message")
+kind: &chapter06::p137b::Message, value: ChangeColor(85, 85, 85)
+Calling p137b tooks 0 seconds.
+
+In p138a()
+kind: core::option::Option<i32>, value: Some(5).
+kind: core::option::Option<char>, value: Some('e').
+kind: core::option::Option<i32>, value: None.
+Calling p138a tooks 0 seconds.
+
+In p138b()
+x: 5, its type is i8
+y: Some(5), its type is core::option::Option<i8>
+sum: 10, its type is i8
+Calling p138b tooks 0 seconds.
+
+In p140a()
+coin is 1 cents, and its type is chapter06::p140a::Coin.
+coin is 5 cents, and its type is chapter06::p140a::Coin.
+coin is 10 cents, and its type is chapter06::p140a::Coin.
+coin is 25 cents, and its type is chapter06::p140a::Coin.
+Calling p140a tooks 0 seconds.
+
+In p141a()
+Lucky penny!
+coin is 1 cents, and its type is chapter06::p141a::Coin.
+coin is 5 cents, and its type is chapter06::p141a::Coin.
+coin is 10 cents, and its type is chapter06::p141a::Coin.
+coin is 25 cents, and its type is chapter06::p141a::Coin.
+Calling p141a tooks 0 seconds.
+
+In p142a()
+Lucky penny!
+coin is 1 cents, and its type is chapter06::p142a::Coin.
+coin is 5 cents, and its type is chapter06::p142a::Coin.
+coin is 10 cents, and its type is chapter06::p142a::Coin.
+State quarter from Alabama!
+coin is 25 cents, and its type is chapter06::p142a::Coin.
+State quarter from Alaska!
+coin is 25 cents, and its type is chapter06::p142a::Coin.
+Calling p142a tooks 0 seconds.
+
+In p142b()
+It's 99.
+five is Some(5), six is Some(6), ninty_nine is Some(99), hundread is Some(100), and none is None.
+The type of five is core::option::Option<i32>
+The type of six is core::option::Option<i32>
+The type of none is core::option::Option<i32>
+Calling p142b tooks 0 seconds.
+
+In p144a()
+Calling p144a tooks 0 seconds.
+
+In p145a()
+match dice_roll
+move_player(9)
+
+loop from 1 to 10.
+move_player(1)
+move_player(2)
+add_fancy_hat()
+move_player(4)
+move_player(5)
+move_player(6)
+remove_fancy_hat()
+move_player(8)
+move_player(9)
+
+The value is assigned in a loop from 1 to 10 and the roll_dice method is called.
+move_player(1)
+move_player(2)
+add_fancy_hat()
+move_player(4)
+move_player(5)
+move_player(6)
+remove_fancy_hat()
+move_player(8)
+move_player(9)
+Calling p145a tooks 0 seconds.
+
+In p145b()
+reroll()
+reroll()
+add_fancy_hat()
+reroll()
+reroll()
+reroll()
+remove_fancy_hat()
+reroll()
+reroll()
+Calling p145b tooks 0 seconds.
+
+In p145c()
+add_fancy_hat()
+remove_fancy_hat()
+Calling p145c tooks 0 seconds.
+
+In p147a()
+The maximum is configured to be 3
+Calling p147a tooks 0 seconds.
+
+In p147b()
+The maximum is configured to be 3
+Calling p147b tooks 0 seconds.
+
+In p147c()
+State quarter from Alabama
+State quarter from Alaska
+The count of coin which isn't quarter is 3
+Calling p147c tooks 0 seconds.
+
+In p148a()
+State quarter from Alabama
+State quarter from Alaska
+The count of coin which isn't quarter is 3
+Calling p148a tooks 0 seconds.
+Total used 0 seconds.
+
+  end: Instant { t: 211571.9571378s }
+Calling chapter06_main tooks 27 milliseconds.
+17:46:15.53 

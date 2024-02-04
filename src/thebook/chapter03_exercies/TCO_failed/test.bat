@@ -1,0 +1,2 @@
+cls && rustc failed__fibonacci_use_tail_recursion.rs && failed__fibonacci_use_tail_recursion>failed__fibonacci_use_tail_recursion.txt &&  start "" notepad failed__fibonacci_use_tail_recursion.txt
+cls && rustc failed__fibonacci_use_tail_recursion2.rs && failed__fibonacci_use_tail_recursion2>failed__fibonacci_use_tail_recursion2.txt && start "" notepad failed__fibonacci_use_tail_recursion2.txt

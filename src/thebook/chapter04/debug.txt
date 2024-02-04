@@ -1,0 +1,529 @@
+14:44:03.74  
+14:44:05.34  
+start: Instant { t: 114197.0200354s }
+Chapter 04
+
+In p86a()
+
+In p87a()
+hello, world!
+
+In p88a()
+The type of String::from("hello") is alloc::string::String.
+The type of "hello" is &str.
+
+In p88b()
+x is 5, and its type is i32. y is 5, and its type is i32.
+
+In p88c()
+s1 is hello, and its type is alloc::string::String.
+s2 is hello, and its type is alloc::string::String.
+
+In p92a()
+
+In p94a()
+s1 = hello, s2 = hello
+
+In p94b()
+x = 5, y = 5
+
+In p95a()
+hello
+5
+
+In p95b()
+
+In p96a()
+The length of 'hello' is 5.
+
+In p97a()
+The length of 'hello' is 5.
+
+In p98a()
+s1 is hello
+
+In p99a()
+s is hello, world
+
+In p99b()
+s is 'hello, world!'.
+
+In p100a()
+r1 is hello.
+r2 is hello.
+
+In p100b()
+r1 is hello, r2 is hello
+r3 is hello.
+
+In p101a()
+hello and hello
+hello
+
+In p101b()
+
+In p102a()
+string is hello.
+s2 is hello.
+
+In p104a()
+Split(SplitInternal { start: 0, end: 4, matcher: StrSearcher { haystack: "test", needle: " ", searcher: TwoWay(TwoWaySearcher { crit_pos: 0, crit_pos_back: 1, period: 1, byteset: 4294967296, position: 0, end: 4, memory: 0, memory_back: 1 }) }, allow_trailing_empty: true, finished: false })
+first_char(&'test') is 't'.
+Split(SplitInternal { start: 0, end: 7, matcher: StrSearcher { haystack: "test it", needle: " ", searcher: TwoWay(TwoWaySearcher { crit_pos: 0, crit_pos_back: 1, period: 1, byteset: 4294967296, position: 0, end: 7, memory: 0, memory_back: 1 }) }, allow_trailing_empty: true, finished: false })
+first_char(&'test it') is 't'.
+Split(SplitInternal { start: 0, end: 9, matcher: StrSearcher { haystack: "I test it", needle: " ", searcher: TwoWay(TwoWaySearcher { crit_pos: 0, crit_pos_back: 1, period: 1, byteset: 4294967296, position: 0, end: 9, memory: 0, memory_back: 1 }) }, allow_trailing_empty: true, finished: false })
+first_char(&'I test it') is 'I'.
+
+In p105a()
+first_word_end_position(&'test') is '4'.
+After clearing the string, the end position of the first word is 4.
+first_word_end_position(&'test it') is '4'.
+After clearing the string, the end position of the first word is 4.
+first_word_end_position(&'I test it') is '1'.
+After clearing the string, the end position of the first word is 1.
+
+In p106a()
+s is 'hello world', hello is 'hello', and world is 'world'.
+
+In p106a()
+first_word(&'test') is 'test', and the second_word(&'test') is ''.
+first_word(&'test it') is 'test', and the second_word(&'test it') is 'it'.
+first_word(&'I test it') is 'I', and the second_word(&'I test it') is 'test'.
+
+In p109a()
+
+In p109b()
+s1 is 'test'.
+s1 is 'test'.
+s2 is 'test!'.
+
+In p110a()
+my_string is 'hello world rust', and its type is alloc::string::String.
+first_word_p111(&my_string[0..6]) is hello
+first_word_p111(&my_string[..]) is hello
+first_word_p111(&my_string) is hello
+second_word_p111(&my_string[0..6]) is 
+second_word_p111(&my_string[..]) is world
+second_word_p111(&my_string) is world
+
+my_string_literal is 'hello world rust', and its type is &str.
+first_word_p111(&my_string_literal[0..6]) is hello
+first_word_p111(&my_string_literal[..]) is hello
+first_word_p111(my_string_literal) is hello
+
+my_string_literal is 'hello world rust', and its type is &str.
+second_word_p111(&my_string_literal[0..6]) is 
+second_word_p111(&my_string_literal[..]) is world
+second_word_p111(my_string_literal) is world
+
+In p111a()
+Calling chapter04_main tooks 37 milliseconds.
+Chapter 04
+
+In p86a()
+
+In p87a()
+hello, world!
+
+In p88a()
+The type of String::from("hello") is alloc::string::String.
+The type of "hello" is &str.
+
+In p88b()
+x is 5, and its type is i32. y is 5, and its type is i32.
+
+In p88c()
+s1 is hello, and its type is alloc::string::String.
+s2 is hello, and its type is alloc::string::String.
+
+In p92a()
+
+In p94a()
+s1 = hello, s2 = hello
+
+In p94b()
+x = 5, y = 5
+
+In p95a()
+hello
+5
+
+In p95b()
+
+In p96a()
+The length of 'hello' is 5.
+
+In p97a()
+The length of 'hello' is 5.
+
+In p98a()
+s1 is hello
+
+In p99a()
+s is hello, world
+
+In p99b()
+s is 'hello, world!'.
+
+In p100a()
+r1 is hello.
+r2 is hello.
+
+In p100b()
+r1 is hello, r2 is hello
+r3 is hello.
+
+In p101a()
+hello and hello
+hello
+
+In p101b()
+
+In p102a()
+string is hello.
+s2 is hello.
+
+In p104a()
+Split(SplitInternal { start: 0, end: 4, matcher: StrSearcher { haystack: "test", needle: " ", searcher: TwoWay(TwoWaySearcher { crit_pos: 0, crit_pos_back: 1, period: 1, byteset: 4294967296, position: 0, end: 4, memory: 0, memory_back: 1 }) }, allow_trailing_empty: true, finished: false })
+first_char(&'test') is 't'.
+Split(SplitInternal { start: 0, end: 7, matcher: StrSearcher { haystack: "test it", needle: " ", searcher: TwoWay(TwoWaySearcher { crit_pos: 0, crit_pos_back: 1, period: 1, byteset: 4294967296, position: 0, end: 7, memory: 0, memory_back: 1 }) }, allow_trailing_empty: true, finished: false })
+first_char(&'test it') is 't'.
+Split(SplitInternal { start: 0, end: 9, matcher: StrSearcher { haystack: "I test it", needle: " ", searcher: TwoWay(TwoWaySearcher { crit_pos: 0, crit_pos_back: 1, period: 1, byteset: 4294967296, position: 0, end: 9, memory: 0, memory_back: 1 }) }, allow_trailing_empty: true, finished: false })
+first_char(&'I test it') is 'I'.
+
+In p105a()
+first_word_end_position(&'test') is '4'.
+After clearing the string, the end position of the first word is 4.
+first_word_end_position(&'test it') is '4'.
+After clearing the string, the end position of the first word is 4.
+first_word_end_position(&'I test it') is '1'.
+After clearing the string, the end position of the first word is 1.
+
+In p106a()
+s is 'hello world', hello is 'hello', and world is 'world'.
+
+In p106a()
+first_word(&'test') is 'test', and the second_word(&'test') is ''.
+first_word(&'test it') is 'test', and the second_word(&'test it') is 'it'.
+first_word(&'I test it') is 'I', and the second_word(&'I test it') is 'test'.
+
+In p109a()
+
+In p109b()
+s1 is 'test'.
+s1 is 'test'.
+s2 is 'test!'.
+
+In p110a()
+my_string is 'hello world rust', and its type is alloc::string::String.
+first_word_p111(&my_string[0..6]) is hello
+first_word_p111(&my_string[..]) is hello
+first_word_p111(&my_string) is hello
+second_word_p111(&my_string[0..6]) is 
+second_word_p111(&my_string[..]) is world
+second_word_p111(&my_string) is world
+
+my_string_literal is 'hello world rust', and its type is &str.
+first_word_p111(&my_string_literal[0..6]) is hello
+first_word_p111(&my_string_literal[..]) is hello
+first_word_p111(my_string_literal) is hello
+
+my_string_literal is 'hello world rust', and its type is &str.
+second_word_p111(&my_string_literal[0..6]) is 
+second_word_p111(&my_string_literal[..]) is world
+second_word_p111(my_string_literal) is world
+
+In p111a()
+Calling chapter04_main tooks 0 seconds.
+
+In p86a()
+Calling p86a tooks 0 milliseconds.
+
+In p87a()
+hello, world!
+Calling p87a tooks 0 milliseconds.
+
+In p88a()
+The type of String::from("hello") is alloc::string::String.
+The type of "hello" is &str.
+Calling p88a tooks 0 milliseconds.
+
+In p88b()
+x is 5, and its type is i32. y is 5, and its type is i32.
+Calling p88b tooks 0 milliseconds.
+
+In p88c()
+s1 is hello, and its type is alloc::string::String.
+s2 is hello, and its type is alloc::string::String.
+Calling p88c tooks 0 milliseconds.
+
+In p92a()
+Calling p92a tooks 0 milliseconds.
+
+In p94a()
+s1 = hello, s2 = hello
+Calling p94a tooks 0 milliseconds.
+
+In p94b()
+x = 5, y = 5
+Calling p94b tooks 0 milliseconds.
+
+In p95a()
+hello
+5
+Calling p95a tooks 0 milliseconds.
+
+In p95b()
+Calling p95b tooks 0 milliseconds.
+
+In p96a()
+The length of 'hello' is 5.
+Calling p96a tooks 0 milliseconds.
+
+In p97a()
+The length of 'hello' is 5.
+Calling p97a tooks 0 milliseconds.
+
+In p98a()
+s1 is hello
+Calling p98a tooks 0 milliseconds.
+
+In p99a()
+s is hello, world
+Calling p99a tooks 0 milliseconds.
+
+In p99b()
+s is 'hello, world!'.
+Calling p99b tooks 0 milliseconds.
+
+In p100a()
+r1 is hello.
+r2 is hello.
+Calling p100a tooks 0 milliseconds.
+
+In p100b()
+r1 is hello, r2 is hello
+r3 is hello.
+Calling p100b tooks 0 milliseconds.
+
+In p101a()
+hello and hello
+hello
+Calling p101a tooks 0 milliseconds.
+
+In p101b()
+Calling p101b tooks 0 milliseconds.
+
+In p102a()
+string is hello.
+s2 is hello.
+Calling p102a tooks 0 milliseconds.
+
+In p104a()
+Split(SplitInternal { start: 0, end: 4, matcher: StrSearcher { haystack: "test", needle: " ", searcher: TwoWay(TwoWaySearcher { crit_pos: 0, crit_pos_back: 1, period: 1, byteset: 4294967296, position: 0, end: 4, memory: 0, memory_back: 1 }) }, allow_trailing_empty: true, finished: false })
+first_char(&'test') is 't'.
+Split(SplitInternal { start: 0, end: 7, matcher: StrSearcher { haystack: "test it", needle: " ", searcher: TwoWay(TwoWaySearcher { crit_pos: 0, crit_pos_back: 1, period: 1, byteset: 4294967296, position: 0, end: 7, memory: 0, memory_back: 1 }) }, allow_trailing_empty: true, finished: false })
+first_char(&'test it') is 't'.
+Split(SplitInternal { start: 0, end: 9, matcher: StrSearcher { haystack: "I test it", needle: " ", searcher: TwoWay(TwoWaySearcher { crit_pos: 0, crit_pos_back: 1, period: 1, byteset: 4294967296, position: 0, end: 9, memory: 0, memory_back: 1 }) }, allow_trailing_empty: true, finished: false })
+first_char(&'I test it') is 'I'.
+Calling p104a tooks 0 milliseconds.
+
+In p105a()
+first_word_end_position(&'test') is '4'.
+After clearing the string, the end position of the first word is 4.
+first_word_end_position(&'test it') is '4'.
+After clearing the string, the end position of the first word is 4.
+first_word_end_position(&'I test it') is '1'.
+After clearing the string, the end position of the first word is 1.
+Calling p105a tooks 0 milliseconds.
+
+In p106a()
+s is 'hello world', hello is 'hello', and world is 'world'.
+Calling p106a tooks 0 milliseconds.
+
+In p106a()
+first_word(&'test') is 'test', and the second_word(&'test') is ''.
+first_word(&'test it') is 'test', and the second_word(&'test it') is 'it'.
+first_word(&'I test it') is 'I', and the second_word(&'I test it') is 'test'.
+Calling p108a tooks 0 milliseconds.
+
+In p109a()
+Calling p109a tooks 0 milliseconds.
+
+In p109b()
+s1 is 'test'.
+s1 is 'test'.
+s2 is 'test!'.
+Calling p109b tooks 0 milliseconds.
+
+In p110a()
+my_string is 'hello world rust', and its type is alloc::string::String.
+first_word_p111(&my_string[0..6]) is hello
+first_word_p111(&my_string[..]) is hello
+first_word_p111(&my_string) is hello
+second_word_p111(&my_string[0..6]) is 
+second_word_p111(&my_string[..]) is world
+second_word_p111(&my_string) is world
+
+my_string_literal is 'hello world rust', and its type is &str.
+first_word_p111(&my_string_literal[0..6]) is hello
+first_word_p111(&my_string_literal[..]) is hello
+first_word_p111(my_string_literal) is hello
+
+my_string_literal is 'hello world rust', and its type is &str.
+second_word_p111(&my_string_literal[0..6]) is 
+second_word_p111(&my_string_literal[..]) is world
+second_word_p111(my_string_literal) is world
+Calling p110a tooks 0 milliseconds.
+
+In p111a()
+Calling p111a tooks 0 milliseconds.
+Total used 2 milliseconds.
+
+In p86a()
+Calling p86a tooks 0 seconds.
+
+In p87a()
+hello, world!
+Calling p87a tooks 0 seconds.
+
+In p88a()
+The type of String::from("hello") is alloc::string::String.
+The type of "hello" is &str.
+Calling p88a tooks 0 seconds.
+
+In p88b()
+x is 5, and its type is i32. y is 5, and its type is i32.
+Calling p88b tooks 0 seconds.
+
+In p88c()
+s1 is hello, and its type is alloc::string::String.
+s2 is hello, and its type is alloc::string::String.
+Calling p88c tooks 0 seconds.
+
+In p92a()
+Calling p92a tooks 0 seconds.
+
+In p94a()
+s1 = hello, s2 = hello
+Calling p94a tooks 0 seconds.
+
+In p94b()
+x = 5, y = 5
+Calling p94b tooks 0 seconds.
+
+In p95a()
+hello
+5
+Calling p95a tooks 0 seconds.
+
+In p95b()
+Calling p95b tooks 0 seconds.
+
+In p96a()
+The length of 'hello' is 5.
+Calling p96a tooks 0 seconds.
+
+In p97a()
+The length of 'hello' is 5.
+Calling p97a tooks 0 seconds.
+
+In p98a()
+s1 is hello
+Calling p98a tooks 0 seconds.
+
+In p99a()
+s is hello, world
+Calling p99a tooks 0 seconds.
+
+In p99b()
+s is 'hello, world!'.
+Calling p99b tooks 0 seconds.
+
+In p100a()
+r1 is hello.
+r2 is hello.
+Calling p100a tooks 0 seconds.
+
+In p100b()
+r1 is hello, r2 is hello
+r3 is hello.
+Calling p100b tooks 0 seconds.
+
+In p101a()
+hello and hello
+hello
+Calling p101a tooks 0 seconds.
+
+In p101b()
+Calling p101b tooks 0 seconds.
+
+In p102a()
+string is hello.
+s2 is hello.
+Calling p102a tooks 0 seconds.
+
+In p104a()
+Split(SplitInternal { start: 0, end: 4, matcher: StrSearcher { haystack: "test", needle: " ", searcher: TwoWay(TwoWaySearcher { crit_pos: 0, crit_pos_back: 1, period: 1, byteset: 4294967296, position: 0, end: 4, memory: 0, memory_back: 1 }) }, allow_trailing_empty: true, finished: false })
+first_char(&'test') is 't'.
+Split(SplitInternal { start: 0, end: 7, matcher: StrSearcher { haystack: "test it", needle: " ", searcher: TwoWay(TwoWaySearcher { crit_pos: 0, crit_pos_back: 1, period: 1, byteset: 4294967296, position: 0, end: 7, memory: 0, memory_back: 1 }) }, allow_trailing_empty: true, finished: false })
+first_char(&'test it') is 't'.
+Split(SplitInternal { start: 0, end: 9, matcher: StrSearcher { haystack: "I test it", needle: " ", searcher: TwoWay(TwoWaySearcher { crit_pos: 0, crit_pos_back: 1, period: 1, byteset: 4294967296, position: 0, end: 9, memory: 0, memory_back: 1 }) }, allow_trailing_empty: true, finished: false })
+first_char(&'I test it') is 'I'.
+Calling p104a tooks 0 seconds.
+
+In p105a()
+first_word_end_position(&'test') is '4'.
+After clearing the string, the end position of the first word is 4.
+first_word_end_position(&'test it') is '4'.
+After clearing the string, the end position of the first word is 4.
+first_word_end_position(&'I test it') is '1'.
+After clearing the string, the end position of the first word is 1.
+Calling p105a tooks 0 seconds.
+
+In p106a()
+s is 'hello world', hello is 'hello', and world is 'world'.
+Calling p106a tooks 0 seconds.
+
+In p106a()
+first_word(&'test') is 'test', and the second_word(&'test') is ''.
+first_word(&'test it') is 'test', and the second_word(&'test it') is 'it'.
+first_word(&'I test it') is 'I', and the second_word(&'I test it') is 'test'.
+Calling p108a tooks 0 seconds.
+
+In p109a()
+Calling p109a tooks 0 seconds.
+
+In p109b()
+s1 is 'test'.
+s1 is 'test'.
+s2 is 'test!'.
+Calling p109b tooks 0 seconds.
+
+In p110a()
+my_string is 'hello world rust', and its type is alloc::string::String.
+first_word_p111(&my_string[0..6]) is hello
+first_word_p111(&my_string[..]) is hello
+first_word_p111(&my_string) is hello
+second_word_p111(&my_string[0..6]) is 
+second_word_p111(&my_string[..]) is world
+second_word_p111(&my_string) is world
+
+my_string_literal is 'hello world rust', and its type is &str.
+first_word_p111(&my_string_literal[0..6]) is hello
+first_word_p111(&my_string_literal[..]) is hello
+first_word_p111(my_string_literal) is hello
+
+my_string_literal is 'hello world rust', and its type is &str.
+second_word_p111(&my_string_literal[0..6]) is 
+second_word_p111(&my_string_literal[..]) is world
+second_word_p111(my_string_literal) is world
+Calling p110a tooks 0 seconds.
+
+In p111a()
+Calling p111a tooks 0 seconds.
+Total used 0 seconds.
+
+  end: Instant { t: 114197.0633966s }
+Calling chapter04_main tooks 43 milliseconds.
+14:44:05.61 

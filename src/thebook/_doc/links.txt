@@ -1,0 +1,624 @@
+/*
+* <en>https://doc.rust-lang.org/book/title-page.html</en>
+* <cn>https://kaisery.github.io/trpl-zh-cn/title-page.html</cn>
+* <tw>https://rust-lang.tw/book-tw/title-page.html</tw>
+*/
+
+/*
+* <en>https://doc.rust-lang.org/book/foreword.html</en>
+* <cn>https://kaisery.github.io/trpl-zh-cn/foreword.html</cn>
+* <tw>https://rust-lang.tw/book-tw/foreword.html</tw>
+*/
+
+/*
+* <en>https://doc.rust-lang.org/book/ch00-00-introduction.html</en>
+* <cn>https://kaisery.github.io/trpl-zh-cn/ch00-00-introduction.html</cn>
+* <tw>https://rust-lang.tw/book-tw/ch00-00-introduction.html</tw>
+*/
+
+/*
+* <en>https://doc.rust-lang.org/book/ch01-00-getting-started.html</en>
+* <cn>https://kaisery.github.io/trpl-zh-cn/ch01-00-getting-started.html</cn>
+* <tw>https://rust-lang.tw/book-tw/ch01-00-getting-started.html</tw>
+*/
+
+/*
+* <en>https://doc.rust-lang.org/book/ch01-01-installation.html</en>
+* <cn>https://kaisery.github.io/trpl-zh-cn/ch01-01-installation.html</cn>
+* <tw>https://rust-lang.tw/book-tw/ch01-01-installation.html</tw>
+*/
+
+/*
+* <en>https://doc.rust-lang.org/book/ch01-02-hello-world.html</en>
+* <cn>https://kaisery.github.io/trpl-zh-cn/ch01-02-hello-world.html</cn>
+* <tw>https://rust-lang.tw/book-tw/ch01-02-hello-world.html</tw>
+*/
+
+/*
+* <en>https://doc.rust-lang.org/book/ch01-03-hello-cargo.html</en>
+* <cn>https://kaisery.github.io/trpl-zh-cn/ch01-03-hello-cargo.html</cn>
+* <tw>https://rust-lang.tw/book-tw/ch01-03-hello-cargo.html</tw>
+*/
+
+/*
+* <en>https://doc.rust-lang.org/book/ch02-00-guessing-game-tutorial.html</en>
+* <cn>https://kaisery.github.io/trpl-zh-cn/ch02-00-guessing-game-tutorial.html</cn>
+* <tw>https://rust-lang.tw/book-tw/ch02-00-guessing-game-tutorial.html</tw>
+*/
+
+/*
+* <en>https://doc.rust-lang.org/book/ch03-00-common-programming-concepts.html</en>
+* <cn>https://kaisery.github.io/trpl-zh-cn/ch03-00-common-programming-concepts.html</cn>
+* <tw>https://rust-lang.tw/book-tw/ch03-00-common-programming-concepts.html</tw>
+*/
+
+/*
+* <en>https://doc.rust-lang.org/book/ch03-01-variables-and-mutability.html</en>
+* <cn>https://kaisery.github.io/trpl-zh-cn/ch03-01-variables-and-mutability.html</cn>
+* <tw>https://rust-lang.tw/book-tw/ch03-01-variables-and-mutability.html</tw>
+*/
+
+/*
+* <en>https://doc.rust-lang.org/book/ch03-02-data-types.html</en>
+* <cn>https://kaisery.github.io/trpl-zh-cn/ch03-02-data-types.html</cn>
+* <tw>https://rust-lang.tw/book-tw/ch03-02-data-types.html</tw>
+*/
+
+/*
+* <en>https://doc.rust-lang.org/book/ch03-03-how-functions-work.html</en>
+* <cn>https://kaisery.github.io/trpl-zh-cn/ch03-03-how-functions-work.html</cn>
+* <tw>https://rust-lang.tw/book-tw/ch03-03-how-functions-work.html</tw>
+*/
+
+/*
+* <en>https://doc.rust-lang.org/book/ch03-04-comments.html</en>
+* <cn>https://kaisery.github.io/trpl-zh-cn/ch03-04-comments.html</cn>
+* <tw>https://rust-lang.tw/book-tw/ch03-04-comments.html</tw>
+*/
+
+/*
+* <en>https://doc.rust-lang.org/book/ch03-05-control-flow.html</en>
+* <cn>https://kaisery.github.io/trpl-zh-cn/ch03-05-control-flow.html</cn>
+* <tw>https://rust-lang.tw/book-tw/ch03-05-control-flow.html</tw>
+*/
+
+/*
+* <en>https://doc.rust-lang.org/book/ch04-00-understanding-ownership.html</en>
+* <cn>https://kaisery.github.io/trpl-zh-cn/ch04-00-understanding-ownership.html</cn>
+* <tw>https://rust-lang.tw/book-tw/ch04-00-understanding-ownership.html</tw>
+*/
+
+/*
+* <en>https://doc.rust-lang.org/book/ch04-01-what-is-ownership.html</en>
+* <cn>https://kaisery.github.io/trpl-zh-cn/ch04-01-what-is-ownership.html</cn>
+* <tw>https://rust-lang.tw/book-tw/ch04-01-what-is-ownership.html</tw>
+*/
+
+/*
+* <en>https://doc.rust-lang.org/book/ch04-02-references-and-borrowing.html</en>
+* <cn>https://kaisery.github.io/trpl-zh-cn/ch04-02-references-and-borrowing.html</cn>
+* <tw>https://rust-lang.tw/book-tw/ch04-02-references-and-borrowing.html</tw>
+*/
+
+/*
+* <en>https://doc.rust-lang.org/book/ch04-03-slices.html</en>
+* <cn>https://kaisery.github.io/trpl-zh-cn/ch04-03-slices.html</cn>
+* <tw>https://rust-lang.tw/book-tw/ch04-03-slices.html</tw>
+*/
+
+/*
+* <en>https://doc.rust-lang.org/book/ch05-00-structs.html</en>
+* <cn>https://kaisery.github.io/trpl-zh-cn/ch05-00-structs.html</cn>
+* <tw>https://rust-lang.tw/book-tw/ch05-00-structs.html</tw>
+*/
+
+/*
+* <en>https://doc.rust-lang.org/book/ch05-01-defining-structs.html</en>
+* <cn>https://kaisery.github.io/trpl-zh-cn/ch05-01-defining-structs.html</cn>
+* <tw>https://rust-lang.tw/book-tw/ch05-01-defining-structs.html</tw>
+*/
+
+/*
+* <en>https://doc.rust-lang.org/book/ch05-02-example-structs.html</en>
+* <cn>https://kaisery.github.io/trpl-zh-cn/ch05-02-example-structs.html</cn>
+* <tw>https://rust-lang.tw/book-tw/ch05-02-example-structs.html</tw>
+*/
+
+/*
+* <en>https://doc.rust-lang.org/book/ch05-03-method-syntax.html</en>
+* <cn>https://kaisery.github.io/trpl-zh-cn/ch05-03-method-syntax.html</cn>
+* <tw>https://rust-lang.tw/book-tw/ch05-03-method-syntax.html</tw>
+*/
+
+/*
+* <en>https://doc.rust-lang.org/book/ch06-00-enums.html</en>
+* <cn>https://kaisery.github.io/trpl-zh-cn/ch06-00-enums.html</cn>
+* <tw>https://rust-lang.tw/book-tw/ch06-00-enums.html</tw>
+*/
+
+/*
+* <en>https://doc.rust-lang.org/book/ch06-01-defining-an-enum.html</en>
+* <cn>https://kaisery.github.io/trpl-zh-cn/ch06-01-defining-an-enum.html</cn>
+* <tw>https://rust-lang.tw/book-tw/ch06-01-defining-an-enum.html</tw>
+*/
+
+/*
+* <en>https://doc.rust-lang.org/book/ch06-02-match.html</en>
+* <cn>https://kaisery.github.io/trpl-zh-cn/ch06-02-match.html</cn>
+* <tw>https://rust-lang.tw/book-tw/ch06-02-match.html</tw>
+*/
+
+/*
+* <en>https://doc.rust-lang.org/book/ch06-03-if-let.html</en>
+* <cn>https://kaisery.github.io/trpl-zh-cn/ch06-03-if-let.html</cn>
+* <tw>https://rust-lang.tw/book-tw/ch06-03-if-let.html</tw>
+*/
+
+/*
+* <en>https://doc.rust-lang.org/book/ch07-00-managing-growing-projects-with-packages-crates-and-modules.html</en>
+* <cn>https://kaisery.github.io/trpl-zh-cn/ch07-00-managing-growing-projects-with-packages-crates-and-modules.html</cn>
+* <tw>https://rust-lang.tw/book-tw/ch07-00-managing-growing-projects-with-packages-crates-and-modules.html</tw>
+*/
+
+/*
+* <en>https://doc.rust-lang.org/book/ch07-01-packages-and-crates.html</en>
+* <cn>https://kaisery.github.io/trpl-zh-cn/ch07-01-packages-and-crates.html</cn>
+* <tw>https://rust-lang.tw/book-tw/ch07-01-packages-and-crates.html</tw>
+*/
+
+/*
+* <en>https://doc.rust-lang.org/book/ch07-02-defining-modules-to-control-scope-and-privacy.html</en>
+* <cn>https://kaisery.github.io/trpl-zh-cn/ch07-02-defining-modules-to-control-scope-and-privacy.html</cn>
+* <tw>https://rust-lang.tw/book-tw/ch07-02-defining-modules-to-control-scope-and-privacy.html</tw>
+*/
+
+/*
+* <en>https://doc.rust-lang.org/book/ch07-03-paths-for-referring-to-an-item-in-the-module-tree.html</en>
+* <cn>https://kaisery.github.io/trpl-zh-cn/ch07-03-paths-for-referring-to-an-item-in-the-module-tree.html</cn>
+* <tw>https://rust-lang.tw/book-tw/ch07-03-paths-for-referring-to-an-item-in-the-module-tree.html</tw>
+*/
+
+/*
+* <en>https://doc.rust-lang.org/book/ch07-04-bringing-paths-into-scope-with-the-use-keyword.html</en>
+* <cn>https://kaisery.github.io/trpl-zh-cn/ch07-04-bringing-paths-into-scope-with-the-use-keyword.html</cn>
+* <tw>https://rust-lang.tw/book-tw/ch07-04-bringing-paths-into-scope-with-the-use-keyword.html</tw>
+*/
+
+/*
+* <en>https://doc.rust-lang.org/book/ch07-05-separating-modules-into-different-files.html</en>
+* <cn>https://kaisery.github.io/trpl-zh-cn/ch07-05-separating-modules-into-different-files.html</cn>
+* <tw>https://rust-lang.tw/book-tw/ch07-05-separating-modules-into-different-files.html</tw>
+*/
+
+/*
+* <en>https://doc.rust-lang.org/book/ch08-00-common-collections.html</en>
+* <cn>https://kaisery.github.io/trpl-zh-cn/ch08-00-common-collections.html</cn>
+* <tw>https://rust-lang.tw/book-tw/ch08-00-common-collections.html</tw>
+*/
+
+/*
+* <en>https://doc.rust-lang.org/book/ch08-01-vectors.html</en>
+* <cn>https://kaisery.github.io/trpl-zh-cn/ch08-01-vectors.html</cn>
+* <tw>https://rust-lang.tw/book-tw/ch08-01-vectors.html</tw>
+*/
+
+/*
+* <en>https://doc.rust-lang.org/book/ch08-02-strings.html</en>
+* <cn>https://kaisery.github.io/trpl-zh-cn/ch08-02-strings.html</cn>
+* <tw>https://rust-lang.tw/book-tw/ch08-02-strings.html</tw>
+*/
+
+/*
+* <en>https://doc.rust-lang.org/book/ch08-03-hash-maps.html</en>
+* <cn>https://kaisery.github.io/trpl-zh-cn/ch08-03-hash-maps.html</cn>
+* <tw>https://rust-lang.tw/book-tw/ch08-03-hash-maps.html</tw>
+*/
+
+/*
+* <en>https://doc.rust-lang.org/book/ch09-00-error-handling.html</en>
+* <cn>https://kaisery.github.io/trpl-zh-cn/ch09-00-error-handling.html</cn>
+* <tw>https://rust-lang.tw/book-tw/ch09-00-error-handling.html</tw>
+*/
+
+/*
+* <en>https://doc.rust-lang.org/book/ch09-01-unrecoverable-errors-with-panic.html</en>
+* <cn>https://kaisery.github.io/trpl-zh-cn/ch09-01-unrecoverable-errors-with-panic.html</cn>
+* <tw>https://rust-lang.tw/book-tw/ch09-01-unrecoverable-errors-with-panic.html</tw>
+*/
+
+/*
+* <en>https://doc.rust-lang.org/book/ch09-02-recoverable-errors-with-result.html</en>
+* <cn>https://kaisery.github.io/trpl-zh-cn/ch09-02-recoverable-errors-with-result.html</cn>
+* <tw>https://rust-lang.tw/book-tw/ch09-02-recoverable-errors-with-result.html</tw>
+*/
+
+/*
+* <en>https://doc.rust-lang.org/book/ch09-03-to-panic-or-not-to-panic.html</en>
+* <cn>https://kaisery.github.io/trpl-zh-cn/ch09-03-to-panic-or-not-to-panic.html</cn>
+* <tw>https://rust-lang.tw/book-tw/ch09-03-to-panic-or-not-to-panic.html</tw>
+*/
+
+/*
+* <en>https://doc.rust-lang.org/book/ch10-00-generics.html</en>
+* <cn>https://kaisery.github.io/trpl-zh-cn/ch10-00-generics.html</cn>
+* <tw>https://rust-lang.tw/book-tw/ch10-00-generics.html</tw>
+*/
+
+/*
+* <en>https://doc.rust-lang.org/book/ch10-01-syntax.html</en>
+* <cn>https://kaisery.github.io/trpl-zh-cn/ch10-01-syntax.html</cn>
+* <tw>https://rust-lang.tw/book-tw/ch10-01-syntax.html</tw>
+*/
+
+/*
+* <en>https://doc.rust-lang.org/book/ch10-02-traits.html</en>
+* <cn>https://kaisery.github.io/trpl-zh-cn/ch10-02-traits.html</cn>
+* <tw>https://rust-lang.tw/book-tw/ch10-02-traits.html</tw>
+*/
+
+/*
+* <en>https://doc.rust-lang.org/book/ch10-03-lifetime-syntax.html</en>
+* <cn>https://kaisery.github.io/trpl-zh-cn/ch10-03-lifetime-syntax.html</cn>
+* <tw>https://rust-lang.tw/book-tw/ch10-03-lifetime-syntax.html</tw>
+*/
+
+/*
+* <en>https://doc.rust-lang.org/book/ch11-00-testing.html</en>
+* <cn>https://kaisery.github.io/trpl-zh-cn/ch11-00-testing.html</cn>
+* <tw>https://rust-lang.tw/book-tw/ch11-00-testing.html</tw>
+*/
+
+/*
+* <en>https://doc.rust-lang.org/book/ch11-01-writing-tests.html</en>
+* <cn>https://kaisery.github.io/trpl-zh-cn/ch11-01-writing-tests.html</cn>
+* <tw>https://rust-lang.tw/book-tw/ch11-01-writing-tests.html</tw>
+*/
+
+/*
+* <en>https://doc.rust-lang.org/book/ch11-02-running-tests.html</en>
+* <cn>https://kaisery.github.io/trpl-zh-cn/ch11-02-running-tests.html</cn>
+* <tw>https://rust-lang.tw/book-tw/ch11-02-running-tests.html</tw>
+*/
+
+/*
+* <en>https://doc.rust-lang.org/book/ch11-03-test-organization.html</en>
+* <cn>https://kaisery.github.io/trpl-zh-cn/ch11-03-test-organization.html</cn>
+* <tw>https://rust-lang.tw/book-tw/ch11-03-test-organization.html</tw>
+*/
+
+/*
+* <en>https://doc.rust-lang.org/book/ch12-00-an-io-project.html</en>
+* <cn>https://kaisery.github.io/trpl-zh-cn/ch12-00-an-io-project.html</cn>
+* <tw>https://rust-lang.tw/book-tw/ch12-00-an-io-project.html</tw>
+*/
+
+/*
+* <en>https://doc.rust-lang.org/book/ch12-01-accepting-command-line-arguments.html</en>
+* <cn>https://kaisery.github.io/trpl-zh-cn/ch12-01-accepting-command-line-arguments.html</cn>
+* <tw>https://rust-lang.tw/book-tw/ch12-01-accepting-command-line-arguments.html</tw>
+*/
+
+/*
+* <en>https://doc.rust-lang.org/book/ch12-02-reading-a-file.html</en>
+* <cn>https://kaisery.github.io/trpl-zh-cn/ch12-02-reading-a-file.html</cn>
+* <tw>https://rust-lang.tw/book-tw/ch12-02-reading-a-file.html</tw>
+*/
+
+/*
+* <en>https://doc.rust-lang.org/book/ch12-03-improving-error-handling-and-modularity.html</en>
+* <cn>https://kaisery.github.io/trpl-zh-cn/ch12-03-improving-error-handling-and-modularity.html</cn>
+* <tw>https://rust-lang.tw/book-tw/ch12-03-improving-error-handling-and-modularity.html</tw>
+*/
+
+/*
+* <en>https://doc.rust-lang.org/book/ch12-04-testing-the-librarys-functionality.html</en>
+* <cn>https://kaisery.github.io/trpl-zh-cn/ch12-04-testing-the-librarys-functionality.html</cn>
+* <tw>https://rust-lang.tw/book-tw/ch12-04-testing-the-librarys-functionality.html</tw>
+*/
+
+/*
+* <en>https://doc.rust-lang.org/book/ch12-05-working-with-environment-variables.html</en>
+* <cn>https://kaisery.github.io/trpl-zh-cn/ch12-05-working-with-environment-variables.html</cn>
+* <tw>https://rust-lang.tw/book-tw/ch12-05-working-with-environment-variables.html</tw>
+*/
+
+/*
+* <en>https://doc.rust-lang.org/book/ch12-06-writing-to-stderr-instead-of-stdout.html</en>
+* <cn>https://kaisery.github.io/trpl-zh-cn/ch12-06-writing-to-stderr-instead-of-stdout.html</cn>
+* <tw>https://rust-lang.tw/book-tw/ch12-06-writing-to-stderr-instead-of-stdout.html</tw>
+*/
+
+/*
+* <en>https://doc.rust-lang.org/book/ch13-00-functional-features.html</en>
+* <cn>https://kaisery.github.io/trpl-zh-cn/ch13-00-functional-features.html</cn>
+* <tw>https://rust-lang.tw/book-tw/ch13-00-functional-features.html</tw>
+*/
+
+/*
+* <en>https://doc.rust-lang.org/book/ch13-01-closures.html</en>
+* <cn>https://kaisery.github.io/trpl-zh-cn/ch13-01-closures.html</cn>
+* <tw>https://rust-lang.tw/book-tw/ch13-01-closures.html</tw>
+*/
+
+/*
+* <en>https://doc.rust-lang.org/book/ch13-02-iterators.html</en>
+* <cn>https://kaisery.github.io/trpl-zh-cn/ch13-02-iterators.html</cn>
+* <tw>https://rust-lang.tw/book-tw/ch13-02-iterators.html</tw>
+*/
+
+/*
+* <en>https://doc.rust-lang.org/book/ch13-03-improving-our-io-project.html</en>
+* <cn>https://kaisery.github.io/trpl-zh-cn/ch13-03-improving-our-io-project.html</cn>
+* <tw>https://rust-lang.tw/book-tw/ch13-03-improving-our-io-project.html</tw>
+*/
+
+/*
+* <en>https://doc.rust-lang.org/book/ch13-04-performance.html</en>
+* <cn>https://kaisery.github.io/trpl-zh-cn/ch13-04-performance.html</cn>
+* <tw>https://rust-lang.tw/book-tw/ch13-04-performance.html</tw>
+*/
+
+/*
+* <en>https://doc.rust-lang.org/book/ch14-00-more-about-cargo.html</en>
+* <cn>https://kaisery.github.io/trpl-zh-cn/ch14-00-more-about-cargo.html</cn>
+* <tw>https://rust-lang.tw/book-tw/ch14-00-more-about-cargo.html</tw>
+*/
+
+/*
+* <en>https://doc.rust-lang.org/book/ch14-01-release-profiles.html</en>
+* <cn>https://kaisery.github.io/trpl-zh-cn/ch14-01-release-profiles.html</cn>
+* <tw>https://rust-lang.tw/book-tw/ch14-01-release-profiles.html</tw>
+*/
+
+/*
+* <en>https://doc.rust-lang.org/book/ch14-02-publishing-to-crates-io.html</en>
+* <cn>https://kaisery.github.io/trpl-zh-cn/ch14-02-publishing-to-crates-io.html</cn>
+* <tw>https://rust-lang.tw/book-tw/ch14-02-publishing-to-crates-io.html</tw>
+*/
+
+/*
+* <en>https://doc.rust-lang.org/book/ch14-03-cargo-workspaces.html</en>
+* <cn>https://kaisery.github.io/trpl-zh-cn/ch14-03-cargo-workspaces.html</cn>
+* <tw>https://rust-lang.tw/book-tw/ch14-03-cargo-workspaces.html</tw>
+*/
+
+/*
+* <en>https://doc.rust-lang.org/book/ch14-04-installing-binaries.html</en>
+* <cn>https://kaisery.github.io/trpl-zh-cn/ch14-04-installing-binaries.html</cn>
+* <tw>https://rust-lang.tw/book-tw/ch14-04-installing-binaries.html</tw>
+*/
+
+/*
+* <en>https://doc.rust-lang.org/book/ch14-05-extending-cargo.html</en>
+* <cn>https://kaisery.github.io/trpl-zh-cn/ch14-05-extending-cargo.html</cn>
+* <tw>https://rust-lang.tw/book-tw/ch14-05-extending-cargo.html</tw>
+*/
+
+/*
+* <en>https://doc.rust-lang.org/book/ch15-00-smart-pointers.html</en>
+* <cn>https://kaisery.github.io/trpl-zh-cn/ch15-00-smart-pointers.html</cn>
+* <tw>https://rust-lang.tw/book-tw/ch15-00-smart-pointers.html</tw>
+*/
+
+/*
+* <en>https://doc.rust-lang.org/book/ch15-01-box.html</en>
+* <cn>https://kaisery.github.io/trpl-zh-cn/ch15-01-box.html</cn>
+* <tw>https://rust-lang.tw/book-tw/ch15-01-box.html</tw>
+*/
+
+/*
+* <en>https://doc.rust-lang.org/book/ch15-02-deref.html</en>
+* <cn>https://kaisery.github.io/trpl-zh-cn/ch15-02-deref.html</cn>
+* <tw>https://rust-lang.tw/book-tw/ch15-02-deref.html</tw>
+*/
+
+/*
+* <en>https://doc.rust-lang.org/book/ch15-03-drop.html</en>
+* <cn>https://kaisery.github.io/trpl-zh-cn/ch15-03-drop.html</cn>
+* <tw>https://rust-lang.tw/book-tw/ch15-03-drop.html</tw>
+*/
+
+/*
+* <en>https://doc.rust-lang.org/book/ch15-04-rc.html</en>
+* <cn>https://kaisery.github.io/trpl-zh-cn/ch15-04-rc.html</cn>
+* <tw>https://rust-lang.tw/book-tw/ch15-04-rc.html</tw>
+*/
+
+/*
+* <en>https://doc.rust-lang.org/book/ch15-05-interior-mutability.html</en>
+* <cn>https://kaisery.github.io/trpl-zh-cn/ch15-05-interior-mutability.html</cn>
+* <tw>https://rust-lang.tw/book-tw/ch15-05-interior-mutability.html</tw>
+*/
+
+/*
+* <en>https://doc.rust-lang.org/book/ch15-06-reference-cycles.html</en>
+* <cn>https://kaisery.github.io/trpl-zh-cn/ch15-06-reference-cycles.html</cn>
+* <tw>https://rust-lang.tw/book-tw/ch15-06-reference-cycles.html</tw>
+*/
+
+/*
+* <en>https://doc.rust-lang.org/book/ch16-00-concurrency.html</en>
+* <cn>https://kaisery.github.io/trpl-zh-cn/ch16-00-concurrency.html</cn>
+* <tw>https://rust-lang.tw/book-tw/ch16-00-concurrency.html</tw>
+*/
+
+/*
+* <en>https://doc.rust-lang.org/book/ch16-01-threads.html</en>
+* <cn>https://kaisery.github.io/trpl-zh-cn/ch16-01-threads.html</cn>
+* <tw>https://rust-lang.tw/book-tw/ch16-01-threads.html</tw>
+*/
+
+/*
+* <en>https://doc.rust-lang.org/book/ch16-02-message-passing.html</en>
+* <cn>https://kaisery.github.io/trpl-zh-cn/ch16-02-message-passing.html</cn>
+* <tw>https://rust-lang.tw/book-tw/ch16-02-message-passing.html</tw>
+*/
+
+/*
+* <en>https://doc.rust-lang.org/book/ch16-03-shared-state.html</en>
+* <cn>https://kaisery.github.io/trpl-zh-cn/ch16-03-shared-state.html</cn>
+* <tw>https://rust-lang.tw/book-tw/ch16-03-shared-state.html</tw>
+*/
+
+/*
+* <en>https://doc.rust-lang.org/book/ch16-04-extensible-concurrency-sync-and-send.html</en>
+* <cn>https://kaisery.github.io/trpl-zh-cn/ch16-04-extensible-concurrency-sync-and-send.html</cn>
+* <tw>https://rust-lang.tw/book-tw/ch16-04-extensible-concurrency-sync-and-send.html</tw>
+*/
+
+/*
+* <en>https://doc.rust-lang.org/book/ch17-00-oop.html</en>
+* <cn>https://kaisery.github.io/trpl-zh-cn/ch17-00-oop.html</cn>
+* <tw>https://rust-lang.tw/book-tw/ch17-00-oop.html</tw>
+*/
+
+/*
+* <en>https://doc.rust-lang.org/book/ch17-01-what-is-oo.html</en>
+* <cn>https://kaisery.github.io/trpl-zh-cn/ch17-01-what-is-oo.html</cn>
+* <tw>https://rust-lang.tw/book-tw/ch17-01-what-is-oo.html</tw>
+*/
+
+/*
+* <en>https://doc.rust-lang.org/book/ch17-02-trait-objects.html</en>
+* <cn>https://kaisery.github.io/trpl-zh-cn/ch17-02-trait-objects.html</cn>
+* <tw>https://rust-lang.tw/book-tw/ch17-02-trait-objects.html</tw>
+*/
+
+/*
+* <en>https://doc.rust-lang.org/book/ch17-03-oo-design-patterns.html</en>
+* <cn>https://kaisery.github.io/trpl-zh-cn/ch17-03-oo-design-patterns.html</cn>
+* <tw>https://rust-lang.tw/book-tw/ch17-03-oo-design-patterns.html</tw>
+*/
+
+/*
+* <en>https://doc.rust-lang.org/book/ch18-00-patterns.html</en>
+* <cn>https://kaisery.github.io/trpl-zh-cn/ch18-00-patterns.html</cn>
+* <tw>https://rust-lang.tw/book-tw/ch18-00-patterns.html</tw>
+*/
+
+/*
+* <en>https://doc.rust-lang.org/book/ch18-01-all-the-places-for-patterns.html</en>
+* <cn>https://kaisery.github.io/trpl-zh-cn/ch18-01-all-the-places-for-patterns.html</cn>
+* <tw>https://rust-lang.tw/book-tw/ch18-01-all-the-places-for-patterns.html</tw>
+*/
+
+/*
+* <en>https://doc.rust-lang.org/book/ch18-02-refutability.html</en>
+* <cn>https://kaisery.github.io/trpl-zh-cn/ch18-02-refutability.html</cn>
+* <tw>https://rust-lang.tw/book-tw/ch18-02-refutability.html</tw>
+*/
+
+/*
+* <en>https://doc.rust-lang.org/book/ch18-03-pattern-syntax.html</en>
+* <cn>https://kaisery.github.io/trpl-zh-cn/ch18-03-pattern-syntax.html</cn>
+* <tw>https://rust-lang.tw/book-tw/ch18-03-pattern-syntax.html</tw>
+*/
+
+/*
+* <en>https://doc.rust-lang.org/book/ch19-00-advanced-features.html</en>
+* <cn>https://kaisery.github.io/trpl-zh-cn/ch19-00-advanced-features.html</cn>
+* <tw>https://rust-lang.tw/book-tw/ch19-00-advanced-features.html</tw>
+*/
+
+/*
+* <en>https://doc.rust-lang.org/book/ch19-01-unsafe-rust.html</en>
+* <cn>https://kaisery.github.io/trpl-zh-cn/ch19-01-unsafe-rust.html</cn>
+* <tw>https://rust-lang.tw/book-tw/ch19-01-unsafe-rust.html</tw>
+*/
+
+/*
+* <en>https://doc.rust-lang.org/book/ch19-03-advanced-traits.html</en>
+* <cn>https://kaisery.github.io/trpl-zh-cn/ch19-03-advanced-traits.html</cn>
+* <tw>https://rust-lang.tw/book-tw/ch19-03-advanced-traits.html</tw>
+*/
+
+/*
+* <en>https://doc.rust-lang.org/book/ch19-04-advanced-types.html</en>
+* <cn>https://kaisery.github.io/trpl-zh-cn/ch19-04-advanced-types.html</cn>
+* <tw>https://rust-lang.tw/book-tw/ch19-04-advanced-types.html</tw>
+*/
+
+/*
+* <en>https://doc.rust-lang.org/book/ch19-05-advanced-functions-and-closures.html</en>
+* <cn>https://kaisery.github.io/trpl-zh-cn/ch19-05-advanced-functions-and-closures.html</cn>
+* <tw>https://rust-lang.tw/book-tw/ch19-05-advanced-functions-and-closures.html</tw>
+*/
+
+/*
+* <en>https://doc.rust-lang.org/book/ch19-06-macros.html</en>
+* <cn>https://kaisery.github.io/trpl-zh-cn/ch19-06-macros.html</cn>
+* <tw>https://rust-lang.tw/book-tw/ch19-06-macros.html</tw>
+*/
+
+/*
+* <en>https://doc.rust-lang.org/book/ch20-00-final-project-a-web-server.html</en>
+* <cn>https://kaisery.github.io/trpl-zh-cn/ch20-00-final-project-a-web-server.html</cn>
+* <tw>https://rust-lang.tw/book-tw/ch20-00-final-project-a-web-server.html</tw>
+*/
+
+/*
+* <en>https://doc.rust-lang.org/book/ch20-01-single-threaded.html</en>
+* <cn>https://kaisery.github.io/trpl-zh-cn/ch20-01-single-threaded.html</cn>
+* <tw>https://rust-lang.tw/book-tw/ch20-01-single-threaded.html</tw>
+*/
+
+/*
+* <en>https://doc.rust-lang.org/book/ch20-02-multithreaded.html</en>
+* <cn>https://kaisery.github.io/trpl-zh-cn/ch20-02-multithreaded.html</cn>
+* <tw>https://rust-lang.tw/book-tw/ch20-02-multithreaded.html</tw>
+*/
+
+/*
+* <en>https://doc.rust-lang.org/book/ch20-03-graceful-shutdown-and-cleanup.html</en>
+* <cn>https://kaisery.github.io/trpl-zh-cn/ch20-03-graceful-shutdown-and-cleanup.html</cn>
+* <tw>https://rust-lang.tw/book-tw/ch20-03-graceful-shutdown-and-cleanup.html</tw>
+*/
+
+/*
+* <en>https://doc.rust-lang.org/book/appendix-00.html</en>
+* <cn>https://kaisery.github.io/trpl-zh-cn/appendix-00.html</cn>
+* <tw>https://rust-lang.tw/book-tw/appendix-00.html</tw>
+*/
+
+/*
+* <en>https://doc.rust-lang.org/book/appendix-01-keywords.html</en>
+* <cn>https://kaisery.github.io/trpl-zh-cn/appendix-01-keywords.html</cn>
+* <tw>https://rust-lang.tw/book-tw/appendix-01-keywords.html</tw>
+*/
+
+/*
+* <en>https://doc.rust-lang.org/book/appendix-02-operators.html</en>
+* <cn>https://kaisery.github.io/trpl-zh-cn/appendix-02-operators.html</cn>
+* <tw>https://rust-lang.tw/book-tw/appendix-02-operators.html</tw>
+*/
+
+/*
+* <en>https://doc.rust-lang.org/book/appendix-03-derivable-traits.html</en>
+* <cn>https://kaisery.github.io/trpl-zh-cn/appendix-03-derivable-traits.html</cn>
+* <tw>https://rust-lang.tw/book-tw/appendix-03-derivable-traits.html</tw>
+*/
+
+/*
+* <en>https://doc.rust-lang.org/book/appendix-04-useful-development-tools.html</en>
+* <cn>https://kaisery.github.io/trpl-zh-cn/appendix-04-useful-development-tools.html</cn>
+* <tw>https://rust-lang.tw/book-tw/appendix-04-useful-development-tools.html</tw>
+*/
+
+/*
+* <en>https://doc.rust-lang.org/book/appendix-05-editions.html</en>
+* <cn>https://kaisery.github.io/trpl-zh-cn/appendix-05-editions.html</cn>
+* <tw>https://rust-lang.tw/book-tw/appendix-05-editions.html</tw>
+*/
+
+/*
+* <en>https://doc.rust-lang.org/book/appendix-06-translation.html</en>
+* <cn>https://kaisery.github.io/trpl-zh-cn/appendix-06-translation.html</cn>
+* <tw>https://rust-lang.tw/book-tw/appendix-06-translation.html</tw>
+*/
+
+/*
+* <en>https://doc.rust-lang.org/book/appendix-07-nightly-rust.html</en>
+* <cn>https://kaisery.github.io/trpl-zh-cn/appendix-07-nightly-rust.html</cn>
+* <tw>https://rust-lang.tw/book-tw/appendix-07-nightly-rust.html</tw>
+*/
+

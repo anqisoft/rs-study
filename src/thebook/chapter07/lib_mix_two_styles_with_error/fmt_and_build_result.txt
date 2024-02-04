@@ -1,0 +1,4 @@
+Error writing files: 
+failed to resolve mod `front_of_house`: 
+file for module found at both "\\\\?\\P:\\anqi\\Desktop\\tech\\rust\\projects\\rust-study\\src\\thebook\\chapter07\\lib_mix_two_styles_with_error\\src\\front_of_house.rs" 
+and "\\\\?\\P:\\anqi\\Desktop\\tech\\rust\\projects\\rust-study\\src\\thebook\\chapter07\\lib_mix_two_styles_with_error\\src\\front_of_house\\mod.rs"

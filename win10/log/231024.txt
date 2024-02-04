@@ -1,0 +1,8 @@
+https://rust-random.github.io/book/print.html
+https://docs.rs/rand/latest/rand/
+
+https://doc.rust-lang.org/nomicon/constructors.html
+
+https://docs.rs/ndarray/
+https://google.github.io/comprehensive-rust/zh-CN/exercises/day-1/solutions-morning.html#arrays-and-for-loops
+https://doc.rust-lang.org/edition-guide/rust-2021/IntoIterator-for-arrays.html

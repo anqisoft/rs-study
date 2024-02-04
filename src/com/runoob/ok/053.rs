@@ -83,8 +83,8 @@ fn main() {
     println!("{}", cali.describe());
 
     // <en>I once had a dog named Butterfly.</en>
-    // <zh_cn>我曾经养过一条狗，名字叫蝴蝶。</zh_cn>
-    // <zh_tw>我曾经养过一条狗，名字叫蝴蝶。</zh_tw>
+    // <cn>我曾经养过一条狗，名字叫蝴蝶。</cn>
+    // <tw>我曾经养过一条狗，名字叫蝴蝶。</tw>
     let butterfly = Dog {
         kind: String::from("The ears are like butterflies"),
     };

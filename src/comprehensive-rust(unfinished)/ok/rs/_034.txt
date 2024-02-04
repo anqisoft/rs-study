@@ -1,0 +1,8 @@
+cargo new 034 && cd 034 && cargo add rand
+error: the name `034` cannot be used as a package name, the name cannot start with a digit
+If you need a package name to not match the directory name, consider using --name flag.
+If you need a binary with the name "034", use a valid package name, and set the binary name to be different from the package. This can be done by setting the binary filename to `src/bin/034.rs` or change the name in Cargo.toml with:
+
+    [[bin]]
+    name = "034"
+    path = "src/main.rs"

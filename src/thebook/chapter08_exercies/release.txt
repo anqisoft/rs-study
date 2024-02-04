@@ -1,0 +1,124 @@
+12:17:14.61  
+12:17:23.01  
+start: Instant { t: 537596.171569s }
+Chapter 08
+
+In exercise_01()
+Please input some numbers, use the space to seperate them:
+The median is 1, and the mode is 1, its count is 1.
+
+In exercise_02()
+Converted 'alley' to 'alley-hay'
+Converted 'careless' to 'areless-cay'
+Converted 'kissing' to 'issing-kay'
+Converted 'stage' to 'tage-say'
+Converted 'immunity' to 'immunity-hay'
+Converted 'tooth' to 'ooth-tay'
+Converted 'god' to 'od-gay'
+Converted 'tight' to 'ight-tay'
+Converted 'drugstore' to 'rugstore-day'
+Converted 'caramel' to 'aramel-cay'
+Converted 'phonetic' to 'honetic-pay'
+Converted 'warmth' to 'armth-way'
+Converted 'locust' to 'ocust-lay'
+Converted 'hide' to 'ide-hay'
+Converted 'rain' to 'ain-ray'
+Converted 'beautiful' to 'eautiful-bay'
+Converted 'carbon' to 'arbon-cay'
+Converted 'warrior' to 'arrior-way'
+Converted 'halting' to 'alting-hay'
+Converted 'critical' to 'ritical-cay'
+Converted 'glass' to 'lass-gay'
+Converted 'architect' to 'architect-hay'
+Converted 'chieftain' to 'hieftain-cay'
+Converted 'estate' to 'estate-hay'
+Converted 'exception' to 'exception-hay'
+Converted 'arm' to 'arm-hay'
+Converted 'dual' to 'ual-day'
+Converted 'kill' to 'ill-kay'
+Converted 'ability' to 'ability-hay'
+Converted 'fluid' to 'luid-fay'
+Converted 'divinity' to 'ivinity-day'
+Converted 'chapter' to 'hapter-cay'
+Converted 'vast' to 'ast-vay'
+Converted 'ether' to 'ether-hay'
+Converted 'heritage' to 'eritage-hay'
+Converted 'fight' to 'ight-fay'
+Converted 'morsel' to 'orsel-may'
+Converted 'affair' to 'affair-hay'
+Converted 'hunger' to 'unger-hay'
+Converted 'founder' to 'ounder-fay'
+Converted 'graceful' to 'raceful-gay'
+Converted 'cobra' to 'obra-cay'
+Converted 'blame' to 'lame-bay'
+Converted 'lime' to 'ime-lay'
+Converted 'rare' to 'are-ray'
+Converted 'grinding' to 'rinding-gay'
+Converted 'whale' to 'hale-way'
+Converted 'bunny' to 'unny-bay'
+Converted 'blinking' to 'linking-bay'
+Converted 'fizz' to 'izz-fay'
+Converted 'drone' to 'rone-day'
+Converted 'hostility' to 'ostility-hay'
+Converted 'grounds' to 'rounds-gay'
+Converted 'unit' to 'unit-hay'
+Converted 'breath' to 'reath-bay'
+Converted 'cruelty' to 'ruelty-cay'
+Converted 'cosmic' to 'osmic-cay'
+Converted 'drum' to 'rum-day'
+Converted 'heartsick' to 'eartsick-hay'
+Converted 'firecracker' to 'irecracker-fay'
+Converted 'crew' to 'rew-cay'
+Converted 'authority' to 'authority-hay'
+Converted 'carbon' to 'arbon-cay'
+Converted 'moment' to 'oment-may'
+Converted 'twin' to 'win-tay'
+Converted 'executioner' to 'executioner-hay'
+Converted 'paste' to 'aste-pay'
+Converted 'hickory' to 'ickory-hay'
+Converted 'crucifixion' to 'rucifixion-cay'
+Converted 'insect' to 'insect-hay'
+Converted 'chef' to 'hef-cay'
+Converted 'brown' to 'rown-bay'
+Converted 'boarder' to 'oarder-bay'
+Converted 'cadaver' to 'adaver-cay'
+Converted 'conspiracy' to 'onspiracy-cay'
+Converted 'circus' to 'ircus-cay'
+Converted 'orthodox' to 'orthodox-hay'
+Converted 'fork' to 'ork-fay'
+Converted 'general' to 'eneral-gay'
+Converted 'pilgrim' to 'ilgrim-pay'
+Converted 'sparkler' to 'parkler-say'
+Converted 'drowsy' to 'rowsy-day'
+Converted 'amputation' to 'amputation-hay'
+Converted 'sponge' to 'ponge-say'
+Converted 'federal' to 'ederal-fay'
+Converted 'axis' to 'axis-hay'
+Converted 'code' to 'ode-cay'
+Converted 'kingdom' to 'ingdom-kay'
+Converted 'luxury' to 'uxury-lay'
+Converted 'alibi' to 'alibi-hay'
+Converted 'magnetic' to 'agnetic-may'
+Converted 'pandemic' to 'andemic-pay'
+Converted 'bloodstream' to 'loodstream-bay'
+Converted 'parasitic' to 'arasitic-pay'
+Converted 'brick' to 'rick-bay'
+Converted 'crooked' to 'rooked-cay'
+Converted 'elevator' to 'elevator-hay'
+Converted 'confrontational' to 'onfrontational-cay'
+Converted 'charisma' to 'harisma-cay'
+Converted 'fix' to 'ix-fay'
+
+In exercise_03()
+Welcome to this People List gadget!
+You can enter in the following three different formats to use the corresponding function:
+1. Add employee list: Add employee_name to department_name
+2. Query the employee list of a certain department: Query department_name
+3. Query the list of employees in all departments (arranged in dictionary order): List
+You can also type quit to exit this gadget, thank you for using it!
+Now, quit it.
+Calling chapter08_main tooks 23250 milliseconds.
+
+  end: Instant { t: 537619.4227805s }
+Calling chapter08_main tooks 23251 milliseconds.
+12:17:46.46 

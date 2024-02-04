@@ -1,0 +1,56 @@
+   Compiling example_137 v0.1.0 (P:\anqi\Desktop\tech\rust\projects\rust-study\src\comprehensive-rust\ok\rs\example_137)error[E0432]: unresolved import `tokio::time`
+   --> src\main.rs:8:5
+    |
+8   | use tokio::time;
+    |     ^^^^^^^^^^^ no `time` in the root
+    |
+note: found an item that was configured out
+   --> C:\Users\anqi\.cargo\registry\src\index.crates.io-6f17d22bba15001f\tokio-1.34.0\src\lib.rs:550:13
+    |
+550 |     pub mod time;
+    |             ^^^^
+    = note: the item is gated behind the `time` feature
+help: consider importing one of these items instead
+    |
+8   | use core::time;
+    |     ~~~~~~~~~~
+8   | use std::time;
+    |     ~~~~~~~~~
+
+error[E0433]: failed to resolve: could not find `main` in `tokio`
+  --> src\main.rs:17:10
+   |
+17 | #[tokio::main]
+   |          ^^^^ could not find `main` in `tokio`
+
+error[E0425]: cannot find function `spawn` in crate `tokio`
+   --> src\main.rs:19:12
+    |
+19  |     tokio::spawn(count_to(10));
+    |            ^^^^^ not found in `tokio`
+    |
+note: found an item that was configured out
+   --> C:\Users\anqi\.cargo\registry\src\index.crates.io-6f17d22bba15001f\tokio-1.34.0\src\lib.rs:546:19
+    |
+546 |     pub use task::spawn;
+    |                   ^^^^^
+    = note: the item is gated behind the `rt` feature
+help: consider importing this function
+    |
+8   + use std::thread::spawn;
+    |
+help: if you import `spawn`, refer to it directly
+    |
+19  -     tokio::spawn(count_to(10));
+19  +     spawn(count_to(10));
+    |
+
+error[E0752]: `main` function is not allowed to be `async`
+  --> src\main.rs:18:1
+   |
+18 | async fn main() {
+   | ^^^^^^^^^^^^^^^ `main` function is not allowed to be `async`
+
+Some errors have detailed explanations: E0425, E0432, E0433, E0752.
+For more information about an error, try `rustc --explain E0425`.
+error: could not compile `example_137` (bin "example_137") due to 4 previous errors

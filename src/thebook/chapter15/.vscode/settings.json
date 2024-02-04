@@ -1,0 +1,6 @@
+{
+  "rust-analyzer.linkedProjects": [
+    ".\\Cargo.toml"
+  ],
+  "editor.fontFamily": "source code pro, Consolas, 'Courier New', monospace"
+}

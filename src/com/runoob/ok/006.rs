@@ -29,6 +29,6 @@ fn main() {
 /* result:
 5
 <en>However, documentation comments cannot be displayed in Visual Studio Code.</en>
-<zh_cn>但是在Visual Studio Code中无法显示说明文档注释。</zh_cn>
-<zh_tw>但是在Visual Studio Code中無法顯示說明檔案注釋。</zh_tw>
+<cn>但是在Visual Studio Code中无法显示说明文档注释。</cn>
+<tw>但是在Visual Studio Code中無法顯示說明檔案注釋。</tw>
 */

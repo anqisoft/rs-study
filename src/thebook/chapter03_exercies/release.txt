@@ -1,0 +1,106 @@
+14:42:22.45  
+14:42:23.99  
+
+Call fibonacci()
+fibonacci(0) is 1
+fibonacci(1) is 1
+fibonacci(2) is 2
+fibonacci(3) is 3
+fibonacci(4) is 5
+fibonacci(5) is 8
+fibonacci(6) is 13
+fibonacci(7) is 21
+fibonacci(8) is 34
+fibonacci(9) is 55
+fibonacci(10) is 89
+fibonacci(11) is 144
+fibonacci(12) is 233
+fibonacci(13) is 377
+fibonacci(14) is 610
+fibonacci(15) is 987
+fibonacci(16) is 1597
+fibonacci(17) is 2584
+fibonacci(18) is 4181
+fibonacci(19) is 6765
+fibonacci(20) is 10946
+fibonacci(21) is 17711
+fibonacci(22) is 28657
+fibonacci(23) is 46368
+fibonacci(24) is 75025
+fibonacci(25) is 121393
+fibonacci(26) is 196418
+fibonacci(27) is 317811
+fibonacci(28) is 514229
+fibonacci(29) is 832040
+fibonacci(30) is 1346269
+fibonacci(31) is 2178309
+fibonacci(32) is 3524578
+fibonacci(33) is 5702887
+fibonacci(34) is 9227465
+fibonacci(35) is 14930352
+fibonacci(36) is 24157817
+fibonacci(37) is 39088169
+fibonacci(38) is 63245986
+fibonacci(39) is 102334155
+Used 896 milliseconds for calculating the 40-term Fibolina sequence recursively.
+fibonacci(40) is 165580141, and used 535 milliseconds.
+fibonacci(41) is 267914296, and used 854 milliseconds.
+fibonacci(42) is 433494437, and used 1491 milliseconds.
+fibonacci(43) is 701408733, and used 2244 milliseconds.
+fibonacci(44) is 1134903170, and used 3640 milliseconds.
+fibonacci(45) is 1836311903, and used 6022 milliseconds.
+fibonacci(46) is 2971215073, and used 9921 milliseconds.
+fibonacci(47) is 4807526976, and used 16001 milliseconds.
+fibonacci(48) is 7778742049, and used 25991 milliseconds.
+fibonacci(49) is 12586269025, and used 43464 milliseconds.
+
+Call fibonacci_use_match()
+fibonacci_use_match(0) is 0
+fibonacci_use_match(1) is 1
+fibonacci_use_match(2) is 1
+fibonacci_use_match(3) is 2
+fibonacci_use_match(4) is 3
+fibonacci_use_match(5) is 5
+fibonacci_use_match(6) is 8
+fibonacci_use_match(7) is 13
+fibonacci_use_match(8) is 21
+fibonacci_use_match(9) is 34
+fibonacci_use_match(10) is 55
+fibonacci_use_match(11) is 89
+fibonacci_use_match(12) is 144
+fibonacci_use_match(13) is 233
+fibonacci_use_match(14) is 377
+fibonacci_use_match(15) is 610
+fibonacci_use_match(16) is 987
+fibonacci_use_match(17) is 1597
+fibonacci_use_match(18) is 2584
+fibonacci_use_match(19) is 4181
+fibonacci_use_match(20) is 6765
+fibonacci_use_match(21) is 10946
+fibonacci_use_match(22) is 17711
+fibonacci_use_match(23) is 28657
+fibonacci_use_match(24) is 46368
+fibonacci_use_match(25) is 75025
+fibonacci_use_match(26) is 121393
+fibonacci_use_match(27) is 196418
+fibonacci_use_match(28) is 317811
+fibonacci_use_match(29) is 514229
+fibonacci_use_match(30) is 832040
+fibonacci_use_match(31) is 1346269
+fibonacci_use_match(32) is 2178309
+fibonacci_use_match(33) is 3524578
+fibonacci_use_match(34) is 5702887
+fibonacci_use_match(35) is 9227465
+fibonacci_use_match(36) is 14930352
+fibonacci_use_match(37) is 24157817
+fibonacci_use_match(38) is 39088169
+fibonacci_use_match(39) is 63245986
+Used 888 milliseconds for calculating the 40-term Fibolina sequence recursively.
+fibonacci_use_match(40) is 102334155, and used 534 milliseconds.
+fibonacci_use_match(41) is 165580141, and used 920 milliseconds.
+fibonacci_use_match(42) is 267914296, and used 1450 milliseconds.
+fibonacci_use_match(43) is 433494437, and used 2364 milliseconds.
+fibonacci_use_match(44) is 701408733, and used 3727 milliseconds.
+fibonacci_use_match(45) is 1134903170, and used 5996 milliseconds.
+fibonacci_use_match(46) is 1836311903, and used 9673 milliseconds.
+fibonacci_use_match(47) is 2971215073, and used 15602 milliseconds.

@@ -1,0 +1,662 @@
+start: Instant { t: 1002708.8954207s }
+Chapter 12
+
+In p272a(), eg12-1
+
+In p273a(), eg12-2
+Searching for to
+In file poem.txt
+
+In p274a(), eg12-4
+Searching for to
+In file poem.txt
+With text:
+I'm nobody! Who are you?
+Are you nobody, too?
+Then there's a pair of us - don't tell!
+They'd banish us, you know.
+How dreary to be somebody!
+How public, like a frog
+To tell your name the livelong day
+To an admiring bog!
+
+In p277a(), eg12-5
+Searching for to
+In file poem.txt
+
+In p278a(), eg12-6
+Searching for to
+In file poem.txt
+With text:
+I'm nobody! Who are you?
+Are you nobody, too?
+Then there's a pair of us - don't tell!
+They'd banish us, you know.
+How dreary to be somebody!
+How public, like a frog
+To tell your name the livelong day
+To an admiring bog!
+
+In p279a(), eg12-7
+Searching for to
+In file poem.txt
+With text:
+I'm nobody! Who are you?
+Are you nobody, too?
+Then there's a pair of us - don't tell!
+They'd banish us, you know.
+How dreary to be somebody!
+How public, like a frog
+To tell your name the livelong day
+To an admiring bog!
+
+In p280a(), eg12-8
+Searching for to
+In file poem.txt
+With text:
+I'm nobody! Who are you?
+Are you nobody, too?
+Then there's a pair of us - don't tell!
+They'd banish us, you know.
+How dreary to be somebody!
+How public, like a frog
+To tell your name the livelong day
+To an admiring bog!
+
+In p281a(), eg12-9
+
+In p282a(), eg12-10
+Searching for to
+In file poem.txt
+With text:
+I'm nobody! Who are you?
+Are you nobody, too?
+Then there's a pair of us - don't tell!
+They'd banish us, you know.
+How dreary to be somebody!
+How public, like a frog
+To tell your name the livelong day
+To an admiring bog!
+
+In p284a(), eg12-11
+Searching for to
+In file poem.txt
+With text:
+I'm nobody! Who are you?
+Are you nobody, too?
+Then there's a pair of us - don't tell!
+They'd banish us, you know.
+How dreary to be somebody!
+How public, like a frog
+To tell your name the livelong day
+To an admiring bog!
+
+In p285a(), eg12-12
+Searching for to
+In file poem.txt
+With text:
+I'm nobody! Who are you?
+Are you nobody, too?
+Then there's a pair of us - don't tell!
+They'd banish us, you know.
+How dreary to be somebody!
+How public, like a frog
+To tell your name the livelong day
+To an admiring bog!
+
+In p287a()
+Searching for to
+In file poem.txt
+With text:
+I'm nobody! Who are you?
+Are you nobody, too?
+Then there's a pair of us - don't tell!
+They'd banish us, you know.
+How dreary to be somebody!
+How public, like a frog
+To tell your name the livelong day
+To an admiring bog!
+
+In p288a(), eg12-13
+
+In p289a(), eg12-14
+Are you nobody, too?
+How dreary to be somebody!
+
+In p290a(), eg12-15
+
+In p291a(), eg12-16
+
+In p294a(), eg12-17
+
+In p295a(), eg12-18
+
+In p296a(), eg12-19
+Are you nobody, too?
+How dreary to be somebody!
+
+In p300a(), eg12-20
+
+In p302a(), eg12-21
+
+In p304a()
+
+In p306a(), eg12-22
+
+In p308a(), eg12-23
+Are you nobody, too?
+How dreary to be somebody!
+
+In p311a(), eg12-24
+Are you nobody, too?
+How dreary to be somebody!
+Calling chapter12_main tooks 6 milliseconds.
+Chapter 12
+
+In p272a(), eg12-1
+
+In p273a(), eg12-2
+Searching for to
+In file poem.txt
+
+In p274a(), eg12-4
+Searching for to
+In file poem.txt
+With text:
+I'm nobody! Who are you?
+Are you nobody, too?
+Then there's a pair of us - don't tell!
+They'd banish us, you know.
+How dreary to be somebody!
+How public, like a frog
+To tell your name the livelong day
+To an admiring bog!
+
+In p277a(), eg12-5
+Searching for to
+In file poem.txt
+
+In p278a(), eg12-6
+Searching for to
+In file poem.txt
+With text:
+I'm nobody! Who are you?
+Are you nobody, too?
+Then there's a pair of us - don't tell!
+They'd banish us, you know.
+How dreary to be somebody!
+How public, like a frog
+To tell your name the livelong day
+To an admiring bog!
+
+In p279a(), eg12-7
+Searching for to
+In file poem.txt
+With text:
+I'm nobody! Who are you?
+Are you nobody, too?
+Then there's a pair of us - don't tell!
+They'd banish us, you know.
+How dreary to be somebody!
+How public, like a frog
+To tell your name the livelong day
+To an admiring bog!
+
+In p280a(), eg12-8
+Searching for to
+In file poem.txt
+With text:
+I'm nobody! Who are you?
+Are you nobody, too?
+Then there's a pair of us - don't tell!
+They'd banish us, you know.
+How dreary to be somebody!
+How public, like a frog
+To tell your name the livelong day
+To an admiring bog!
+
+In p281a(), eg12-9
+
+In p282a(), eg12-10
+Searching for to
+In file poem.txt
+With text:
+I'm nobody! Who are you?
+Are you nobody, too?
+Then there's a pair of us - don't tell!
+They'd banish us, you know.
+How dreary to be somebody!
+How public, like a frog
+To tell your name the livelong day
+To an admiring bog!
+
+In p284a(), eg12-11
+Searching for to
+In file poem.txt
+With text:
+I'm nobody! Who are you?
+Are you nobody, too?
+Then there's a pair of us - don't tell!
+They'd banish us, you know.
+How dreary to be somebody!
+How public, like a frog
+To tell your name the livelong day
+To an admiring bog!
+
+In p285a(), eg12-12
+Searching for to
+In file poem.txt
+With text:
+I'm nobody! Who are you?
+Are you nobody, too?
+Then there's a pair of us - don't tell!
+They'd banish us, you know.
+How dreary to be somebody!
+How public, like a frog
+To tell your name the livelong day
+To an admiring bog!
+
+In p287a()
+Searching for to
+In file poem.txt
+With text:
+I'm nobody! Who are you?
+Are you nobody, too?
+Then there's a pair of us - don't tell!
+They'd banish us, you know.
+How dreary to be somebody!
+How public, like a frog
+To tell your name the livelong day
+To an admiring bog!
+
+In p288a(), eg12-13
+
+In p289a(), eg12-14
+Are you nobody, too?
+How dreary to be somebody!
+
+In p290a(), eg12-15
+
+In p291a(), eg12-16
+
+In p294a(), eg12-17
+
+In p295a(), eg12-18
+
+In p296a(), eg12-19
+Are you nobody, too?
+How dreary to be somebody!
+
+In p300a(), eg12-20
+
+In p302a(), eg12-21
+
+In p304a()
+
+In p306a(), eg12-22
+
+In p308a(), eg12-23
+Are you nobody, too?
+How dreary to be somebody!
+
+In p311a(), eg12-24
+Are you nobody, too?
+How dreary to be somebody!
+Calling chapter12_main tooks 0 seconds.
+
+In p272a(), eg12-1
+Calling p272a tooks 4 milliseconds.
+
+In p273a(), eg12-2
+Searching for to
+In file poem.txt
+Calling p273a tooks 0 milliseconds.
+
+In p274a(), eg12-4
+Searching for to
+In file poem.txt
+With text:
+I'm nobody! Who are you?
+Are you nobody, too?
+Then there's a pair of us - don't tell!
+They'd banish us, you know.
+How dreary to be somebody!
+How public, like a frog
+To tell your name the livelong day
+To an admiring bog!
+Calling p274a tooks 0 milliseconds.
+
+In p277a(), eg12-5
+Searching for to
+In file poem.txt
+Calling p277a tooks 0 milliseconds.
+
+In p278a(), eg12-6
+Searching for to
+In file poem.txt
+With text:
+I'm nobody! Who are you?
+Are you nobody, too?
+Then there's a pair of us - don't tell!
+They'd banish us, you know.
+How dreary to be somebody!
+How public, like a frog
+To tell your name the livelong day
+To an admiring bog!
+Calling p278a tooks 0 milliseconds.
+
+In p279a(), eg12-7
+Searching for to
+In file poem.txt
+With text:
+I'm nobody! Who are you?
+Are you nobody, too?
+Then there's a pair of us - don't tell!
+They'd banish us, you know.
+How dreary to be somebody!
+How public, like a frog
+To tell your name the livelong day
+To an admiring bog!
+Calling p279a tooks 0 milliseconds.
+
+In p280a(), eg12-8
+Searching for to
+In file poem.txt
+With text:
+I'm nobody! Who are you?
+Are you nobody, too?
+Then there's a pair of us - don't tell!
+They'd banish us, you know.
+How dreary to be somebody!
+How public, like a frog
+To tell your name the livelong day
+To an admiring bog!
+Calling p280a tooks 0 milliseconds.
+
+In p281a(), eg12-9
+Calling p281a tooks 0 milliseconds.
+
+In p282a(), eg12-10
+Searching for to
+In file poem.txt
+With text:
+I'm nobody! Who are you?
+Are you nobody, too?
+Then there's a pair of us - don't tell!
+They'd banish us, you know.
+How dreary to be somebody!
+How public, like a frog
+To tell your name the livelong day
+To an admiring bog!
+Calling p282a tooks 0 milliseconds.
+
+In p284a(), eg12-11
+Searching for to
+In file poem.txt
+With text:
+I'm nobody! Who are you?
+Are you nobody, too?
+Then there's a pair of us - don't tell!
+They'd banish us, you know.
+How dreary to be somebody!
+How public, like a frog
+To tell your name the livelong day
+To an admiring bog!
+Calling p284a tooks 0 milliseconds.
+
+In p285a(), eg12-12
+Searching for to
+In file poem.txt
+With text:
+I'm nobody! Who are you?
+Are you nobody, too?
+Then there's a pair of us - don't tell!
+They'd banish us, you know.
+How dreary to be somebody!
+How public, like a frog
+To tell your name the livelong day
+To an admiring bog!
+Calling p285a tooks 0 milliseconds.
+
+In p287a()
+Searching for to
+In file poem.txt
+With text:
+I'm nobody! Who are you?
+Are you nobody, too?
+Then there's a pair of us - don't tell!
+They'd banish us, you know.
+How dreary to be somebody!
+How public, like a frog
+To tell your name the livelong day
+To an admiring bog!
+Calling p287a tooks 0 milliseconds.
+
+In p288a(), eg12-13
+Calling p288a tooks 0 milliseconds.
+
+In p289a(), eg12-14
+Are you nobody, too?
+How dreary to be somebody!
+Calling p289a tooks 0 milliseconds.
+
+In p290a(), eg12-15
+Calling p290a tooks 0 milliseconds.
+
+In p291a(), eg12-16
+Calling p291a tooks 0 milliseconds.
+
+In p294a(), eg12-17
+Calling p294a tooks 0 milliseconds.
+
+In p295a(), eg12-18
+Calling p295a tooks 0 milliseconds.
+
+In p296a(), eg12-19
+Calling p296a tooks 0 milliseconds.
+Are you nobody, too?
+How dreary to be somebody!
+Calling p297a tooks 0 milliseconds.
+
+In p300a(), eg12-20
+Calling p300a tooks 0 milliseconds.
+
+In p302a(), eg12-21
+Calling p302a tooks 0 milliseconds.
+
+In p304a()
+Calling p304a tooks 0 milliseconds.
+
+In p306a(), eg12-22
+Calling p306a tooks 0 milliseconds.
+
+In p308a(), eg12-23
+Are you nobody, too?
+How dreary to be somebody!
+Calling p308a tooks 0 milliseconds.
+
+In p311a(), eg12-24
+Are you nobody, too?
+How dreary to be somebody!
+Calling p311a tooks 0 milliseconds.
+Total used 7 milliseconds.
+
+In p272a(), eg12-1
+Calling p272a tooks 0 seconds.
+
+In p273a(), eg12-2
+Searching for to
+In file poem.txt
+Calling p273a tooks 0 seconds.
+
+In p274a(), eg12-4
+Searching for to
+In file poem.txt
+With text:
+I'm nobody! Who are you?
+Are you nobody, too?
+Then there's a pair of us - don't tell!
+They'd banish us, you know.
+How dreary to be somebody!
+How public, like a frog
+To tell your name the livelong day
+To an admiring bog!
+Calling p274a tooks 0 seconds.
+
+In p277a(), eg12-5
+Searching for to
+In file poem.txt
+Calling p277a tooks 0 seconds.
+
+In p278a(), eg12-6
+Searching for to
+In file poem.txt
+With text:
+I'm nobody! Who are you?
+Are you nobody, too?
+Then there's a pair of us - don't tell!
+They'd banish us, you know.
+How dreary to be somebody!
+How public, like a frog
+To tell your name the livelong day
+To an admiring bog!
+Calling p278a tooks 0 seconds.
+
+In p279a(), eg12-7
+Searching for to
+In file poem.txt
+With text:
+I'm nobody! Who are you?
+Are you nobody, too?
+Then there's a pair of us - don't tell!
+They'd banish us, you know.
+How dreary to be somebody!
+How public, like a frog
+To tell your name the livelong day
+To an admiring bog!
+Calling p279a tooks 0 seconds.
+
+In p280a(), eg12-8
+Searching for to
+In file poem.txt
+With text:
+I'm nobody! Who are you?
+Are you nobody, too?
+Then there's a pair of us - don't tell!
+They'd banish us, you know.
+How dreary to be somebody!
+How public, like a frog
+To tell your name the livelong day
+To an admiring bog!
+Calling p280a tooks 0 seconds.
+
+In p281a(), eg12-9
+Calling p281a tooks 0 seconds.
+
+In p282a(), eg12-10
+Searching for to
+In file poem.txt
+With text:
+I'm nobody! Who are you?
+Are you nobody, too?
+Then there's a pair of us - don't tell!
+They'd banish us, you know.
+How dreary to be somebody!
+How public, like a frog
+To tell your name the livelong day
+To an admiring bog!
+Calling p282a tooks 0 seconds.
+
+In p284a(), eg12-11
+Searching for to
+In file poem.txt
+With text:
+I'm nobody! Who are you?
+Are you nobody, too?
+Then there's a pair of us - don't tell!
+They'd banish us, you know.
+How dreary to be somebody!
+How public, like a frog
+To tell your name the livelong day
+To an admiring bog!
+Calling p284a tooks 0 seconds.
+
+In p285a(), eg12-12
+Searching for to
+In file poem.txt
+With text:
+I'm nobody! Who are you?
+Are you nobody, too?
+Then there's a pair of us - don't tell!
+They'd banish us, you know.
+How dreary to be somebody!
+How public, like a frog
+To tell your name the livelong day
+To an admiring bog!
+Calling p285a tooks 0 seconds.
+
+In p287a()
+Searching for to
+In file poem.txt
+With text:
+I'm nobody! Who are you?
+Are you nobody, too?
+Then there's a pair of us - don't tell!
+They'd banish us, you know.
+How dreary to be somebody!
+How public, like a frog
+To tell your name the livelong day
+To an admiring bog!
+Calling p287a tooks 0 seconds.
+
+In p288a(), eg12-13
+Calling p288a tooks 0 seconds.
+
+In p289a(), eg12-14
+Are you nobody, too?
+How dreary to be somebody!
+Calling p289a tooks 0 seconds.
+
+In p290a(), eg12-15
+Calling p290a tooks 0 seconds.
+
+In p291a(), eg12-16
+Calling p291a tooks 0 seconds.
+
+In p294a(), eg12-17
+Calling p294a tooks 0 seconds.
+
+In p295a(), eg12-18
+Calling p295a tooks 0 seconds.
+
+In p296a(), eg12-19
+Calling p296a tooks 0 seconds.
+Are you nobody, too?
+How dreary to be somebody!
+Calling p297a tooks 0 seconds.
+
+In p300a(), eg12-20
+Calling p300a tooks 0 seconds.
+
+In p302a(), eg12-21
+Calling p302a tooks 0 seconds.
+
+In p304a()
+Calling p304a tooks 0 seconds.
+
+In p306a(), eg12-22
+Calling p306a tooks 0 seconds.
+
+In p308a(), eg12-23
+Are you nobody, too?
+How dreary to be somebody!
+Calling p308a tooks 0 seconds.
+
+In p311a(), eg12-24
+Are you nobody, too?
+How dreary to be somebody!
+Calling p311a tooks 0 seconds.
+Total used 0 seconds.
+
+  end: Instant { t: 1002708.9208048s }
+Calling chapter12_main tooks 25 milliseconds.

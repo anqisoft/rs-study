@@ -1,0 +1,44 @@
+cargo run
+   Compiling windows_x86_64_msvc v0.48.5
+   Compiling proc-macro2 v1.0.69
+   Compiling unicode-ident v1.0.12
+   Compiling autocfg v1.1.0
+   Compiling parking_lot_core v0.9.9
+   Compiling smallvec v1.11.2
+   Compiling scopeguard v1.2.0
+   Compiling cfg-if v1.0.0
+   Compiling bytes v1.5.0
+   Compiling num_cpus v1.16.0
+   Compiling lock_api v0.4.11
+   Compiling windows-targets v0.48.5
+   Compiling windows-sys v0.48.0
+   Compiling quote v1.0.33
+   Compiling parking_lot v0.12.1
+   Compiling syn v2.0.39
+   Compiling socket2 v0.5.5
+   Compiling mio v0.8.9
+   Compiling tokio-macros v2.2.0
+   Compiling tokio v1.34.0
+   Compiling example_139 v0.1.0 (P:\anqi\Desktop\tech\rust\projects\rust-study\src\comprehensive-rust\ok\rs\example_139)    Finished dev [unoptimized + debuginfo] target(s) in 20.40s
+     Running `target\debug\example_139.exe`
+Sent 1 pings so far.
+Sent 2 pings so far.
+Sent 3 pings so far.
+Sent 4 pings so far.
+Sent 5 pings so far.
+Sent 6 pings so far.
+Received 1 pings so far.
+Sent 7 pings so far.
+Received 2 pings so far.
+Sent 8 pings so far.
+Received 3 pings so far.
+Sent 9 pings so far.
+Received 4 pings so far.
+Sent 10 pings so far.
+Received 5 pings so far.
+Received 6 pings so far.
+Received 7 pings so far.
+Received 8 pings so far.
+Received 9 pings so far.
+Received 10 pings so far.
+ping_handler complete

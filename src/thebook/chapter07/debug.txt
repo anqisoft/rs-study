@@ -1,0 +1,133 @@
+11:36:06.79  
+11:36:08.30  
+start: Instant { t: 275806.570873s }
+Chapter 00
+
+In p154a()
+I'm growing Asparagus!
+
+In p164a()
+map is {1: 2}, and its type is std::collections::hash::map::HashMap<i32, i32>
+
+In p166a()
+Guess the number!
+The secret number is: 79
+Please input your guess.
+You guessed: 10
+
+
+In p166b()
+Guess the number!
+The secret number is: 23
+use std::cmp::Ordering;use std::io;
+Please input your guess.
+You guessed: 20
+
+Too small!
+use std::{ cmp::Ordering, io};
+Please input your guess.
+You guessed: 20
+320
+
+Too small!
+Calling chapter00_main tooks 6168 milliseconds.
+Chapter 00
+
+In p154a()
+I'm growing Asparagus!
+
+In p164a()
+map is {1: 2}, and its type is std::collections::hash::map::HashMap<i32, i32>
+
+In p166a()
+Guess the number!
+The secret number is: 18
+Please input your guess.
+You guessed: 50
+
+
+In p166b()
+Guess the number!
+The secret number is: 95
+use std::cmp::Ordering;use std::io;
+Please input your guess.
+You guessed: 60
+
+Too small!
+use std::{ cmp::Ordering, io};
+Please input your guess.
+You guessed: 60
+32
+
+Too small!
+Calling chapter00_main tooks 2 seconds.
+
+In p154a()
+I'm growing Asparagus!
+Calling p154a tooks 0 milliseconds.
+
+In p164a()
+map is {1: 2}, and its type is std::collections::hash::map::HashMap<i32, i32>
+Calling p164a tooks 0 milliseconds.
+
+In p166a()
+Guess the number!
+The secret number is: 71
+Please input your guess.
+You guessed: 32
+
+Calling p166a tooks 730 milliseconds.
+
+In p166b()
+Guess the number!
+The secret number is: 77
+use std::cmp::Ordering;use std::io;
+Please input your guess.
+You guessed: 32
+
+Too small!
+use std::{ cmp::Ordering, io};
+Please input your guess.
+You guessed: 32
+5654
+
+Too small!
+Calling p166b tooks 1724 milliseconds.
+Total used 2455 milliseconds.
+
+In p154a()
+I'm growing Asparagus!
+Calling p154a tooks 0 seconds.
+
+In p164a()
+map is {1: 2}, and its type is std::collections::hash::map::HashMap<i32, i32>
+Calling p164a tooks 0 seconds.
+
+In p166a()
+Guess the number!
+The secret number is: 31
+Please input your guess.
+You guessed: 32
+
+Calling p166a tooks 1 seconds.
+
+In p166b()
+Guess the number!
+The secret number is: 13
+use std::cmp::Ordering;use std::io;
+Please input your guess.
+You guessed: 85
+
+Too big!
+use std::{ cmp::Ordering, io};
+Please input your guess.
+You guessed: 85
+76
+
+Too small!
+Calling p166b tooks 2 seconds.
+Total used 4 seconds.
+
+  end: Instant { t: 275821.6551399s }
+Calling chapter00_main tooks 15084 milliseconds.
+11:36:23.69 

@@ -1,0 +1,1 @@
+@echo off && (cargo fmt && cargo build) || pause

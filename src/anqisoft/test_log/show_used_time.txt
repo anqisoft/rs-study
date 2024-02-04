@@ -1,0 +1,23 @@
+Begin
+start: Instant { t: 90135.4960892s }
+test1()
+test2()
+
+Calling show_used_time_main tooks 0 milliseconds.
+test1()
+test2()
+
+Calling show_used_time_main tooks 0 seconds.
+test1()
+Calling test1 tooks 0 milliseconds.
+test2()
+Calling test2 tooks 0 milliseconds.
+Total used 0 milliseconds.
+test1()
+Calling test1 tooks 0 seconds.
+test2()
+Calling test2 tooks 0 seconds.
+Total used 0 seconds.
+
+  end: Instant { t: 90135.496356s }
+Calling test_show_used_time tooks 0 milliseconds.

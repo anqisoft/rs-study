@@ -1,0 +1,8 @@
+In test1()
+Error: Could not read: The system cannot find the file specified. (os error 2)
+
+In test2()
+Error: Found no username in config.dat
+
+In test3()
+Username: alice

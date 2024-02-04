@@ -1,0 +1,87 @@
+
+/*
+ * <en>https://doc.rust-lang.org/book/ch17-00-oop.html</en>
+ * <cn>https://kaisery.github.io/trpl-zh-cn/ch17-00-oop.html</cn>
+ * <tw>https://rust-lang.tw/book-tw/ch17-00-oop.html</tw>
+*/
+
+/*
+ * <en>https://doc.rust-lang.org/book/ch17-01-what-is-oo.html</en>
+ * <cn>https://kaisery.github.io/trpl-zh-cn/ch17-01-what-is-oo.html</cn>
+ * <tw>https://rust-lang.tw/book-tw/ch17-01-what-is-oo.html</tw>
+*/
+
+/*
+ * <en>https://doc.rust-lang.org/book/ch17-02-trait-objects.html</en>
+ * <cn>https://kaisery.github.io/trpl-zh-cn/ch17-02-trait-objects.html</cn>
+ * <tw>https://rust-lang.tw/book-tw/ch17-02-trait-objects.html</tw>
+*/
+
+/*
+ * <en>https://doc.rust-lang.org/book/ch17-03-oo-design-patterns.html</en>
+ * <cn>https://kaisery.github.io/trpl-zh-cn/ch17-03-oo-design-patterns.html</cn>
+ * <tw>https://rust-lang.tw/book-tw/ch17-03-oo-design-patterns.html</tw>
+*/
+
+/*
+*/
+
+
+
+
+
+/*
+ * <en>https://doc.rust-lang.org/book/ch20-00-final-project-a-web-server.html</en>
+ * <cn>https://kaisery.github.io/trpl-zh-cn/ch20-00-final-project-a-web-server.html</cn>
+ * <tw>https://rust-lang.tw/book-tw/ch20-00-final-project-a-web-server.html</tw>
+*/
+
+
+/*
+ * <en>https://doc.rust-lang.org/book/appendix-00.html</en>
+ * <cn>https://kaisery.github.io/trpl-zh-cn/appendix-00.html</cn>
+ * <tw>https://rust-lang.tw/book-tw/appendix-00.html</tw>
+*/
+
+/*
+ * <en>https://doc.rust-lang.org/book/appendix-01-keywords.html</en>
+ * <cn>https://kaisery.github.io/trpl-zh-cn/appendix-01-keywords.html</cn>
+ * <tw>https://rust-lang.tw/book-tw/appendix-01-keywords.html</tw>
+*/
+
+/*
+ * <en>https://doc.rust-lang.org/book/appendix-02-operators.html</en>
+ * <cn>https://kaisery.github.io/trpl-zh-cn/appendix-02-operators.html</cn>
+ * <tw>https://rust-lang.tw/book-tw/appendix-02-operators.html</tw>
+*/
+
+/*
+ * <en>https://doc.rust-lang.org/book/appendix-03-derivable-traits.html</en>
+ * <cn>https://kaisery.github.io/trpl-zh-cn/appendix-03-derivable-traits.html</cn>
+ * <tw>https://rust-lang.tw/book-tw/appendix-03-derivable-traits.html</tw>
+*/
+
+/*
+ * <en>https://doc.rust-lang.org/book/appendix-04-useful-development-tools.html</en>
+ * <cn>https://kaisery.github.io/trpl-zh-cn/appendix-04-useful-development-tools.html</cn>
+ * <tw>https://rust-lang.tw/book-tw/appendix-04-useful-development-tools.html</tw>
+*/
+
+/*
+ * <en>https://doc.rust-lang.org/book/appendix-05-editions.html</en>
+ * <cn>https://kaisery.github.io/trpl-zh-cn/appendix-05-editions.html</cn>
+ * <tw>https://rust-lang.tw/book-tw/appendix-05-editions.html</tw>
+*/
+
+/*
+ * <en>https://doc.rust-lang.org/book/appendix-06-translation.html</en>
+ * <cn>https://kaisery.github.io/trpl-zh-cn/appendix-06-translation.html</cn>
+ * <tw>https://rust-lang.tw/book-tw/appendix-06-translation.html</tw>
+*/
+
+/*
+ * <en>https://doc.rust-lang.org/book/appendix-07-nightly-rust.html</en>
+ * <cn>https://kaisery.github.io/trpl-zh-cn/appendix-07-nightly-rust.html</cn>
+ * <tw>https://rust-lang.tw/book-tw/appendix-07-nightly-rust.html</tw>
+*/
+

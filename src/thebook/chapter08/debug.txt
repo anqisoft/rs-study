@@ -1,0 +1,2435 @@
+16:09:23.25  
+16:09:25.61  
+start: Instant { t: 465079.8992719s }
+Chapter 08
+
+In p174a(), eg8-1
+
+In p174b(), eg8-2
+
+In p174c(), eg8-3
+The type of v4 is alloc::vec::Vec<f64>.
+
+In p175a(), eg8-4
+The third element is 3
+The third element is 3
+The type of first element by get(0) is core::option::Option<&i32>.
+The 0 element by get() is 1
+The 1 element by get() is 2
+The 2 element by get() is 3
+The 3 element by get() is 4
+The 4 element by get() is 5
+Not found the 5 element.
+The 0 element by index is 1
+The 1 element by index is 2
+The 2 element by index is 3
+The 3 element by index is 4
+The 4 element by index is 5
+The type of first element by &v[0] is i32.
+
+In p175b(), eg8-5
+does_not_exist is None
+
+In p175c(), eg8-6
+The first element is: 1
+
+In p176a(), eg8-7
+100
+32
+57
+
+In p176b(), eg8-8
+v is [150, 82, 107]
+The type of 100 is &i32
+The type of 32 is &i32
+The type of 57 is &i32
+v is [100, 32]
+The type of 150 is &mut i32
+The type of 82 is &mut i32
+The last item is Some(82), and its type is core::option::Option<i32>.
+
+In p177a(), eg8-9
+item is Int(3)
+item is Text("blue")
+item is Float(10.12)
+
+In p178a(), eg8-10
+
+In p179a(), eg8-11
+
+In p179b(), eg8-12
+s1 == s2? true.
+
+In p180a(), eg8-13
+s1 == s2? true.
+
+In p180b(), eg8-14
+'السلام عليكم' has 12 chars.
+'Dobrý den' has 9 chars.
+'Hello' has 5 chars.
+'שָׁלוֹם' has 7 chars.
+'नमस्ते' has 6 chars.
+'こんにちは' has 5 chars.
+'안녕하세요' has 5 chars.
+'你好' has 2 chars.
+'Olá' has 3 chars.
+'Здравствуйте' has 12 chars.
+'Hola' has 4 chars.
+
+In p180c(), eg8-15
+s: foobar
+
+In p181a(), eg8-16
+s2 is 'bar', and s1 is 'foobar'
+
+In p181b(), eg8-17
+
+In p181c(), eg8-18
+s3 is 'Hello, world!, and s2 is 'world!'
+
+In p182a()
+s4 == s5? true.
+
+In p182b(), eg8-19
+
+In p183a()
+'السلام عليكم' has 12 chars, and its length is 23.
+'Dobrý den' has 9 chars, and its length is 10.
+'Hello' has 5 chars, and its length is 5.
+'שָׁלוֹם' has 7 chars, and its length is 14.
+'नमस्ते' has 6 chars, and its length is 18.
+'こんにちは' has 5 chars, and its length is 15.
+'안녕하세요' has 5 chars, and its length is 15.
+'你好' has 2 chars, and its length is 6.
+'Olá' has 3 chars, and its length is 4.
+'Здравствуйте' has 12 chars, and its length is 24.
+'Hola' has 4 chars, and its length is 4.
+
+In p184a()
+h is 'h'.
+s is 'Зд'.
+
+In p185a()
+The chars:
+c is 'З', and its type is char.
+c is 'д', and its type is char.
+The bytes:
+b is 208, and its type is u8.
+b is 151, and its type is u8.
+b is 208, and its type is u8.
+b is 180, and its type is u8.
+
+More..
+s is 'السلام عليكم'
+The chars:
+ا
+ل
+س
+ل
+ا
+م
+ 
+ع
+ل
+ي
+ك
+م
+The bytes:
+216
+167
+217
+132
+216
+179
+217
+132
+216
+167
+217
+133
+32
+216
+185
+217
+132
+217
+138
+217
+131
+217
+133
+s is 'Dobrý den'
+The chars:
+D
+o
+b
+r
+ý
+ 
+d
+e
+n
+The bytes:
+68
+111
+98
+114
+195
+189
+32
+100
+101
+110
+s is 'Hello'
+The chars:
+H
+e
+l
+l
+o
+The bytes:
+72
+101
+108
+108
+111
+s is 'שָׁלוֹם'
+The chars:
+ש
+ָ
+ׁ
+ל
+ו
+ֹ
+ם
+The bytes:
+215
+169
+214
+184
+215
+129
+215
+156
+215
+149
+214
+185
+215
+157
+s is 'नमस्ते'
+The chars:
+न
+म
+स
+्
+त
+े
+The bytes:
+224
+164
+168
+224
+164
+174
+224
+164
+184
+224
+165
+141
+224
+164
+164
+224
+165
+135
+s is 'こんにちは'
+The chars:
+こ
+ん
+に
+ち
+は
+The bytes:
+227
+129
+147
+227
+130
+147
+227
+129
+171
+227
+129
+161
+227
+129
+175
+s is '안녕하세요'
+The chars:
+안
+녕
+하
+세
+요
+The bytes:
+236
+149
+136
+235
+133
+149
+237
+149
+152
+236
+132
+184
+236
+154
+148
+s is '你好'
+The chars:
+你
+好
+The bytes:
+228
+189
+160
+229
+165
+189
+s is 'Olá'
+The chars:
+O
+l
+á
+The bytes:
+79
+108
+195
+161
+s is 'Здравствуйте'
+The chars:
+З
+д
+р
+а
+в
+с
+т
+в
+у
+й
+т
+е
+The bytes:
+208
+151
+208
+180
+209
+128
+208
+176
+208
+178
+209
+129
+209
+130
+208
+178
+209
+131
+208
+185
+209
+130
+208
+181
+s is 'Hola'
+The chars:
+H
+o
+l
+a
+The bytes:
+72
+111
+108
+97
+
+In p186a(), eg8-20
+scores is {"Blue": 10, "Yellow": 50}
+
+In p186b()
+The score of 'Blue' team is 10.
+The score of 'Red' team is 0.
+The scores is {"Blue": 10, "Yellow": 50}
+
+In p187a()
+
+
+Start...
+The scores is {"Blue": 10, "Yellow": 50}
+The 0 time:	Blue: 10	Yellow: 50	
+The 1 time:	Blue: 10	Yellow: 50	
+The 2 time:	Blue: 10	Yellow: 50	
+The 3 time:	Blue: 10	Yellow: 50	
+The 4 time:	Blue: 10	Yellow: 50	
+The scores is {"Blue": 10, "Orange": 30, "Yellow": 50}
+The 0 time:	Blue: 10	Orange: 30	Yellow: 50	
+The 1 time:	Blue: 10	Orange: 30	Yellow: 50	
+The 2 time:	Blue: 10	Orange: 30	Yellow: 50	
+The 3 time:	Blue: 10	Orange: 30	Yellow: 50	
+The 4 time:	Blue: 10	Orange: 30	Yellow: 50	
+The scores is {"Blue": 10, "Red": 55, "Yellow": 50, "Orange": 30}
+The 0 time:	Blue: 10	Red: 55	Yellow: 50	Orange: 30	
+The 1 time:	Blue: 10	Red: 55	Yellow: 50	Orange: 30	
+The 2 time:	Blue: 10	Red: 55	Yellow: 50	Orange: 30	
+The 3 time:	Blue: 10	Red: 55	Yellow: 50	Orange: 30	
+The 4 time:	Blue: 10	Red: 55	Yellow: 50	Orange: 30	
+
+Start...
+The scores is {"Yellow": 50, "Blue": 10}
+The 0 time:	Yellow: 50	Blue: 10	
+The 1 time:	Yellow: 50	Blue: 10	
+The 2 time:	Yellow: 50	Blue: 10	
+The 3 time:	Yellow: 50	Blue: 10	
+The 4 time:	Yellow: 50	Blue: 10	
+The scores is {"Yellow": 50, "Orange": 30, "Blue": 10}
+The 0 time:	Yellow: 50	Orange: 30	Blue: 10	
+The 1 time:	Yellow: 50	Orange: 30	Blue: 10	
+The 2 time:	Yellow: 50	Orange: 30	Blue: 10	
+The 3 time:	Yellow: 50	Orange: 30	Blue: 10	
+The 4 time:	Yellow: 50	Orange: 30	Blue: 10	
+The scores is {"Yellow": 50, "Orange": 30, "Blue": 10, "Red": 55}
+The 0 time:	Yellow: 50	Orange: 30	Blue: 10	Red: 55	
+The 1 time:	Yellow: 50	Orange: 30	Blue: 10	Red: 55	
+The 2 time:	Yellow: 50	Orange: 30	Blue: 10	Red: 55	
+The 3 time:	Yellow: 50	Orange: 30	Blue: 10	Red: 55	
+The 4 time:	Yellow: 50	Orange: 30	Blue: 10	Red: 55	
+
+Start...
+The scores is {"Blue": 10, "Yellow": 50}
+The 0 time:	Blue: 10	Yellow: 50	
+The 1 time:	Blue: 10	Yellow: 50	
+The 2 time:	Blue: 10	Yellow: 50	
+The 3 time:	Blue: 10	Yellow: 50	
+The 4 time:	Blue: 10	Yellow: 50	
+The scores is {"Blue": 10, "Yellow": 50, "Orange": 30}
+The 0 time:	Blue: 10	Yellow: 50	Orange: 30	
+The 1 time:	Blue: 10	Yellow: 50	Orange: 30	
+The 2 time:	Blue: 10	Yellow: 50	Orange: 30	
+The 3 time:	Blue: 10	Yellow: 50	Orange: 30	
+The 4 time:	Blue: 10	Yellow: 50	Orange: 30	
+The scores is {"Blue": 10, "Orange": 30, "Yellow": 50, "Red": 55}
+The 0 time:	Blue: 10	Orange: 30	Yellow: 50	Red: 55	
+The 1 time:	Blue: 10	Orange: 30	Yellow: 50	Red: 55	
+The 2 time:	Blue: 10	Orange: 30	Yellow: 50	Red: 55	
+The 3 time:	Blue: 10	Orange: 30	Yellow: 50	Red: 55	
+The 4 time:	Blue: 10	Orange: 30	Yellow: 50	Red: 55	
+
+Start...
+The scores is {"Blue": 10, "Yellow": 50}
+The 0 time:	Blue: 10	Yellow: 50	
+The 1 time:	Blue: 10	Yellow: 50	
+The 2 time:	Blue: 10	Yellow: 50	
+The 3 time:	Blue: 10	Yellow: 50	
+The 4 time:	Blue: 10	Yellow: 50	
+The scores is {"Blue": 10, "Yellow": 50, "Orange": 30}
+The 0 time:	Blue: 10	Yellow: 50	Orange: 30	
+The 1 time:	Blue: 10	Yellow: 50	Orange: 30	
+The 2 time:	Blue: 10	Yellow: 50	Orange: 30	
+The 3 time:	Blue: 10	Yellow: 50	Orange: 30	
+The 4 time:	Blue: 10	Yellow: 50	Orange: 30	
+The scores is {"Red": 55, "Orange": 30, "Blue": 10, "Yellow": 50}
+The 0 time:	Red: 55	Orange: 30	Blue: 10	Yellow: 50	
+The 1 time:	Red: 55	Orange: 30	Blue: 10	Yellow: 50	
+The 2 time:	Red: 55	Orange: 30	Blue: 10	Yellow: 50	
+The 3 time:	Red: 55	Orange: 30	Blue: 10	Yellow: 50	
+The 4 time:	Red: 55	Orange: 30	Blue: 10	Yellow: 50	
+
+Start...
+The scores is {"Blue": 10, "Yellow": 50}
+The 0 time:	Blue: 10	Yellow: 50	
+The 1 time:	Blue: 10	Yellow: 50	
+The 2 time:	Blue: 10	Yellow: 50	
+The 3 time:	Blue: 10	Yellow: 50	
+The 4 time:	Blue: 10	Yellow: 50	
+The scores is {"Orange": 30, "Blue": 10, "Yellow": 50}
+The 0 time:	Orange: 30	Blue: 10	Yellow: 50	
+The 1 time:	Orange: 30	Blue: 10	Yellow: 50	
+The 2 time:	Orange: 30	Blue: 10	Yellow: 50	
+The 3 time:	Orange: 30	Blue: 10	Yellow: 50	
+The 4 time:	Orange: 30	Blue: 10	Yellow: 50	
+The scores is {"Red": 55, "Blue": 10, "Orange": 30, "Yellow": 50}
+The 0 time:	Red: 55	Blue: 10	Orange: 30	Yellow: 50	
+The 1 time:	Red: 55	Blue: 10	Orange: 30	Yellow: 50	
+The 2 time:	Red: 55	Blue: 10	Orange: 30	Yellow: 50	
+The 3 time:	Red: 55	Blue: 10	Orange: 30	Yellow: 50	
+The 4 time:	Red: 55	Blue: 10	Orange: 30	Yellow: 50	
+
+Start...
+The scores is {"Blue": 10, "Yellow": 50}
+The 0 time:	Blue: 10	Yellow: 50	
+The 1 time:	Blue: 10	Yellow: 50	
+The 2 time:	Blue: 10	Yellow: 50	
+The 3 time:	Blue: 10	Yellow: 50	
+The 4 time:	Blue: 10	Yellow: 50	
+The scores is {"Blue": 10, "Yellow": 50, "Orange": 30}
+The 0 time:	Blue: 10	Yellow: 50	Orange: 30	
+The 1 time:	Blue: 10	Yellow: 50	Orange: 30	
+The 2 time:	Blue: 10	Yellow: 50	Orange: 30	
+The 3 time:	Blue: 10	Yellow: 50	Orange: 30	
+The 4 time:	Blue: 10	Yellow: 50	Orange: 30	
+The scores is {"Red": 55, "Blue": 10, "Yellow": 50, "Orange": 30}
+The 0 time:	Red: 55	Blue: 10	Yellow: 50	Orange: 30	
+The 1 time:	Red: 55	Blue: 10	Yellow: 50	Orange: 30	
+The 2 time:	Red: 55	Blue: 10	Yellow: 50	Orange: 30	
+The 3 time:	Red: 55	Blue: 10	Yellow: 50	Orange: 30	
+The 4 time:	Red: 55	Blue: 10	Yellow: 50	Orange: 30	
+
+Start...
+The scores is {"Blue": 10, "Yellow": 50}
+The 0 time:	Blue: 10	Yellow: 50	
+The 1 time:	Blue: 10	Yellow: 50	
+The 2 time:	Blue: 10	Yellow: 50	
+The 3 time:	Blue: 10	Yellow: 50	
+The 4 time:	Blue: 10	Yellow: 50	
+The scores is {"Blue": 10, "Yellow": 50, "Orange": 30}
+The 0 time:	Blue: 10	Yellow: 50	Orange: 30	
+The 1 time:	Blue: 10	Yellow: 50	Orange: 30	
+The 2 time:	Blue: 10	Yellow: 50	Orange: 30	
+The 3 time:	Blue: 10	Yellow: 50	Orange: 30	
+The 4 time:	Blue: 10	Yellow: 50	Orange: 30	
+The scores is {"Blue": 10, "Orange": 30, "Yellow": 50, "Red": 55}
+The 0 time:	Blue: 10	Orange: 30	Yellow: 50	Red: 55	
+The 1 time:	Blue: 10	Orange: 30	Yellow: 50	Red: 55	
+The 2 time:	Blue: 10	Orange: 30	Yellow: 50	Red: 55	
+The 3 time:	Blue: 10	Orange: 30	Yellow: 50	Red: 55	
+The 4 time:	Blue: 10	Orange: 30	Yellow: 50	Red: 55	
+
+Start...
+The scores is {"Blue": 10, "Yellow": 50}
+The 0 time:	Blue: 10	Yellow: 50	
+The 1 time:	Blue: 10	Yellow: 50	
+The 2 time:	Blue: 10	Yellow: 50	
+The 3 time:	Blue: 10	Yellow: 50	
+The 4 time:	Blue: 10	Yellow: 50	
+The scores is {"Blue": 10, "Yellow": 50, "Orange": 30}
+The 0 time:	Blue: 10	Yellow: 50	Orange: 30	
+The 1 time:	Blue: 10	Yellow: 50	Orange: 30	
+The 2 time:	Blue: 10	Yellow: 50	Orange: 30	
+The 3 time:	Blue: 10	Yellow: 50	Orange: 30	
+The 4 time:	Blue: 10	Yellow: 50	Orange: 30	
+The scores is {"Blue": 10, "Orange": 30, "Yellow": 50, "Red": 55}
+The 0 time:	Blue: 10	Orange: 30	Yellow: 50	Red: 55	
+The 1 time:	Blue: 10	Orange: 30	Yellow: 50	Red: 55	
+The 2 time:	Blue: 10	Orange: 30	Yellow: 50	Red: 55	
+The 3 time:	Blue: 10	Orange: 30	Yellow: 50	Red: 55	
+The 4 time:	Blue: 10	Orange: 30	Yellow: 50	Red: 55	
+
+Start...
+The scores is {"Blue": 10, "Yellow": 50}
+The 0 time:	Blue: 10	Yellow: 50	
+The 1 time:	Blue: 10	Yellow: 50	
+The 2 time:	Blue: 10	Yellow: 50	
+The 3 time:	Blue: 10	Yellow: 50	
+The 4 time:	Blue: 10	Yellow: 50	
+The scores is {"Orange": 30, "Blue": 10, "Yellow": 50}
+The 0 time:	Orange: 30	Blue: 10	Yellow: 50	
+The 1 time:	Orange: 30	Blue: 10	Yellow: 50	
+The 2 time:	Orange: 30	Blue: 10	Yellow: 50	
+The 3 time:	Orange: 30	Blue: 10	Yellow: 50	
+The 4 time:	Orange: 30	Blue: 10	Yellow: 50	
+The scores is {"Orange": 30, "Red": 55, "Blue": 10, "Yellow": 50}
+The 0 time:	Orange: 30	Red: 55	Blue: 10	Yellow: 50	
+The 1 time:	Orange: 30	Red: 55	Blue: 10	Yellow: 50	
+The 2 time:	Orange: 30	Red: 55	Blue: 10	Yellow: 50	
+The 3 time:	Orange: 30	Red: 55	Blue: 10	Yellow: 50	
+The 4 time:	Orange: 30	Red: 55	Blue: 10	Yellow: 50	
+
+Start...
+The scores is {"Blue": 10, "Yellow": 50}
+The 0 time:	Blue: 10	Yellow: 50	
+The 1 time:	Blue: 10	Yellow: 50	
+The 2 time:	Blue: 10	Yellow: 50	
+The 3 time:	Blue: 10	Yellow: 50	
+The 4 time:	Blue: 10	Yellow: 50	
+The scores is {"Blue": 10, "Yellow": 50, "Orange": 30}
+The 0 time:	Blue: 10	Yellow: 50	Orange: 30	
+The 1 time:	Blue: 10	Yellow: 50	Orange: 30	
+The 2 time:	Blue: 10	Yellow: 50	Orange: 30	
+The 3 time:	Blue: 10	Yellow: 50	Orange: 30	
+The 4 time:	Blue: 10	Yellow: 50	Orange: 30	
+The scores is {"Red": 55, "Yellow": 50, "Blue": 10, "Orange": 30}
+The 0 time:	Red: 55	Yellow: 50	Blue: 10	Orange: 30	
+The 1 time:	Red: 55	Yellow: 50	Blue: 10	Orange: 30	
+The 2 time:	Red: 55	Yellow: 50	Blue: 10	Orange: 30	
+The 3 time:	Red: 55	Yellow: 50	Blue: 10	Orange: 30	
+The 4 time:	Red: 55	Yellow: 50	Blue: 10	Orange: 30	
+In p187b(), eg8-22
+map is {"name": 1}, and its type is std::collections::hash::map::HashMap<alloc::string::String, i32>.
+field_name is 'name', and field_value is '1'.
+map is {"name": 1}, and its type is std::collections::hash::map::HashMap<&str, i32>.
+field_name is 'name', and field_value is '1'.
+map is {Some("name"): 1}
+field_name is 'Some("name")', and field_value is '1'.
+set field_name to None.
+map is {Some("name"): 1}, field_name is 'None', and field_value is '1'.
+map is {"name": 1}
+map is {"name": 1}
+
+In p188a(), eg8-23
+{"Blue": 25}
+
+In p188b(), eg8-24
+{"Blue": 10, "Yellow": 50}
+
+In p189a(), eg8-25
+{"wonderful": 1, "hello": 1, "world": 2}
+
+Calling chapter08_main tooks 11 milliseconds.
+Chapter 08
+
+In p174a(), eg8-1
+
+In p174b(), eg8-2
+
+In p174c(), eg8-3
+The type of v4 is alloc::vec::Vec<f64>.
+
+In p175a(), eg8-4
+The third element is 3
+The third element is 3
+The type of first element by get(0) is core::option::Option<&i32>.
+The 0 element by get() is 1
+The 1 element by get() is 2
+The 2 element by get() is 3
+The 3 element by get() is 4
+The 4 element by get() is 5
+Not found the 5 element.
+The 0 element by index is 1
+The 1 element by index is 2
+The 2 element by index is 3
+The 3 element by index is 4
+The 4 element by index is 5
+The type of first element by &v[0] is i32.
+
+In p175b(), eg8-5
+does_not_exist is None
+
+In p175c(), eg8-6
+The first element is: 1
+
+In p176a(), eg8-7
+100
+32
+57
+
+In p176b(), eg8-8
+v is [150, 82, 107]
+The type of 100 is &i32
+The type of 32 is &i32
+The type of 57 is &i32
+v is [100, 32]
+The type of 150 is &mut i32
+The type of 82 is &mut i32
+The last item is Some(82), and its type is core::option::Option<i32>.
+
+In p177a(), eg8-9
+item is Int(3)
+item is Text("blue")
+item is Float(10.12)
+
+In p178a(), eg8-10
+
+In p179a(), eg8-11
+
+In p179b(), eg8-12
+s1 == s2? true.
+
+In p180a(), eg8-13
+s1 == s2? true.
+
+In p180b(), eg8-14
+'السلام عليكم' has 12 chars.
+'Dobrý den' has 9 chars.
+'Hello' has 5 chars.
+'שָׁלוֹם' has 7 chars.
+'नमस्ते' has 6 chars.
+'こんにちは' has 5 chars.
+'안녕하세요' has 5 chars.
+'你好' has 2 chars.
+'Olá' has 3 chars.
+'Здравствуйте' has 12 chars.
+'Hola' has 4 chars.
+
+In p180c(), eg8-15
+s: foobar
+
+In p181a(), eg8-16
+s2 is 'bar', and s1 is 'foobar'
+
+In p181b(), eg8-17
+
+In p181c(), eg8-18
+s3 is 'Hello, world!, and s2 is 'world!'
+
+In p182a()
+s4 == s5? true.
+
+In p182b(), eg8-19
+
+In p183a()
+'السلام عليكم' has 12 chars, and its length is 23.
+'Dobrý den' has 9 chars, and its length is 10.
+'Hello' has 5 chars, and its length is 5.
+'שָׁלוֹם' has 7 chars, and its length is 14.
+'नमस्ते' has 6 chars, and its length is 18.
+'こんにちは' has 5 chars, and its length is 15.
+'안녕하세요' has 5 chars, and its length is 15.
+'你好' has 2 chars, and its length is 6.
+'Olá' has 3 chars, and its length is 4.
+'Здравствуйте' has 12 chars, and its length is 24.
+'Hola' has 4 chars, and its length is 4.
+
+In p184a()
+h is 'h'.
+s is 'Зд'.
+
+In p185a()
+The chars:
+c is 'З', and its type is char.
+c is 'д', and its type is char.
+The bytes:
+b is 208, and its type is u8.
+b is 151, and its type is u8.
+b is 208, and its type is u8.
+b is 180, and its type is u8.
+
+More..
+s is 'السلام عليكم'
+The chars:
+ا
+ل
+س
+ل
+ا
+م
+ 
+ع
+ل
+ي
+ك
+م
+The bytes:
+216
+167
+217
+132
+216
+179
+217
+132
+216
+167
+217
+133
+32
+216
+185
+217
+132
+217
+138
+217
+131
+217
+133
+s is 'Dobrý den'
+The chars:
+D
+o
+b
+r
+ý
+ 
+d
+e
+n
+The bytes:
+68
+111
+98
+114
+195
+189
+32
+100
+101
+110
+s is 'Hello'
+The chars:
+H
+e
+l
+l
+o
+The bytes:
+72
+101
+108
+108
+111
+s is 'שָׁלוֹם'
+The chars:
+ש
+ָ
+ׁ
+ל
+ו
+ֹ
+ם
+The bytes:
+215
+169
+214
+184
+215
+129
+215
+156
+215
+149
+214
+185
+215
+157
+s is 'नमस्ते'
+The chars:
+न
+म
+स
+्
+त
+े
+The bytes:
+224
+164
+168
+224
+164
+174
+224
+164
+184
+224
+165
+141
+224
+164
+164
+224
+165
+135
+s is 'こんにちは'
+The chars:
+こ
+ん
+に
+ち
+は
+The bytes:
+227
+129
+147
+227
+130
+147
+227
+129
+171
+227
+129
+161
+227
+129
+175
+s is '안녕하세요'
+The chars:
+안
+녕
+하
+세
+요
+The bytes:
+236
+149
+136
+235
+133
+149
+237
+149
+152
+236
+132
+184
+236
+154
+148
+s is '你好'
+The chars:
+你
+好
+The bytes:
+228
+189
+160
+229
+165
+189
+s is 'Olá'
+The chars:
+O
+l
+á
+The bytes:
+79
+108
+195
+161
+s is 'Здравствуйте'
+The chars:
+З
+д
+р
+а
+в
+с
+т
+в
+у
+й
+т
+е
+The bytes:
+208
+151
+208
+180
+209
+128
+208
+176
+208
+178
+209
+129
+209
+130
+208
+178
+209
+131
+208
+185
+209
+130
+208
+181
+s is 'Hola'
+The chars:
+H
+o
+l
+a
+The bytes:
+72
+111
+108
+97
+
+In p186a(), eg8-20
+scores is {"Blue": 10, "Yellow": 50}
+
+In p186b()
+The score of 'Blue' team is 10.
+The score of 'Red' team is 0.
+The scores is {"Yellow": 50, "Blue": 10}
+
+In p187a()
+
+
+Start...
+The scores is {"Yellow": 50, "Blue": 10}
+The 0 time:	Yellow: 50	Blue: 10	
+The 1 time:	Yellow: 50	Blue: 10	
+The 2 time:	Yellow: 50	Blue: 10	
+The 3 time:	Yellow: 50	Blue: 10	
+The 4 time:	Yellow: 50	Blue: 10	
+The scores is {"Yellow": 50, "Orange": 30, "Blue": 10}
+The 0 time:	Yellow: 50	Orange: 30	Blue: 10	
+The 1 time:	Yellow: 50	Orange: 30	Blue: 10	
+The 2 time:	Yellow: 50	Orange: 30	Blue: 10	
+The 3 time:	Yellow: 50	Orange: 30	Blue: 10	
+The 4 time:	Yellow: 50	Orange: 30	Blue: 10	
+The scores is {"Blue": 10, "Orange": 30, "Red": 55, "Yellow": 50}
+The 0 time:	Blue: 10	Orange: 30	Red: 55	Yellow: 50	
+The 1 time:	Blue: 10	Orange: 30	Red: 55	Yellow: 50	
+The 2 time:	Blue: 10	Orange: 30	Red: 55	Yellow: 50	
+The 3 time:	Blue: 10	Orange: 30	Red: 55	Yellow: 50	
+The 4 time:	Blue: 10	Orange: 30	Red: 55	Yellow: 50	
+
+Start...
+The scores is {"Blue": 10, "Yellow": 50}
+The 0 time:	Blue: 10	Yellow: 50	
+The 1 time:	Blue: 10	Yellow: 50	
+The 2 time:	Blue: 10	Yellow: 50	
+The 3 time:	Blue: 10	Yellow: 50	
+The 4 time:	Blue: 10	Yellow: 50	
+The scores is {"Orange": 30, "Blue": 10, "Yellow": 50}
+The 0 time:	Orange: 30	Blue: 10	Yellow: 50	
+The 1 time:	Orange: 30	Blue: 10	Yellow: 50	
+The 2 time:	Orange: 30	Blue: 10	Yellow: 50	
+The 3 time:	Orange: 30	Blue: 10	Yellow: 50	
+The 4 time:	Orange: 30	Blue: 10	Yellow: 50	
+The scores is {"Orange": 30, "Yellow": 50, "Blue": 10, "Red": 55}
+The 0 time:	Orange: 30	Yellow: 50	Blue: 10	Red: 55	
+The 1 time:	Orange: 30	Yellow: 50	Blue: 10	Red: 55	
+The 2 time:	Orange: 30	Yellow: 50	Blue: 10	Red: 55	
+The 3 time:	Orange: 30	Yellow: 50	Blue: 10	Red: 55	
+The 4 time:	Orange: 30	Yellow: 50	Blue: 10	Red: 55	
+
+Start...
+The scores is {"Blue": 10, "Yellow": 50}
+The 0 time:	Blue: 10	Yellow: 50	
+The 1 time:	Blue: 10	Yellow: 50	
+The 2 time:	Blue: 10	Yellow: 50	
+The 3 time:	Blue: 10	Yellow: 50	
+The 4 time:	Blue: 10	Yellow: 50	
+The scores is {"Blue": 10, "Yellow": 50, "Orange": 30}
+The 0 time:	Blue: 10	Yellow: 50	Orange: 30	
+The 1 time:	Blue: 10	Yellow: 50	Orange: 30	
+The 2 time:	Blue: 10	Yellow: 50	Orange: 30	
+The 3 time:	Blue: 10	Yellow: 50	Orange: 30	
+The 4 time:	Blue: 10	Yellow: 50	Orange: 30	
+The scores is {"Red": 55, "Blue": 10, "Yellow": 50, "Orange": 30}
+The 0 time:	Red: 55	Blue: 10	Yellow: 50	Orange: 30	
+The 1 time:	Red: 55	Blue: 10	Yellow: 50	Orange: 30	
+The 2 time:	Red: 55	Blue: 10	Yellow: 50	Orange: 30	
+The 3 time:	Red: 55	Blue: 10	Yellow: 50	Orange: 30	
+The 4 time:	Red: 55	Blue: 10	Yellow: 50	Orange: 30	
+
+Start...
+The scores is {"Yellow": 50, "Blue": 10}
+The 0 time:	Yellow: 50	Blue: 10	
+The 1 time:	Yellow: 50	Blue: 10	
+The 2 time:	Yellow: 50	Blue: 10	
+The 3 time:	Yellow: 50	Blue: 10	
+The 4 time:	Yellow: 50	Blue: 10	
+The scores is {"Yellow": 50, "Orange": 30, "Blue": 10}
+The 0 time:	Yellow: 50	Orange: 30	Blue: 10	
+The 1 time:	Yellow: 50	Orange: 30	Blue: 10	
+The 2 time:	Yellow: 50	Orange: 30	Blue: 10	
+The 3 time:	Yellow: 50	Orange: 30	Blue: 10	
+The 4 time:	Yellow: 50	Orange: 30	Blue: 10	
+The scores is {"Blue": 10, "Yellow": 50, "Orange": 30, "Red": 55}
+The 0 time:	Blue: 10	Yellow: 50	Orange: 30	Red: 55	
+The 1 time:	Blue: 10	Yellow: 50	Orange: 30	Red: 55	
+The 2 time:	Blue: 10	Yellow: 50	Orange: 30	Red: 55	
+The 3 time:	Blue: 10	Yellow: 50	Orange: 30	Red: 55	
+The 4 time:	Blue: 10	Yellow: 50	Orange: 30	Red: 55	
+
+Start...
+The scores is {"Blue": 10, "Yellow": 50}
+The 0 time:	Blue: 10	Yellow: 50	
+The 1 time:	Blue: 10	Yellow: 50	
+The 2 time:	Blue: 10	Yellow: 50	
+The 3 time:	Blue: 10	Yellow: 50	
+The 4 time:	Blue: 10	Yellow: 50	
+The scores is {"Blue": 10, "Yellow": 50, "Orange": 30}
+The 0 time:	Blue: 10	Yellow: 50	Orange: 30	
+The 1 time:	Blue: 10	Yellow: 50	Orange: 30	
+The 2 time:	Blue: 10	Yellow: 50	Orange: 30	
+The 3 time:	Blue: 10	Yellow: 50	Orange: 30	
+The 4 time:	Blue: 10	Yellow: 50	Orange: 30	
+The scores is {"Blue": 10, "Yellow": 50, "Red": 55, "Orange": 30}
+The 0 time:	Blue: 10	Yellow: 50	Red: 55	Orange: 30	
+The 1 time:	Blue: 10	Yellow: 50	Red: 55	Orange: 30	
+The 2 time:	Blue: 10	Yellow: 50	Red: 55	Orange: 30	
+The 3 time:	Blue: 10	Yellow: 50	Red: 55	Orange: 30	
+The 4 time:	Blue: 10	Yellow: 50	Red: 55	Orange: 30	
+
+Start...
+The scores is {"Blue": 10, "Yellow": 50}
+The 0 time:	Blue: 10	Yellow: 50	
+The 1 time:	Blue: 10	Yellow: 50	
+The 2 time:	Blue: 10	Yellow: 50	
+The 3 time:	Blue: 10	Yellow: 50	
+The 4 time:	Blue: 10	Yellow: 50	
+The scores is {"Blue": 10, "Yellow": 50, "Orange": 30}
+The 0 time:	Blue: 10	Yellow: 50	Orange: 30	
+The 1 time:	Blue: 10	Yellow: 50	Orange: 30	
+The 2 time:	Blue: 10	Yellow: 50	Orange: 30	
+The 3 time:	Blue: 10	Yellow: 50	Orange: 30	
+The 4 time:	Blue: 10	Yellow: 50	Orange: 30	
+The scores is {"Blue": 10, "Yellow": 50, "Orange": 30, "Red": 55}
+The 0 time:	Blue: 10	Yellow: 50	Orange: 30	Red: 55	
+The 1 time:	Blue: 10	Yellow: 50	Orange: 30	Red: 55	
+The 2 time:	Blue: 10	Yellow: 50	Orange: 30	Red: 55	
+The 3 time:	Blue: 10	Yellow: 50	Orange: 30	Red: 55	
+The 4 time:	Blue: 10	Yellow: 50	Orange: 30	Red: 55	
+
+Start...
+The scores is {"Blue": 10, "Yellow": 50}
+The 0 time:	Blue: 10	Yellow: 50	
+The 1 time:	Blue: 10	Yellow: 50	
+The 2 time:	Blue: 10	Yellow: 50	
+The 3 time:	Blue: 10	Yellow: 50	
+The 4 time:	Blue: 10	Yellow: 50	
+The scores is {"Blue": 10, "Orange": 30, "Yellow": 50}
+The 0 time:	Blue: 10	Orange: 30	Yellow: 50	
+The 1 time:	Blue: 10	Orange: 30	Yellow: 50	
+The 2 time:	Blue: 10	Orange: 30	Yellow: 50	
+The 3 time:	Blue: 10	Orange: 30	Yellow: 50	
+The 4 time:	Blue: 10	Orange: 30	Yellow: 50	
+The scores is {"Yellow": 50, "Blue": 10, "Red": 55, "Orange": 30}
+The 0 time:	Yellow: 50	Blue: 10	Red: 55	Orange: 30	
+The 1 time:	Yellow: 50	Blue: 10	Red: 55	Orange: 30	
+The 2 time:	Yellow: 50	Blue: 10	Red: 55	Orange: 30	
+The 3 time:	Yellow: 50	Blue: 10	Red: 55	Orange: 30	
+The 4 time:	Yellow: 50	Blue: 10	Red: 55	Orange: 30	
+
+Start...
+The scores is {"Blue": 10, "Yellow": 50}
+The 0 time:	Blue: 10	Yellow: 50	
+The 1 time:	Blue: 10	Yellow: 50	
+The 2 time:	Blue: 10	Yellow: 50	
+The 3 time:	Blue: 10	Yellow: 50	
+The 4 time:	Blue: 10	Yellow: 50	
+The scores is {"Orange": 30, "Blue": 10, "Yellow": 50}
+The 0 time:	Orange: 30	Blue: 10	Yellow: 50	
+The 1 time:	Orange: 30	Blue: 10	Yellow: 50	
+The 2 time:	Orange: 30	Blue: 10	Yellow: 50	
+The 3 time:	Orange: 30	Blue: 10	Yellow: 50	
+The 4 time:	Orange: 30	Blue: 10	Yellow: 50	
+The scores is {"Yellow": 50, "Red": 55, "Blue": 10, "Orange": 30}
+The 0 time:	Yellow: 50	Red: 55	Blue: 10	Orange: 30	
+The 1 time:	Yellow: 50	Red: 55	Blue: 10	Orange: 30	
+The 2 time:	Yellow: 50	Red: 55	Blue: 10	Orange: 30	
+The 3 time:	Yellow: 50	Red: 55	Blue: 10	Orange: 30	
+The 4 time:	Yellow: 50	Red: 55	Blue: 10	Orange: 30	
+
+Start...
+The scores is {"Yellow": 50, "Blue": 10}
+The 0 time:	Yellow: 50	Blue: 10	
+The 1 time:	Yellow: 50	Blue: 10	
+The 2 time:	Yellow: 50	Blue: 10	
+The 3 time:	Yellow: 50	Blue: 10	
+The 4 time:	Yellow: 50	Blue: 10	
+The scores is {"Yellow": 50, "Orange": 30, "Blue": 10}
+The 0 time:	Yellow: 50	Orange: 30	Blue: 10	
+The 1 time:	Yellow: 50	Orange: 30	Blue: 10	
+The 2 time:	Yellow: 50	Orange: 30	Blue: 10	
+The 3 time:	Yellow: 50	Orange: 30	Blue: 10	
+The 4 time:	Yellow: 50	Orange: 30	Blue: 10	
+The scores is {"Blue": 10, "Orange": 30, "Red": 55, "Yellow": 50}
+The 0 time:	Blue: 10	Orange: 30	Red: 55	Yellow: 50	
+The 1 time:	Blue: 10	Orange: 30	Red: 55	Yellow: 50	
+The 2 time:	Blue: 10	Orange: 30	Red: 55	Yellow: 50	
+The 3 time:	Blue: 10	Orange: 30	Red: 55	Yellow: 50	
+The 4 time:	Blue: 10	Orange: 30	Red: 55	Yellow: 50	
+
+Start...
+The scores is {"Blue": 10, "Yellow": 50}
+The 0 time:	Blue: 10	Yellow: 50	
+The 1 time:	Blue: 10	Yellow: 50	
+The 2 time:	Blue: 10	Yellow: 50	
+The 3 time:	Blue: 10	Yellow: 50	
+The 4 time:	Blue: 10	Yellow: 50	
+The scores is {"Orange": 30, "Blue": 10, "Yellow": 50}
+The 0 time:	Orange: 30	Blue: 10	Yellow: 50	
+The 1 time:	Orange: 30	Blue: 10	Yellow: 50	
+The 2 time:	Orange: 30	Blue: 10	Yellow: 50	
+The 3 time:	Orange: 30	Blue: 10	Yellow: 50	
+The 4 time:	Orange: 30	Blue: 10	Yellow: 50	
+The scores is {"Yellow": 50, "Red": 55, "Blue": 10, "Orange": 30}
+The 0 time:	Yellow: 50	Red: 55	Blue: 10	Orange: 30	
+The 1 time:	Yellow: 50	Red: 55	Blue: 10	Orange: 30	
+The 2 time:	Yellow: 50	Red: 55	Blue: 10	Orange: 30	
+The 3 time:	Yellow: 50	Red: 55	Blue: 10	Orange: 30	
+The 4 time:	Yellow: 50	Red: 55	Blue: 10	Orange: 30	
+In p187b(), eg8-22
+map is {"name": 1}, and its type is std::collections::hash::map::HashMap<alloc::string::String, i32>.
+field_name is 'name', and field_value is '1'.
+map is {"name": 1}, and its type is std::collections::hash::map::HashMap<&str, i32>.
+field_name is 'name', and field_value is '1'.
+map is {Some("name"): 1}
+field_name is 'Some("name")', and field_value is '1'.
+set field_name to None.
+map is {Some("name"): 1}, field_name is 'None', and field_value is '1'.
+map is {"name": 1}
+map is {"name": 1}
+
+In p188a(), eg8-23
+{"Blue": 25}
+
+In p188b(), eg8-24
+{"Yellow": 50, "Blue": 10}
+
+In p189a(), eg8-25
+{"hello": 1, "world": 2, "wonderful": 1}
+
+Calling chapter08_main tooks 0 seconds.
+
+In p174a(), eg8-1
+Calling p174a tooks 0 milliseconds.
+
+In p174b(), eg8-2
+Calling p174b tooks 0 milliseconds.
+
+In p174c(), eg8-3
+The type of v4 is alloc::vec::Vec<f64>.
+Calling p174c tooks 0 milliseconds.
+
+In p175a(), eg8-4
+The third element is 3
+The third element is 3
+The type of first element by get(0) is core::option::Option<&i32>.
+The 0 element by get() is 1
+The 1 element by get() is 2
+The 2 element by get() is 3
+The 3 element by get() is 4
+The 4 element by get() is 5
+Not found the 5 element.
+The 0 element by index is 1
+The 1 element by index is 2
+The 2 element by index is 3
+The 3 element by index is 4
+The 4 element by index is 5
+The type of first element by &v[0] is i32.
+Calling p175a tooks 0 milliseconds.
+
+In p175b(), eg8-5
+does_not_exist is None
+Calling p175b tooks 0 milliseconds.
+
+In p175c(), eg8-6
+The first element is: 1
+Calling p175c tooks 0 milliseconds.
+
+In p176a(), eg8-7
+100
+32
+57
+Calling p176a tooks 0 milliseconds.
+
+In p176b(), eg8-8
+v is [150, 82, 107]
+The type of 100 is &i32
+The type of 32 is &i32
+The type of 57 is &i32
+v is [100, 32]
+The type of 150 is &mut i32
+The type of 82 is &mut i32
+The last item is Some(82), and its type is core::option::Option<i32>.
+Calling p176b tooks 0 milliseconds.
+
+In p177a(), eg8-9
+item is Int(3)
+item is Text("blue")
+item is Float(10.12)
+Calling p177a tooks 0 milliseconds.
+
+In p178a(), eg8-10
+Calling p178a tooks 0 milliseconds.
+
+In p179a(), eg8-11
+Calling p179a tooks 0 milliseconds.
+
+In p179b(), eg8-12
+s1 == s2? true.
+Calling p179b tooks 0 milliseconds.
+
+In p180a(), eg8-13
+s1 == s2? true.
+Calling p180a tooks 0 milliseconds.
+
+In p180b(), eg8-14
+'السلام عليكم' has 12 chars.
+'Dobrý den' has 9 chars.
+'Hello' has 5 chars.
+'שָׁלוֹם' has 7 chars.
+'नमस्ते' has 6 chars.
+'こんにちは' has 5 chars.
+'안녕하세요' has 5 chars.
+'你好' has 2 chars.
+'Olá' has 3 chars.
+'Здравствуйте' has 12 chars.
+'Hola' has 4 chars.
+Calling p180b tooks 0 milliseconds.
+
+In p180c(), eg8-15
+s: foobar
+Calling p180c tooks 0 milliseconds.
+
+In p181a(), eg8-16
+s2 is 'bar', and s1 is 'foobar'
+Calling p181a tooks 0 milliseconds.
+
+In p181b(), eg8-17
+Calling p181b tooks 0 milliseconds.
+
+In p181c(), eg8-18
+s3 is 'Hello, world!, and s2 is 'world!'
+Calling p181c tooks 0 milliseconds.
+
+In p182a()
+s4 == s5? true.
+Calling p182a tooks 0 milliseconds.
+
+In p182b(), eg8-19
+Calling p182b tooks 0 milliseconds.
+
+In p183a()
+'السلام عليكم' has 12 chars, and its length is 23.
+'Dobrý den' has 9 chars, and its length is 10.
+'Hello' has 5 chars, and its length is 5.
+'שָׁלוֹם' has 7 chars, and its length is 14.
+'नमस्ते' has 6 chars, and its length is 18.
+'こんにちは' has 5 chars, and its length is 15.
+'안녕하세요' has 5 chars, and its length is 15.
+'你好' has 2 chars, and its length is 6.
+'Olá' has 3 chars, and its length is 4.
+'Здравствуйте' has 12 chars, and its length is 24.
+'Hola' has 4 chars, and its length is 4.
+Calling p183a tooks 0 milliseconds.
+
+In p184a()
+h is 'h'.
+s is 'Зд'.
+Calling p184a tooks 0 milliseconds.
+
+In p185a()
+The chars:
+c is 'З', and its type is char.
+c is 'д', and its type is char.
+The bytes:
+b is 208, and its type is u8.
+b is 151, and its type is u8.
+b is 208, and its type is u8.
+b is 180, and its type is u8.
+
+More..
+s is 'السلام عليكم'
+The chars:
+ا
+ل
+س
+ل
+ا
+م
+ 
+ع
+ل
+ي
+ك
+م
+The bytes:
+216
+167
+217
+132
+216
+179
+217
+132
+216
+167
+217
+133
+32
+216
+185
+217
+132
+217
+138
+217
+131
+217
+133
+s is 'Dobrý den'
+The chars:
+D
+o
+b
+r
+ý
+ 
+d
+e
+n
+The bytes:
+68
+111
+98
+114
+195
+189
+32
+100
+101
+110
+s is 'Hello'
+The chars:
+H
+e
+l
+l
+o
+The bytes:
+72
+101
+108
+108
+111
+s is 'שָׁלוֹם'
+The chars:
+ש
+ָ
+ׁ
+ל
+ו
+ֹ
+ם
+The bytes:
+215
+169
+214
+184
+215
+129
+215
+156
+215
+149
+214
+185
+215
+157
+s is 'नमस्ते'
+The chars:
+न
+म
+स
+्
+त
+े
+The bytes:
+224
+164
+168
+224
+164
+174
+224
+164
+184
+224
+165
+141
+224
+164
+164
+224
+165
+135
+s is 'こんにちは'
+The chars:
+こ
+ん
+に
+ち
+は
+The bytes:
+227
+129
+147
+227
+130
+147
+227
+129
+171
+227
+129
+161
+227
+129
+175
+s is '안녕하세요'
+The chars:
+안
+녕
+하
+세
+요
+The bytes:
+236
+149
+136
+235
+133
+149
+237
+149
+152
+236
+132
+184
+236
+154
+148
+s is '你好'
+The chars:
+你
+好
+The bytes:
+228
+189
+160
+229
+165
+189
+s is 'Olá'
+The chars:
+O
+l
+á
+The bytes:
+79
+108
+195
+161
+s is 'Здравствуйте'
+The chars:
+З
+д
+р
+а
+в
+с
+т
+в
+у
+й
+т
+е
+The bytes:
+208
+151
+208
+180
+209
+128
+208
+176
+208
+178
+209
+129
+209
+130
+208
+178
+209
+131
+208
+185
+209
+130
+208
+181
+s is 'Hola'
+The chars:
+H
+o
+l
+a
+The bytes:
+72
+111
+108
+97
+Calling p185a tooks 4 milliseconds.
+
+In p186a(), eg8-20
+scores is {"Yellow": 50, "Blue": 10}
+Calling p186a tooks 0 milliseconds.
+
+In p186b()
+The score of 'Blue' team is 10.
+The score of 'Red' team is 0.
+The scores is {"Blue": 10, "Yellow": 50}
+Calling p186b tooks 0 milliseconds.
+
+In p187a()
+
+
+Start...
+The scores is {"Yellow": 50, "Blue": 10}
+The 0 time:	Yellow: 50	Blue: 10	
+The 1 time:	Yellow: 50	Blue: 10	
+The 2 time:	Yellow: 50	Blue: 10	
+The 3 time:	Yellow: 50	Blue: 10	
+The 4 time:	Yellow: 50	Blue: 10	
+The scores is {"Orange": 30, "Yellow": 50, "Blue": 10}
+The 0 time:	Orange: 30	Yellow: 50	Blue: 10	
+The 1 time:	Orange: 30	Yellow: 50	Blue: 10	
+The 2 time:	Orange: 30	Yellow: 50	Blue: 10	
+The 3 time:	Orange: 30	Yellow: 50	Blue: 10	
+The 4 time:	Orange: 30	Yellow: 50	Blue: 10	
+The scores is {"Yellow": 50, "Blue": 10, "Orange": 30, "Red": 55}
+The 0 time:	Yellow: 50	Blue: 10	Orange: 30	Red: 55	
+The 1 time:	Yellow: 50	Blue: 10	Orange: 30	Red: 55	
+The 2 time:	Yellow: 50	Blue: 10	Orange: 30	Red: 55	
+The 3 time:	Yellow: 50	Blue: 10	Orange: 30	Red: 55	
+The 4 time:	Yellow: 50	Blue: 10	Orange: 30	Red: 55	
+
+Start...
+The scores is {"Yellow": 50, "Blue": 10}
+The 0 time:	Yellow: 50	Blue: 10	
+The 1 time:	Yellow: 50	Blue: 10	
+The 2 time:	Yellow: 50	Blue: 10	
+The 3 time:	Yellow: 50	Blue: 10	
+The 4 time:	Yellow: 50	Blue: 10	
+The scores is {"Yellow": 50, "Orange": 30, "Blue": 10}
+The 0 time:	Yellow: 50	Orange: 30	Blue: 10	
+The 1 time:	Yellow: 50	Orange: 30	Blue: 10	
+The 2 time:	Yellow: 50	Orange: 30	Blue: 10	
+The 3 time:	Yellow: 50	Orange: 30	Blue: 10	
+The 4 time:	Yellow: 50	Orange: 30	Blue: 10	
+The scores is {"Blue": 10, "Orange": 30, "Red": 55, "Yellow": 50}
+The 0 time:	Blue: 10	Orange: 30	Red: 55	Yellow: 50	
+The 1 time:	Blue: 10	Orange: 30	Red: 55	Yellow: 50	
+The 2 time:	Blue: 10	Orange: 30	Red: 55	Yellow: 50	
+The 3 time:	Blue: 10	Orange: 30	Red: 55	Yellow: 50	
+The 4 time:	Blue: 10	Orange: 30	Red: 55	Yellow: 50	
+
+Start...
+The scores is {"Blue": 10, "Yellow": 50}
+The 0 time:	Blue: 10	Yellow: 50	
+The 1 time:	Blue: 10	Yellow: 50	
+The 2 time:	Blue: 10	Yellow: 50	
+The 3 time:	Blue: 10	Yellow: 50	
+The 4 time:	Blue: 10	Yellow: 50	
+The scores is {"Blue": 10, "Yellow": 50, "Orange": 30}
+The 0 time:	Blue: 10	Yellow: 50	Orange: 30	
+The 1 time:	Blue: 10	Yellow: 50	Orange: 30	
+The 2 time:	Blue: 10	Yellow: 50	Orange: 30	
+The 3 time:	Blue: 10	Yellow: 50	Orange: 30	
+The 4 time:	Blue: 10	Yellow: 50	Orange: 30	
+The scores is {"Yellow": 50, "Blue": 10, "Orange": 30, "Red": 55}
+The 0 time:	Yellow: 50	Blue: 10	Orange: 30	Red: 55	
+The 1 time:	Yellow: 50	Blue: 10	Orange: 30	Red: 55	
+The 2 time:	Yellow: 50	Blue: 10	Orange: 30	Red: 55	
+The 3 time:	Yellow: 50	Blue: 10	Orange: 30	Red: 55	
+The 4 time:	Yellow: 50	Blue: 10	Orange: 30	Red: 55	
+
+Start...
+The scores is {"Blue": 10, "Yellow": 50}
+The 0 time:	Blue: 10	Yellow: 50	
+The 1 time:	Blue: 10	Yellow: 50	
+The 2 time:	Blue: 10	Yellow: 50	
+The 3 time:	Blue: 10	Yellow: 50	
+The 4 time:	Blue: 10	Yellow: 50	
+The scores is {"Blue": 10, "Yellow": 50, "Orange": 30}
+The 0 time:	Blue: 10	Yellow: 50	Orange: 30	
+The 1 time:	Blue: 10	Yellow: 50	Orange: 30	
+The 2 time:	Blue: 10	Yellow: 50	Orange: 30	
+The 3 time:	Blue: 10	Yellow: 50	Orange: 30	
+The 4 time:	Blue: 10	Yellow: 50	Orange: 30	
+The scores is {"Yellow": 50, "Orange": 30, "Red": 55, "Blue": 10}
+The 0 time:	Yellow: 50	Orange: 30	Red: 55	Blue: 10	
+The 1 time:	Yellow: 50	Orange: 30	Red: 55	Blue: 10	
+The 2 time:	Yellow: 50	Orange: 30	Red: 55	Blue: 10	
+The 3 time:	Yellow: 50	Orange: 30	Red: 55	Blue: 10	
+The 4 time:	Yellow: 50	Orange: 30	Red: 55	Blue: 10	
+
+Start...
+The scores is {"Blue": 10, "Yellow": 50}
+The 0 time:	Blue: 10	Yellow: 50	
+The 1 time:	Blue: 10	Yellow: 50	
+The 2 time:	Blue: 10	Yellow: 50	
+The 3 time:	Blue: 10	Yellow: 50	
+The 4 time:	Blue: 10	Yellow: 50	
+The scores is {"Blue": 10, "Orange": 30, "Yellow": 50}
+The 0 time:	Blue: 10	Orange: 30	Yellow: 50	
+The 1 time:	Blue: 10	Orange: 30	Yellow: 50	
+The 2 time:	Blue: 10	Orange: 30	Yellow: 50	
+The 3 time:	Blue: 10	Orange: 30	Yellow: 50	
+The 4 time:	Blue: 10	Orange: 30	Yellow: 50	
+The scores is {"Blue": 10, "Orange": 30, "Red": 55, "Yellow": 50}
+The 0 time:	Blue: 10	Orange: 30	Red: 55	Yellow: 50	
+The 1 time:	Blue: 10	Orange: 30	Red: 55	Yellow: 50	
+The 2 time:	Blue: 10	Orange: 30	Red: 55	Yellow: 50	
+The 3 time:	Blue: 10	Orange: 30	Red: 55	Yellow: 50	
+The 4 time:	Blue: 10	Orange: 30	Red: 55	Yellow: 50	
+
+Start...
+The scores is {"Blue": 10, "Yellow": 50}
+The 0 time:	Blue: 10	Yellow: 50	
+The 1 time:	Blue: 10	Yellow: 50	
+The 2 time:	Blue: 10	Yellow: 50	
+The 3 time:	Blue: 10	Yellow: 50	
+The 4 time:	Blue: 10	Yellow: 50	
+The scores is {"Blue": 10, "Yellow": 50, "Orange": 30}
+The 0 time:	Blue: 10	Yellow: 50	Orange: 30	
+The 1 time:	Blue: 10	Yellow: 50	Orange: 30	
+The 2 time:	Blue: 10	Yellow: 50	Orange: 30	
+The 3 time:	Blue: 10	Yellow: 50	Orange: 30	
+The 4 time:	Blue: 10	Yellow: 50	Orange: 30	
+The scores is {"Blue": 10, "Red": 55, "Yellow": 50, "Orange": 30}
+The 0 time:	Blue: 10	Red: 55	Yellow: 50	Orange: 30	
+The 1 time:	Blue: 10	Red: 55	Yellow: 50	Orange: 30	
+The 2 time:	Blue: 10	Red: 55	Yellow: 50	Orange: 30	
+The 3 time:	Blue: 10	Red: 55	Yellow: 50	Orange: 30	
+The 4 time:	Blue: 10	Red: 55	Yellow: 50	Orange: 30	
+
+Start...
+The scores is {"Blue": 10, "Yellow": 50}
+The 0 time:	Blue: 10	Yellow: 50	
+The 1 time:	Blue: 10	Yellow: 50	
+The 2 time:	Blue: 10	Yellow: 50	
+The 3 time:	Blue: 10	Yellow: 50	
+The 4 time:	Blue: 10	Yellow: 50	
+The scores is {"Blue": 10, "Yellow": 50, "Orange": 30}
+The 0 time:	Blue: 10	Yellow: 50	Orange: 30	
+The 1 time:	Blue: 10	Yellow: 50	Orange: 30	
+The 2 time:	Blue: 10	Yellow: 50	Orange: 30	
+The 3 time:	Blue: 10	Yellow: 50	Orange: 30	
+The 4 time:	Blue: 10	Yellow: 50	Orange: 30	
+The scores is {"Red": 55, "Blue": 10, "Yellow": 50, "Orange": 30}
+The 0 time:	Red: 55	Blue: 10	Yellow: 50	Orange: 30	
+The 1 time:	Red: 55	Blue: 10	Yellow: 50	Orange: 30	
+The 2 time:	Red: 55	Blue: 10	Yellow: 50	Orange: 30	
+The 3 time:	Red: 55	Blue: 10	Yellow: 50	Orange: 30	
+The 4 time:	Red: 55	Blue: 10	Yellow: 50	Orange: 30	
+
+Start...
+The scores is {"Blue": 10, "Yellow": 50}
+The 0 time:	Blue: 10	Yellow: 50	
+The 1 time:	Blue: 10	Yellow: 50	
+The 2 time:	Blue: 10	Yellow: 50	
+The 3 time:	Blue: 10	Yellow: 50	
+The 4 time:	Blue: 10	Yellow: 50	
+The scores is {"Blue": 10, "Orange": 30, "Yellow": 50}
+The 0 time:	Blue: 10	Orange: 30	Yellow: 50	
+The 1 time:	Blue: 10	Orange: 30	Yellow: 50	
+The 2 time:	Blue: 10	Orange: 30	Yellow: 50	
+The 3 time:	Blue: 10	Orange: 30	Yellow: 50	
+The 4 time:	Blue: 10	Orange: 30	Yellow: 50	
+The scores is {"Blue": 10, "Orange": 30, "Yellow": 50, "Red": 55}
+The 0 time:	Blue: 10	Orange: 30	Yellow: 50	Red: 55	
+The 1 time:	Blue: 10	Orange: 30	Yellow: 50	Red: 55	
+The 2 time:	Blue: 10	Orange: 30	Yellow: 50	Red: 55	
+The 3 time:	Blue: 10	Orange: 30	Yellow: 50	Red: 55	
+The 4 time:	Blue: 10	Orange: 30	Yellow: 50	Red: 55	
+
+Start...
+The scores is {"Blue": 10, "Yellow": 50}
+The 0 time:	Blue: 10	Yellow: 50	
+The 1 time:	Blue: 10	Yellow: 50	
+The 2 time:	Blue: 10	Yellow: 50	
+The 3 time:	Blue: 10	Yellow: 50	
+The 4 time:	Blue: 10	Yellow: 50	
+The scores is {"Blue": 10, "Yellow": 50, "Orange": 30}
+The 0 time:	Blue: 10	Yellow: 50	Orange: 30	
+The 1 time:	Blue: 10	Yellow: 50	Orange: 30	
+The 2 time:	Blue: 10	Yellow: 50	Orange: 30	
+The 3 time:	Blue: 10	Yellow: 50	Orange: 30	
+The 4 time:	Blue: 10	Yellow: 50	Orange: 30	
+The scores is {"Blue": 10, "Red": 55, "Yellow": 50, "Orange": 30}
+The 0 time:	Blue: 10	Red: 55	Yellow: 50	Orange: 30	
+The 1 time:	Blue: 10	Red: 55	Yellow: 50	Orange: 30	
+The 2 time:	Blue: 10	Red: 55	Yellow: 50	Orange: 30	
+The 3 time:	Blue: 10	Red: 55	Yellow: 50	Orange: 30	
+The 4 time:	Blue: 10	Red: 55	Yellow: 50	Orange: 30	
+
+Start...
+The scores is {"Yellow": 50, "Blue": 10}
+The 0 time:	Yellow: 50	Blue: 10	
+The 1 time:	Yellow: 50	Blue: 10	
+The 2 time:	Yellow: 50	Blue: 10	
+The 3 time:	Yellow: 50	Blue: 10	
+The 4 time:	Yellow: 50	Blue: 10	
+The scores is {"Orange": 30, "Yellow": 50, "Blue": 10}
+The 0 time:	Orange: 30	Yellow: 50	Blue: 10	
+The 1 time:	Orange: 30	Yellow: 50	Blue: 10	
+The 2 time:	Orange: 30	Yellow: 50	Blue: 10	
+The 3 time:	Orange: 30	Yellow: 50	Blue: 10	
+The 4 time:	Orange: 30	Yellow: 50	Blue: 10	
+The scores is {"Yellow": 50, "Red": 55, "Orange": 30, "Blue": 10}
+The 0 time:	Yellow: 50	Red: 55	Orange: 30	Blue: 10	
+The 1 time:	Yellow: 50	Red: 55	Orange: 30	Blue: 10	
+The 2 time:	Yellow: 50	Red: 55	Orange: 30	Blue: 10	
+The 3 time:	Yellow: 50	Red: 55	Orange: 30	Blue: 10	
+The 4 time:	Yellow: 50	Red: 55	Orange: 30	Blue: 10	Calling p187a tooks 3 milliseconds.
+
+In p187b(), eg8-22
+map is {"name": 1}, and its type is std::collections::hash::map::HashMap<alloc::string::String, i32>.
+field_name is 'name', and field_value is '1'.
+map is {"name": 1}, and its type is std::collections::hash::map::HashMap<&str, i32>.
+field_name is 'name', and field_value is '1'.
+map is {Some("name"): 1}
+field_name is 'Some("name")', and field_value is '1'.
+set field_name to None.
+map is {Some("name"): 1}, field_name is 'None', and field_value is '1'.
+map is {"name": 1}
+map is {"name": 1}
+Calling p187b tooks 0 milliseconds.
+
+In p188a(), eg8-23
+{"Blue": 25}
+Calling p188a tooks 0 milliseconds.
+
+In p188b(), eg8-24
+{"Yellow": 50, "Blue": 10}
+Calling p188b tooks 0 milliseconds.
+
+In p189a(), eg8-25
+{"wonderful": 1, "world": 2, "hello": 1}
+Calling p189a tooks 0 milliseconds.
+Total used 11 milliseconds.
+
+In p174a(), eg8-1
+Calling p174a tooks 0 seconds.
+
+In p174b(), eg8-2
+Calling p174b tooks 0 seconds.
+
+In p174c(), eg8-3
+The type of v4 is alloc::vec::Vec<f64>.
+Calling p174c tooks 0 seconds.
+
+In p175a(), eg8-4
+The third element is 3
+The third element is 3
+The type of first element by get(0) is core::option::Option<&i32>.
+The 0 element by get() is 1
+The 1 element by get() is 2
+The 2 element by get() is 3
+The 3 element by get() is 4
+The 4 element by get() is 5
+Not found the 5 element.
+The 0 element by index is 1
+The 1 element by index is 2
+The 2 element by index is 3
+The 3 element by index is 4
+The 4 element by index is 5
+The type of first element by &v[0] is i32.
+Calling p175a tooks 0 seconds.
+
+In p175b(), eg8-5
+does_not_exist is None
+Calling p175b tooks 0 seconds.
+
+In p175c(), eg8-6
+The first element is: 1
+Calling p175c tooks 0 seconds.
+
+In p176a(), eg8-7
+100
+32
+57
+Calling p176a tooks 0 seconds.
+
+In p176b(), eg8-8
+v is [150, 82, 107]
+The type of 100 is &i32
+The type of 32 is &i32
+The type of 57 is &i32
+v is [100, 32]
+The type of 150 is &mut i32
+The type of 82 is &mut i32
+The last item is Some(82), and its type is core::option::Option<i32>.
+Calling p176b tooks 0 seconds.
+
+In p177a(), eg8-9
+item is Int(3)
+item is Text("blue")
+item is Float(10.12)
+Calling p177a tooks 0 seconds.
+
+In p178a(), eg8-10
+Calling p178a tooks 0 seconds.
+
+In p179a(), eg8-11
+Calling p179a tooks 0 seconds.
+
+In p179b(), eg8-12
+s1 == s2? true.
+Calling p179b tooks 0 seconds.
+
+In p180a(), eg8-13
+s1 == s2? true.
+Calling p180a tooks 0 seconds.
+
+In p180b(), eg8-14
+'السلام عليكم' has 12 chars.
+'Dobrý den' has 9 chars.
+'Hello' has 5 chars.
+'שָׁלוֹם' has 7 chars.
+'नमस्ते' has 6 chars.
+'こんにちは' has 5 chars.
+'안녕하세요' has 5 chars.
+'你好' has 2 chars.
+'Olá' has 3 chars.
+'Здравствуйте' has 12 chars.
+'Hola' has 4 chars.
+Calling p180b tooks 0 seconds.
+
+In p180c(), eg8-15
+s: foobar
+Calling p180c tooks 0 seconds.
+
+In p181a(), eg8-16
+s2 is 'bar', and s1 is 'foobar'
+Calling p181a tooks 0 seconds.
+
+In p181b(), eg8-17
+Calling p181b tooks 0 seconds.
+
+In p181c(), eg8-18
+s3 is 'Hello, world!, and s2 is 'world!'
+Calling p181c tooks 0 seconds.
+
+In p182a()
+s4 == s5? true.
+Calling p182a tooks 0 seconds.
+
+In p182b(), eg8-19
+Calling p182b tooks 0 seconds.
+
+In p183a()
+'السلام عليكم' has 12 chars, and its length is 23.
+'Dobrý den' has 9 chars, and its length is 10.
+'Hello' has 5 chars, and its length is 5.
+'שָׁלוֹם' has 7 chars, and its length is 14.
+'नमस्ते' has 6 chars, and its length is 18.
+'こんにちは' has 5 chars, and its length is 15.
+'안녕하세요' has 5 chars, and its length is 15.
+'你好' has 2 chars, and its length is 6.
+'Olá' has 3 chars, and its length is 4.
+'Здравствуйте' has 12 chars, and its length is 24.
+'Hola' has 4 chars, and its length is 4.
+Calling p183a tooks 0 seconds.
+
+In p184a()
+h is 'h'.
+s is 'Зд'.
+Calling p184a tooks 0 seconds.
+
+In p185a()
+The chars:
+c is 'З', and its type is char.
+c is 'д', and its type is char.
+The bytes:
+b is 208, and its type is u8.
+b is 151, and its type is u8.
+b is 208, and its type is u8.
+b is 180, and its type is u8.
+
+More..
+s is 'السلام عليكم'
+The chars:
+ا
+ل
+س
+ل
+ا
+م
+ 
+ع
+ل
+ي
+ك
+م
+The bytes:
+216
+167
+217
+132
+216
+179
+217
+132
+216
+167
+217
+133
+32
+216
+185
+217
+132
+217
+138
+217
+131
+217
+133
+s is 'Dobrý den'
+The chars:
+D
+o
+b
+r
+ý
+ 
+d
+e
+n
+The bytes:
+68
+111
+98
+114
+195
+189
+32
+100
+101
+110
+s is 'Hello'
+The chars:
+H
+e
+l
+l
+o
+The bytes:
+72
+101
+108
+108
+111
+s is 'שָׁלוֹם'
+The chars:
+ש
+ָ
+ׁ
+ל
+ו
+ֹ
+ם
+The bytes:
+215
+169
+214
+184
+215
+129
+215
+156
+215
+149
+214
+185
+215
+157
+s is 'नमस्ते'
+The chars:
+न
+म
+स
+्
+त
+े
+The bytes:
+224
+164
+168
+224
+164
+174
+224
+164
+184
+224
+165
+141
+224
+164
+164
+224
+165
+135
+s is 'こんにちは'
+The chars:
+こ
+ん
+に
+ち
+は
+The bytes:
+227
+129
+147
+227
+130
+147
+227
+129
+171
+227
+129
+161
+227
+129
+175
+s is '안녕하세요'
+The chars:
+안
+녕
+하
+세
+요
+The bytes:
+236
+149
+136
+235
+133
+149
+237
+149
+152
+236
+132
+184
+236
+154
+148
+s is '你好'
+The chars:
+你
+好
+The bytes:
+228
+189
+160
+229
+165
+189
+s is 'Olá'
+The chars:
+O
+l
+á
+The bytes:
+79
+108
+195
+161
+s is 'Здравствуйте'
+The chars:
+З
+д
+р
+а
+в
+с
+т
+в
+у
+й
+т
+е
+The bytes:
+208
+151
+208
+180
+209
+128
+208
+176
+208
+178
+209
+129
+209
+130
+208
+178
+209
+131
+208
+185
+209
+130
+208
+181
+s is 'Hola'
+The chars:
+H
+o
+l
+a
+The bytes:
+72
+111
+108
+97
+Calling p185a tooks 0 seconds.
+
+In p186a(), eg8-20
+scores is {"Blue": 10, "Yellow": 50}
+Calling p186a tooks 0 seconds.
+
+In p186b()
+The score of 'Blue' team is 10.
+The score of 'Red' team is 0.
+The scores is {"Yellow": 50, "Blue": 10}
+Calling p186b tooks 0 seconds.
+
+In p187a()
+
+
+Start...
+The scores is {"Yellow": 50, "Blue": 10}
+The 0 time:	Yellow: 50	Blue: 10	
+The 1 time:	Yellow: 50	Blue: 10	
+The 2 time:	Yellow: 50	Blue: 10	
+The 3 time:	Yellow: 50	Blue: 10	
+The 4 time:	Yellow: 50	Blue: 10	
+The scores is {"Orange": 30, "Yellow": 50, "Blue": 10}
+The 0 time:	Orange: 30	Yellow: 50	Blue: 10	
+The 1 time:	Orange: 30	Yellow: 50	Blue: 10	
+The 2 time:	Orange: 30	Yellow: 50	Blue: 10	
+The 3 time:	Orange: 30	Yellow: 50	Blue: 10	
+The 4 time:	Orange: 30	Yellow: 50	Blue: 10	
+The scores is {"Orange": 30, "Blue": 10, "Yellow": 50, "Red": 55}
+The 0 time:	Orange: 30	Blue: 10	Yellow: 50	Red: 55	
+The 1 time:	Orange: 30	Blue: 10	Yellow: 50	Red: 55	
+The 2 time:	Orange: 30	Blue: 10	Yellow: 50	Red: 55	
+The 3 time:	Orange: 30	Blue: 10	Yellow: 50	Red: 55	
+The 4 time:	Orange: 30	Blue: 10	Yellow: 50	Red: 55	
+
+Start...
+The scores is {"Yellow": 50, "Blue": 10}
+The 0 time:	Yellow: 50	Blue: 10	
+The 1 time:	Yellow: 50	Blue: 10	
+The 2 time:	Yellow: 50	Blue: 10	
+The 3 time:	Yellow: 50	Blue: 10	
+The 4 time:	Yellow: 50	Blue: 10	
+The scores is {"Yellow": 50, "Blue": 10, "Orange": 30}
+The 0 time:	Yellow: 50	Blue: 10	Orange: 30	
+The 1 time:	Yellow: 50	Blue: 10	Orange: 30	
+The 2 time:	Yellow: 50	Blue: 10	Orange: 30	
+The 3 time:	Yellow: 50	Blue: 10	Orange: 30	
+The 4 time:	Yellow: 50	Blue: 10	Orange: 30	
+The scores is {"Blue": 10, "Orange": 30, "Yellow": 50, "Red": 55}
+The 0 time:	Blue: 10	Orange: 30	Yellow: 50	Red: 55	
+The 1 time:	Blue: 10	Orange: 30	Yellow: 50	Red: 55	
+The 2 time:	Blue: 10	Orange: 30	Yellow: 50	Red: 55	
+The 3 time:	Blue: 10	Orange: 30	Yellow: 50	Red: 55	
+The 4 time:	Blue: 10	Orange: 30	Yellow: 50	Red: 55	
+
+Start...
+The scores is {"Blue": 10, "Yellow": 50}
+The 0 time:	Blue: 10	Yellow: 50	
+The 1 time:	Blue: 10	Yellow: 50	
+The 2 time:	Blue: 10	Yellow: 50	
+The 3 time:	Blue: 10	Yellow: 50	
+The 4 time:	Blue: 10	Yellow: 50	
+The scores is {"Orange": 30, "Blue": 10, "Yellow": 50}
+The 0 time:	Orange: 30	Blue: 10	Yellow: 50	
+The 1 time:	Orange: 30	Blue: 10	Yellow: 50	
+The 2 time:	Orange: 30	Blue: 10	Yellow: 50	
+The 3 time:	Orange: 30	Blue: 10	Yellow: 50	
+The 4 time:	Orange: 30	Blue: 10	Yellow: 50	
+The scores is {"Blue": 10, "Yellow": 50, "Red": 55, "Orange": 30}
+The 0 time:	Blue: 10	Yellow: 50	Red: 55	Orange: 30	
+The 1 time:	Blue: 10	Yellow: 50	Red: 55	Orange: 30	
+The 2 time:	Blue: 10	Yellow: 50	Red: 55	Orange: 30	
+The 3 time:	Blue: 10	Yellow: 50	Red: 55	Orange: 30	
+The 4 time:	Blue: 10	Yellow: 50	Red: 55	Orange: 30	
+
+Start...
+The scores is {"Yellow": 50, "Blue": 10}
+The 0 time:	Yellow: 50	Blue: 10	
+The 1 time:	Yellow: 50	Blue: 10	
+The 2 time:	Yellow: 50	Blue: 10	
+The 3 time:	Yellow: 50	Blue: 10	
+The 4 time:	Yellow: 50	Blue: 10	
+The scores is {"Yellow": 50, "Orange": 30, "Blue": 10}
+The 0 time:	Yellow: 50	Orange: 30	Blue: 10	
+The 1 time:	Yellow: 50	Orange: 30	Blue: 10	
+The 2 time:	Yellow: 50	Orange: 30	Blue: 10	
+The 3 time:	Yellow: 50	Orange: 30	Blue: 10	
+The 4 time:	Yellow: 50	Orange: 30	Blue: 10	
+The scores is {"Orange": 30, "Blue": 10, "Yellow": 50, "Red": 55}
+The 0 time:	Orange: 30	Blue: 10	Yellow: 50	Red: 55	
+The 1 time:	Orange: 30	Blue: 10	Yellow: 50	Red: 55	
+The 2 time:	Orange: 30	Blue: 10	Yellow: 50	Red: 55	
+The 3 time:	Orange: 30	Blue: 10	Yellow: 50	Red: 55	
+The 4 time:	Orange: 30	Blue: 10	Yellow: 50	Red: 55	
+
+Start...
+The scores is {"Blue": 10, "Yellow": 50}
+The 0 time:	Blue: 10	Yellow: 50	
+The 1 time:	Blue: 10	Yellow: 50	
+The 2 time:	Blue: 10	Yellow: 50	
+The 3 time:	Blue: 10	Yellow: 50	
+The 4 time:	Blue: 10	Yellow: 50	
+The scores is {"Blue": 10, "Yellow": 50, "Orange": 30}
+The 0 time:	Blue: 10	Yellow: 50	Orange: 30	
+The 1 time:	Blue: 10	Yellow: 50	Orange: 30	
+The 2 time:	Blue: 10	Yellow: 50	Orange: 30	
+The 3 time:	Blue: 10	Yellow: 50	Orange: 30	
+The 4 time:	Blue: 10	Yellow: 50	Orange: 30	
+The scores is {"Blue": 10, "Red": 55, "Orange": 30, "Yellow": 50}
+The 0 time:	Blue: 10	Red: 55	Orange: 30	Yellow: 50	
+The 1 time:	Blue: 10	Red: 55	Orange: 30	Yellow: 50	
+The 2 time:	Blue: 10	Red: 55	Orange: 30	Yellow: 50	
+The 3 time:	Blue: 10	Red: 55	Orange: 30	Yellow: 50	
+The 4 time:	Blue: 10	Red: 55	Orange: 30	Yellow: 50	
+
+Start...
+The scores is {"Blue": 10, "Yellow": 50}
+The 0 time:	Blue: 10	Yellow: 50	
+The 1 time:	Blue: 10	Yellow: 50	
+The 2 time:	Blue: 10	Yellow: 50	
+The 3 time:	Blue: 10	Yellow: 50	
+The 4 time:	Blue: 10	Yellow: 50	
+The scores is {"Blue": 10, "Orange": 30, "Yellow": 50}
+The 0 time:	Blue: 10	Orange: 30	Yellow: 50	
+The 1 time:	Blue: 10	Orange: 30	Yellow: 50	
+The 2 time:	Blue: 10	Orange: 30	Yellow: 50	
+The 3 time:	Blue: 10	Orange: 30	Yellow: 50	
+The 4 time:	Blue: 10	Orange: 30	Yellow: 50	
+The scores is {"Orange": 30, "Yellow": 50, "Blue": 10, "Red": 55}
+The 0 time:	Orange: 30	Yellow: 50	Blue: 10	Red: 55	
+The 1 time:	Orange: 30	Yellow: 50	Blue: 10	Red: 55	
+The 2 time:	Orange: 30	Yellow: 50	Blue: 10	Red: 55	
+The 3 time:	Orange: 30	Yellow: 50	Blue: 10	Red: 55	
+The 4 time:	Orange: 30	Yellow: 50	Blue: 10	Red: 55	
+
+Start...
+The scores is {"Yellow": 50, "Blue": 10}
+The 0 time:	Yellow: 50	Blue: 10	
+The 1 time:	Yellow: 50	Blue: 10	
+The 2 time:	Yellow: 50	Blue: 10	
+The 3 time:	Yellow: 50	Blue: 10	
+The 4 time:	Yellow: 50	Blue: 10	
+The scores is {"Orange": 30, "Yellow": 50, "Blue": 10}
+The 0 time:	Orange: 30	Yellow: 50	Blue: 10	
+The 1 time:	Orange: 30	Yellow: 50	Blue: 10	
+The 2 time:	Orange: 30	Yellow: 50	Blue: 10	
+The 3 time:	Orange: 30	Yellow: 50	Blue: 10	
+The 4 time:	Orange: 30	Yellow: 50	Blue: 10	
+The scores is {"Blue": 10, "Red": 55, "Orange": 30, "Yellow": 50}
+The 0 time:	Blue: 10	Red: 55	Orange: 30	Yellow: 50	
+The 1 time:	Blue: 10	Red: 55	Orange: 30	Yellow: 50	
+The 2 time:	Blue: 10	Red: 55	Orange: 30	Yellow: 50	
+The 3 time:	Blue: 10	Red: 55	Orange: 30	Yellow: 50	
+The 4 time:	Blue: 10	Red: 55	Orange: 30	Yellow: 50	
+
+Start...
+The scores is {"Yellow": 50, "Blue": 10}
+The 0 time:	Yellow: 50	Blue: 10	
+The 1 time:	Yellow: 50	Blue: 10	
+The 2 time:	Yellow: 50	Blue: 10	
+The 3 time:	Yellow: 50	Blue: 10	
+The 4 time:	Yellow: 50	Blue: 10	
+The scores is {"Yellow": 50, "Blue": 10, "Orange": 30}
+The 0 time:	Yellow: 50	Blue: 10	Orange: 30	
+The 1 time:	Yellow: 50	Blue: 10	Orange: 30	
+The 2 time:	Yellow: 50	Blue: 10	Orange: 30	
+The 3 time:	Yellow: 50	Blue: 10	Orange: 30	
+The 4 time:	Yellow: 50	Blue: 10	Orange: 30	
+The scores is {"Orange": 30, "Red": 55, "Yellow": 50, "Blue": 10}
+The 0 time:	Orange: 30	Red: 55	Yellow: 50	Blue: 10	
+The 1 time:	Orange: 30	Red: 55	Yellow: 50	Blue: 10	
+The 2 time:	Orange: 30	Red: 55	Yellow: 50	Blue: 10	
+The 3 time:	Orange: 30	Red: 55	Yellow: 50	Blue: 10	
+The 4 time:	Orange: 30	Red: 55	Yellow: 50	Blue: 10	
+
+Start...
+The scores is {"Yellow": 50, "Blue": 10}
+The 0 time:	Yellow: 50	Blue: 10	
+The 1 time:	Yellow: 50	Blue: 10	
+The 2 time:	Yellow: 50	Blue: 10	
+The 3 time:	Yellow: 50	Blue: 10	
+The 4 time:	Yellow: 50	Blue: 10	
+The scores is {"Orange": 30, "Yellow": 50, "Blue": 10}
+The 0 time:	Orange: 30	Yellow: 50	Blue: 10	
+The 1 time:	Orange: 30	Yellow: 50	Blue: 10	
+The 2 time:	Orange: 30	Yellow: 50	Blue: 10	
+The 3 time:	Orange: 30	Yellow: 50	Blue: 10	
+The 4 time:	Orange: 30	Yellow: 50	Blue: 10	
+The scores is {"Blue": 10, "Red": 55, "Yellow": 50, "Orange": 30}
+The 0 time:	Blue: 10	Red: 55	Yellow: 50	Orange: 30	
+The 1 time:	Blue: 10	Red: 55	Yellow: 50	Orange: 30	
+The 2 time:	Blue: 10	Red: 55	Yellow: 50	Orange: 30	
+The 3 time:	Blue: 10	Red: 55	Yellow: 50	Orange: 30	
+The 4 time:	Blue: 10	Red: 55	Yellow: 50	Orange: 30	
+
+Start...
+The scores is {"Yellow": 50, "Blue": 10}
+The 0 time:	Yellow: 50	Blue: 10	
+The 1 time:	Yellow: 50	Blue: 10	
+The 2 time:	Yellow: 50	Blue: 10	
+The 3 time:	Yellow: 50	Blue: 10	
+The 4 time:	Yellow: 50	Blue: 10	
+The scores is {"Orange": 30, "Yellow": 50, "Blue": 10}
+The 0 time:	Orange: 30	Yellow: 50	Blue: 10	
+The 1 time:	Orange: 30	Yellow: 50	Blue: 10	
+The 2 time:	Orange: 30	Yellow: 50	Blue: 10	
+The 3 time:	Orange: 30	Yellow: 50	Blue: 10	
+The 4 time:	Orange: 30	Yellow: 50	Blue: 10	
+The scores is {"Blue": 10, "Red": 55, "Yellow": 50, "Orange": 30}
+The 0 time:	Blue: 10	Red: 55	Yellow: 50	Orange: 30	
+The 1 time:	Blue: 10	Red: 55	Yellow: 50	Orange: 30	
+The 2 time:	Blue: 10	Red: 55	Yellow: 50	Orange: 30	
+The 3 time:	Blue: 10	Red: 55	Yellow: 50	Orange: 30	
+The 4 time:	Blue: 10	Red: 55	Yellow: 50	Orange: 30	Calling p187a tooks 0 seconds.
+
+In p187b(), eg8-22
+map is {"name": 1}, and its type is std::collections::hash::map::HashMap<alloc::string::String, i32>.
+field_name is 'name', and field_value is '1'.
+map is {"name": 1}, and its type is std::collections::hash::map::HashMap<&str, i32>.
+field_name is 'name', and field_value is '1'.
+map is {Some("name"): 1}
+field_name is 'Some("name")', and field_value is '1'.
+set field_name to None.
+map is {Some("name"): 1}, field_name is 'None', and field_value is '1'.
+map is {"name": 1}
+map is {"name": 1}
+Calling p187b tooks 0 seconds.
+
+In p188a(), eg8-23
+{"Blue": 25}
+Calling p188a tooks 0 seconds.
+
+In p188b(), eg8-24
+{"Yellow": 50, "Blue": 10}
+Calling p188b tooks 0 seconds.
+
+In p189a(), eg8-25
+{"wonderful": 1, "hello": 1, "world": 2}
+Calling p189a tooks 0 seconds.
+Total used 0 seconds.
+
+  end: Instant { t: 465079.9446315s }
+Calling chapter08_main tooks 45 milliseconds.
+16:09:26.22 

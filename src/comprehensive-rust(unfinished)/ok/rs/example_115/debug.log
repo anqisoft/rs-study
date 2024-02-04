@@ -1,0 +1,8 @@
+In test1()
+Error: Failed to open config.dat
+
+In test2()
+Error: Found no username in config.dat
+
+In test3()
+Username: alice

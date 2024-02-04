@@ -1,0 +1,7 @@
+12:17:46.51  
+12:17:49.15  
+start: Instant { t: 537622.3717798s }
+Chapter 08
+
+In exercise_01()
+Please input some numbers, use the space to seperate them:
